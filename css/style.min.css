@@ -1,4 +1,4 @@
-@font-face{font-family:"PT_Sans_Narrow";
+@font-face{font-family:"PT Sans Narrow";
 src:url("../fonts/PTSans_Narrow/PT_Sans_Narrow.eot");
 src:url("../fonts/PTSans_Narrow/PT_Sans_Narrow?#iefix") format("embeddededopentype"),
 url("../fonts/PTSans_Narrow/PT_Sans_Narrow.woff2") format("woff2"),
@@ -108,12 +108,134 @@ font-weight:normal;
 
 /*main_screen*/
 
-.main_screen_bg{
-background-image: url('../img/main_bg.jpg');
+.main_screen{
+position: relative;	
+max-height: 732px;
+min-height: 500px;
+background-image: url('../img/main_bg2.jpg');
 background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+background-size: 80vw;
+background-position: top right;
+padding-top: 3.125rem;
 }
+.main_screen_bg{
+}
+.main_bg{
+position: absolute;
+max-width: 80vw;
+display: block;
+right: 0;
+top:0;
+z-index: 1;
+}
+.main_description{
+  font-size: 1.375rem;
+  font-family: "PT Sans Narrow";
+  color: rgb(25, 25, 25);
+  line-height: 1.364;
+  text-align: center;
+  padding: 1rem;  
+  border: 2px solid #cf4040;
+  max-width: 320px;
+}
+.main_course{
+  font-size: 1.625rem;
+  font-family:"PT Sans Narrow";
+  color: rgb(254, 254, 254);
+  line-height: 1.269;
+}
+.main_slogan{
+  font-size: 3rem;
+  font-family: "PT Sans Narrow";
+  color: #fefefe;
+  text-transform: uppercase;
+  line-height: 1.188;
+}
+.main_slogan span{
+color: rgb(207, 64, 64);
+background-color: #fff;	
+display: inline-block;
+padding-right: 9px;
+padding-left: 9px;
+}
+
+.course_title {
+  font-size: 26px;
+  font-family: "PT Sans Narrow";
+  color: rgb(254, 254, 254);
+  line-height: 1.923;
+}
+.container.main_screen_container{
+position: relative;
+z-index: 2;
+}
+.main_screen_button{
+  display: block;
+  border-radius: 3px;
+  background-color: #cf4040;
+  box-shadow: 0px 4px 0px 0px rgba(207, 64, 64, 0.004);
+  width: 367px;
+  height: 77px;
+  outline: none;
+  transition: all 400ms linear;
+  font-size: 31px;
+  font-family: "PT Sans Narrow";
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  line-height: 1.613;
+  margin-bottom: 5.6875rem;
+  margin-top: 3.0625rem;
+  cursor: pointer;
+}
+
+.main_screen_button:hover,
+.main_screen_button:focus,
+.main_screen_button:active{
+background-color: #ad2b2b;	
+}
+
+/*second_screen*/
+.second_screen{
+padding-top: 4.875rem;
+padding-bottom: 4rem;	
+}
+
+.second_main_text_bigger {
+  font-size: 2.9375rem;
+  font-family: "PT Sans Narrow";
+  color: rgb(32, 32, 32);
+  text-transform: uppercase;
+  line-height: 1.213;
+  margin-bottom: 2.5rem;
+}
+
+
+.second_main_text {
+  font-size: 25px;
+  font-family: "PT Sans Narrow";
+  color: rgb(32, 32, 32);
+  line-height: 1.4;
+  margin-bottom: 2.5rem;
+}
+
+.second_main_text.bold_text{
+font-weight: bold;
+}
+
+.second_main_text.upper_text{
+text-transform: uppercase;
+}
+
+.second_quest_block{
+  border-radius: 10px;
+  background-color: rgb(226, 230, 235);
+  box-shadow: 0px 15px 18px 0px rgba(0, 0, 0, 0.16);
+}
+
+.second_main_text.last{
+margin-bottom: 0;
+}
+
 
 
 
@@ -121,12 +243,20 @@ background-position: center;
 third screen - stop now!  */
 .third_screen_stop{
 background-color: #000;
+padding-top: 6.0625rem;
+padding-bottom: 5.625rem;
+position: relative;
 }
+
+
+
+
 
 .third_portrait{
 display: block;
-/*max-width: 540px;*/
-left: -20%;
+position: absolute;
+bottom: 0;
+left: 2%;
 }
 
 .third_main_text,
@@ -139,11 +269,13 @@ font-family: "PT_Sans_Narrow";
 h2.third_stop{
 text-align: center;
 font-size: 8.5625rem;
-margin-top: 5.5625rem;
+margin-top: 2rem;
+margin-bottom: 2.625rem;
 }
 
 .third_main_text{
 font-size: 1.5rem;
+line-height: 2.125rem;
 }
 
 .third_main_text_bigger{
@@ -315,3 +447,80 @@ margin-left: 2rem;
 	align-items: center;
 	justify-content: center;
 }
+
+/*модальное окно для политики*/
+
+.modal {
+  display: block; 
+  width: 600px;
+  max-width: 100%;  
+  height: 400px;
+  max-height: 100%;  
+  position: fixed;  
+  z-index: 100;  
+  left: 50%;
+  top: 50%;  
+  /* Центруем */
+  transform: translate(-50%, -50%);
+  display: none; 
+
+  
+  background: white;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+}
+.closed {
+  display: block;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-overlay.closed{
+	display: block;
+}
+
+
+.modal-guts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 20px 50px 20px 20px;
+}
+
+.modal .close-button {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 20px;  
+  border: 0;  
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+
+.open-button {
+  border: 0;  
+  background: transparent;
+  color: #000;
+  font-size: 21px;
+}
+
+a.gallery.fifteen_img.img-responsive>img{
+max-width: 220px;
+display: block;
+}
+
+
+		
+		

@@ -5,53 +5,74 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" type="image/x-icon" href="icon.png" />
 <meta name="description" content="студия дизайна и разработки сайтов, лендингов, мобильных приложений" />
 <meta name="keywords" content="дизайн сайта, лендинг, уникальный дизайн, веб-разработка, разработка мобильных приложений" />
-<title>Магнетизм 1.0</title>
+<title>Магнетизм 1.0 - авторский тренинг Вадима Василенко</title>
 <link rel="stylesheet" type="text/css" href="css/grid.css">
 <link rel="stylesheet" type="text/css" href="css/style.min.css">
 <link rel="stylesheet" type="text/css" href="css/animate.min.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 </head>
 <body>
 
 <!-- third screen - stop now!  -->
-<div class="container-fluid main_screen"> 
+<!-- <h1>FancyBox - Контент в модальных окнах</h1>
+   
+<h3>Видео с youtube.com (или аналогичного сервиса) в модальном окне</h3>  
+     -->
+<!--  <a class="gallery" href="#testube"><img alt="" src="img/eva.png" /></a>
+ 
+ <div style="display:none" id="testube">
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/sh08XGBE8qc&hl=ru&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/sh08XGBE8qc&hl=ru&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+</div> -->
 
-  
+
+
+    
+    
+
+
+ 
+ 
+
+
+
+<div class="container-fluid main_screen"> 
+  <!-- <img class="main_bg" src="img/main_bg2.jpg" alt="Коуч"> -->
+  <div class="container main_screen_container">
   <div class="col-md-12">
-    <div class="col-md-4">
-      <p class="main_description">Навык, который может сделать
-Вас психологом - гипнотизером №1
+    <div class="col-md-5">
+      <p class="main_description">Навык, который может сделать<br>
+Вас психологом - гипнотизером №1<br> 
 среди конкурентов</p>
-      <img class="main_portrait img-responsive" src="img/main_portrait.png" alt="Коуч">
+     <!--  <img class="main_portrait img-responsive" src="img/main_portrait.png" alt="Коуч"> -->
     </div>
-    <div class="col-md-8 main_screen_bg">
+    <div class="col-md-7 main_screen_bg">
         <p class="main_course"> Для коучей, психологов, гипнотизеров, эзотериков</p>
 
         <hr>
 
         <h1 class="main_slogan"><span>Как решать 80% проблем</span>
-любого человека за 1 сеанс
-и продавать свои услуги
-<span>в 2 раза дороже?</span></h1>
+любого человека за 1 сеанс и продавать свои услуги <span>в 2 раза дороже?</span></h1>
      <img class="course_icon" src="img/main_icon.png" alt="Иконка">
      <span class="course_title"> Магнетизм 1.0 - авторский тренинг Вадима Василенко</span>
 
-     <button class="main_screen_button">Что за магнетизм? </button>
+     <button id="magnetizm_button" class="main_screen_button">Что за магнетизм? </button>
     </div> 
   </div>
  </div>
 
-
+</div>
 
 
 <!-- third screen - stop now!  -->
-<div class="container-fluid second_screen"> 
+<div class="container-fluid second_screen wow slideInUp" data-wow-duration="1.6s" data-wow-offset="0"> 
  <div class="container">
   <div class="col-md-12">    
-    <div class="col-md-6">
-      <p class="second_main_text_bigger">“Как решать любую проблему   клиента за 1 сеанс?”</p>
+    <div class="col-md-7">
+      <p class="second_main_text_bigger">Вы на этом сайте, потому что хотите быть лучшим в своем деле</p>
       <p class="second_main_text">Хотите давать максимальные результаты Вашим клиентам. Хотите стать признанным экспертом и опередить всех Ваших конкурентов.</p>      
        <p class="second_main_text"> Вы постоянно в поиске, ищете изо дня в день, но никак не можете найти. Ищете тот самый золотой ключик, ту самую волшебную формулу, которая поможет Вам. Надежда, что Вы ее найдете еще есть, но терпения на поиски становится все меньше.</p>
        <p class="second_main_text bold_text">Из чувства любопытства Вы переходите на очередной сайт:</p>
@@ -59,15 +80,15 @@
        <p class="second_main_text">“Может быть эту методику я еще не знаю и не использую в работе?”</p>
     </div> 
 
-    <div class="col-md-6">
+    <div class="col-md-5">
       <img class="second_portrait img-responsive" src="img/second_portrait.png" alt="Коуч">
     </div>
   </div>
-    <div class="col-md-12">
+    <div class="col-md-12 second_quest_block">
     <div class="col-md-3">
       <img class="second_portrait img-responsive" src="img/question.png" alt="Вопрос">
     </div>  
-    <div class="col-md-9">      
+    <div class="col-md-9 ">      
       <p class="second_main_text">Вы, по привычке, пытаетесь найти лазейку в системе,  ту самую не познанную область, которая откроет Вам тайну, позволяющую обрести власть над людьми.</p>
       
        <p class="second_main_text"> Как охотники за сокровищами ищут тайные клады, также и Вы хотите найти знания, которые изменят Вашу жизнь.</p>
@@ -76,7 +97,7 @@
        <p class="second_main_text">Отправить детей учиться в самую престижную школу или ВУЗ</p>
 
        <p class="second_main_text">Что еще?</p>
-        <p class="second_main_text">Путешествия на лучшие горнолыжные курорты мира? Одеваться в Италии? Независимость?</p>
+        <p class="second_main_text ">Путешествия на лучшие горнолыжные курорты мира? Одеваться в Италии? Независимость?</p>
     </div>     
   </div>
  </div>
@@ -86,12 +107,15 @@
 <!-- third screen - stop now!  -->
 <div class="container-fluid third_screen_stop"> 
  <div class="container">
+
   <h2 class="third_stop">Остановитесь!</h2>
+
+  <img class="third_portrait img-responsive" src="img/third_portrait.png" alt="Коуч">
   <div class="col-md-12">
-    <div class="col-md-6">
-      <img class="third_portrait img-responsive" src="img/third_portrait.png" alt="Коуч">
+    <div class="col-md-5">
+      
     </div>
-    <div class="col-md-6">
+    <div class="col-md-7">
       <p class="third_main_text">Я тоже занимался коучингом, и постоянно искал способы улучшить его. Меня постоянно мучал 1 вопрос:</p>
       <p class="third_main_text_bigger">“Как решать любую проблему   клиента за 1 сеанс?”</p>
        <p class="third_main_text">Кто то использует интервью, а потом пытается показать ошибки в мышлении клиента с помощью метафор, кто то предлагает людям самостоятельно дойти до своих ошибок.</p>
@@ -291,7 +315,7 @@
 
 
 <!-- ten screen - magnetizm  -->
-<div class="container-fluid ten_screen"> 
+<div id="magnetizm" class="container-fluid ten_screen"> 
  <div class="container">
    <p class="ten_main_text bigger">А причем здесь магнетизм?</p>
   <div class="col-md-12">
@@ -469,40 +493,65 @@
 
 <div class="col-md-6">
        <div class="col-md-12">
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/1.jpg" alt="Биография">
+        <div class="col-md-4">
+
+        <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/1b.jpg" alt="Биография"><img src="img/bio/1.jpg" alt="Биография" /></a>          
         </div>
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/2.jpg" alt="Биография">
+        <div class="col-md-4"> 
+         <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/2b.jpg" alt="Биография"><img src="img/bio/2.jpg" alt="Биография" /></a>  
         </div>
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/3.jpg" alt="Биография">
+        <div class="col-md-4"> 
+         <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/3b.jpg" alt="Биография"><img src="img/bio/3.jpg" alt="Биография" /></a>  
         </div>     
       </div> 
 
       <div class="col-md-12">
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/4.jpg" alt="Биография">
+        <div class="col-md-4"> 
+          <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/4b.jpg" alt="Биография"><img src="img/bio/4.jpg" alt="Биография" /></a>  
         </div>
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/5.jpg" alt="Биография">
+        <div class="col-md-4">
+         <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/5b.jpg" alt="Биография"><img src="img/bio/5.jpg" alt="Биография" /></a>  
         </div>
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/6.jpg" alt="Биография">
+        <div class="col-md-4">
+         <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/6b.jpg" alt="Биография"><img src="img/bio/6.jpg" alt="Биография" /></a>  
         </div>     
       </div>   
 
       <div class="col-md-12">
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/7.jpg" alt="Биография">
+        <div class="col-md-4"> 
+          <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/7b.jpg" alt="Биография"><img src="img/bio/7.jpg" alt="Биография" /></a>  
         </div>
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/8.jpg" alt="Биография">
+        <div class="col-md-4"> 
+          <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/8b.jpg" alt="Биография"><img src="img/bio/8.jpg" alt="Биография" /></a>  
         </div>
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/9.jpg" alt="Биография">
+        <div class="col-md-4">
+         <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/9b.jpg" alt="Биография"><img src="img/bio/9.jpg" alt="Биография" /></a>  
         </div>     
       </div>    
 
       <div class="col-md-12">
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/10.jpg" alt="Биография">
+        <div class="col-md-4"> 
+          <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/10b.jpg" alt="Биография"><img src="img/bio/10.jpg" alt="Биография" /></a>  
         </div>
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/11.jpg" alt="Биография">
+        <div class="col-md-4"> 
+         <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/11b.jpg" alt="Биография"><img src="img/bio/11.jpg" alt="Биография" /></a>  
         </div>
-        <div class="col-md-4"> <img class="fifteen_img img-responsive" src="img/bio/12.jpg" alt="Биография">
+        <div class="col-md-4"> 
+          <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/12b.jpg" alt="Биография"><img src="img/bio/12.jpg" alt="Биография" /></a>  
         </div>     
-      </div>     
+      </div>  
+
+      <div class="col-md-12">
+        <div class="col-md-4"> 
+          <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/13b.jpg" alt="Биография"><img src="img/bio/13.jpg" alt="Биография" /></a>  
+        </div>
+        <div class="col-md-4"> 
+         <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/14b.jpg" alt="Биография"><img src="img/bio/14.jpg" alt="Биография" /></a>  
+        </div>
+        <div class="col-md-4"> 
+          <a class="gallery fifteen_img img-responsive" rel="group" href="img/bio/15b.jpg" alt="Биография"><img src="img/bio/15.jpg" alt="Биография" /></a>  
+        </div>     
+      </div>        
 
 </div>
 
@@ -1033,15 +1082,38 @@
       <p class="copywrite">Разработка сайта: Артём Куфтырев</p>
     </div>
     <div class="col-md-6">
-      <p class="policy">Политика конфиденциальности</p>
+
+      <button id="open-button" class="open-button">Политика конфиденциальности</button>
+     
     </div>
 
   </div>
   
 </footer>
+
+
+<div class="modal-overlay" id="modal-overlay"></div>
+<div class="modal" id="modal" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
+  <button class="close-button" id="close-button">X</button>
+  <div class="modal-guts" role="document">
+    <h2 class="policy_title">Политика конфиденциальности</h2>
+    <p class="policy_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae expedita corrupti laudantium aperiam, doloremque explicabo ipsum earum dicta saepe delectus totam vitae ipsam doloribus et obcaecati facilis eius assumenda, cumque.</p>  
+  </div>
+</div>
+
+
+
 <script src="js/juery.js"></script>
 <script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+  <script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
 
