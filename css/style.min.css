@@ -231,3 +231,87 @@ margin-right: 2rem;
 overflow: hidden;	
 font-size: 1rem;
 }
+
+
+
+.twenty_one_mesm{
+min-height: 500px;
+background-image: url('../img/mesm_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;	
+}
+
+.twenty_one_magn{
+min-height: 500px;
+background-image: url('../img/magm_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;	
+}
+
+.twenty_one_fas{
+min-height: 500px;
+background-image: url('../img/fas_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;	
+}
+
+
+.programm_icon{
+max-width: 57px;
+float: left;
+margin-right: 2rem;
+display: inline-block;
+}
+
+.program_text{
+overflow: hidden;	
+font-size: 1rem;
+}
+
+.col-md-12.programm_block{
+background-color: #fff;
+padding-top: 2rem;
+}
+
+.twenty_three_screen{
+min-height: 500px;
+background-image: url('../img/tarif_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;	
+}
+
+.block_program{
+	display: inline-block;
+	background-color: #fff;
+}
+
+.button_send{
+display: block;
+background-color: #4f739f;
+color: #fff;
+max-width: 421px;
+}
+
+.write_me{
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+margin-right: 2rem;
+margin-left: 2rem;
+}
+
+
+
+
+
+
+.write_me_block{
+	margin:auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
