@@ -1,0 +1,11 @@
+<FilesMatch ".(pl|php|cgi|spl|scgi|fcgi)$">
+  Header unset Cache-Control
+</FilesMatch>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+    ExpiresByType img/png "access plus 2 months"
+    ExpiresByType img/jpeg "access plus 2 months"   
+    ExpiresByType design/jpeg "access plus 2 months"
+    ExpiresByType catalog/jpeg "access plus 2 months"
+</IfModule>

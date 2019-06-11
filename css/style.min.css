@@ -1,0 +1,233 @@
+@font-face{font-family:"PT_Sans_Narrow";
+src:url("../fonts/PTSans_Narrow/PT_Sans_Narrow.eot");
+src:url("../fonts/PTSans_Narrow/PT_Sans_Narrow?#iefix") format("embeddededopentype"),
+url("../fonts/PTSans_Narrow/PT_Sans_Narrow.woff2") format("woff2"),
+url("../fonts/PTSans_Narrow/PTSans-Narrow.woff") format("woff"),
+url("../fonts/PTSans_Narrow/PT_Sans_Narrow.ttf") format("truetype"),
+url("../fonts/PTSans_Narrow/PTSans-Narrow.otf") format("opentype"),
+url("../fonts/PTSans_Narrow/PTSans-Narrow.svg#svgPTSans-Narrow") format("svg");
+font-style:normal;
+font-weight:normal;
+}
+@font-face{font-family:"Futura Bold";
+src:url("../fonts/Futura_Bold/Futura_Bold.eot");
+src:url("../fonts/Futura_Bold/Futura_Bold?#iefix") format("embeddededopentype"),
+url("../fonts/Futura_Bold/Futura_Bold.woff2") format("woff2"),
+url("../fonts/Futura_Bold/Futura-Bold.woff") format("woff"),
+url("../fonts/Futura_Bold/Futura_Bold.ttf") format("truetype"),
+url("../fonts/Futura_Bold/Futura-Bold.otf") format("opentype"),
+url("../fonts/Futura_Bold/Futura-Bold.svg#svgFutura-Bold") format("svg");
+font-style:normal;
+font-weight:normal;
+}
+@font-face{font-family:"Avenir-Heavy";
+src:url("../fonts/Avenir-Heavy/Avenir-Heavy.eot");
+src:url("../fonts/Avenir-Heavy/Avenir-Heavy.eot?#iefix") format("embeddedopentype"),
+url("../fonts/Avenir-Heavy/Avenir-Heavy.woff2") format("woff2"),
+url("../fonts/Avenir-Heavy/Avenir-Heavy.woff") format("woff"),
+url("../fonts/Avenir-Heavy/Avenir-Heavy.ttf") format("truetype"),
+url("../fonts/Avenir-Heavy/Avenir-Heavy.otf") format("opentype"),
+url("../fonts/Avenir-Heavy/Avenir-Heavy.svg#svgAvenir-Heavy") format("svg");
+font-style:normal;
+font-weight:normal;
+}
+@font-face{font-family:"Avenir-Next";
+src:url("../fonts/Avenir-Next/Avenir-Next.eot");
+src:url("../fonts/Avenir-Next/Avenir-Next.eot?#iefix") format("embeddedopentype"),
+url("../fonts/Avenir-Next/Avenir-Next.woff2") format("woff2"),
+url("../fonts/Avenir-Next/AvenirNextCyr-Medium.woff") format("woff"),
+url("../fonts/Avenir-Next/Avenir-Next.ttf") format("truetype"),
+url("../fonts/Avenir-Next/AvenirNextCyr-Medium.otf") format("opentype"),
+url("../fonts/Avenir-Next/AvenirNextCyr-Medium.svg#svgAvenirNextCyr-Medium") format("svg");
+font-style:normal;
+font-weight:normal;
+}
+@font-face{font-family:"Avenir-Next-Bold";
+src:url("../fonts/Avenir-Next-Bold/Avenir-Next-Bold.eot");
+src:url("../fonts/Avenir-Next-Bold/Avenir-Next-Bold.eot?#iefix") format("embeddedopentype"),
+url("../fonts/Avenir-Next-Bold/Avenir-Next-Bold.woff2") format("woff2"),
+url("../fonts/Avenir-Next-Bold/AvenirNext-Bold.woff") format("woff"),
+url("../fonts/Avenir-Next-Bold/Avenir-Next-Bold.ttf") format("truetype"),
+url("../fonts/Avenir-Next-Bold/AvenirNext-Bold.otf") format("opentype"),
+url("../fonts/Avenir-Next-Bold/AvenirNext-Bold.svg#svgAvenirNext-Bold") format("svg");
+font-style:normal;
+font-weight:normal;
+}
+@font-face{font-family:"Montserrat-Bold";
+src:url("../fonts/Montserrat-Bold/Montserrat-Bold.eot");
+src:url("../fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix") format('embeddedopentype'),
+url("../fonts/Montserrat-Bold/Montserrat-Bold.woff2") format("woff2"),
+url("../fonts/Montserrat-Bold/Montserrat-Bold.woff") format("woff"),
+url("../fonts/Montserrat-Bold/Montserrat-Bold.ttf") format("truetype"),
+url("../fonts/Montserrat-Bold/Montserrat-Bold.otf") format("opentype"),
+url("../fonts/Montserrat-Bold/Montserrat-Bold.svg#svgMontserrat-Bold") format("svg");
+font-style:normal;
+font-weight:normal;
+}
+@font-face{font-family:"Montserrat-Light";
+src:url("../fonts/Montserrat-Light/Montserrat_Light.eot");
+src:url("../fonts/Montserrat-Light/Montserrat-Light.eot?#iefix") format("embeddedopentype"),
+url("../fonts/Montserrat-Light/Montserrat-Light.woff2") format("woff2"),
+url("../fonts/Montserrat-Light/Montserrat-Light.woff") format("woff"),
+url("../fonts/Montserrat-Light/Montserrat-Light.ttf") format("truetype"),
+url("../fonts/Montserrat-Light/Montserrat-Light.otf") format("opentype"),
+url("../fonts/Montserrat-Light/Montserrat-Light.svg#svgMontserrat-Light") format("svg");
+font-style:normal;
+font-weight:normal;
+}
+@font-face{font-family:"Montserrat-Light-Lat";
+src:url("../fonts/Montserrat-Light-Lat/Montserrat_Light.eot");
+src:url("../fonts/Montserrat-Light-Lat/Montserrat_Light.eot?#iefix") format("embeddedopentype"),
+url("../fonts/Montserrat-Light-Lat/Montserrat_Light.woff2") format("woff2"),
+url("../fonts/Montserrat-Light-Lat/Montserrat-Light.woff") format("woff"),
+url("../fonts/Montserrat-Light-Lat/Montserrat_Light.ttf") format("truetype"),
+url("../fonts/Montserrat-Light-Lat/Montserrat-Light.otf") format("opentype"),
+url("../fonts/Montserrat-Light-Lat/Montserrat-Light.svg#svgMontserrat-Light") format("svg");
+font-style:normal;
+font-weight:normal;
+}
+a{
+color: #000;
+cursor:pointer;
+text-decoration:none}
+a:hover{
+text-decoration:none;
+}
+html{
+font-size:16px;
+height: 100%;
+overflow-x: hidden;
+cursor: default;
+}
+body
+{ 
+height: 100%;   
+font-weight:normal;
+}
+
+
+/*main_screen*/
+
+.main_screen_bg{
+background-image: url('../img/main_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+
+/*
+third screen - stop now!  */
+.third_screen_stop{
+background-color: #000;
+}
+
+.third_portrait{
+display: block;
+/*max-width: 540px;*/
+left: -20%;
+}
+
+.third_main_text,
+.third_main_text_bigger,
+.third_stop{
+color:#fff;
+font-family: "PT_Sans_Narrow";
+}
+
+h2.third_stop{
+text-align: center;
+font-size: 8.5625rem;
+margin-top: 5.5625rem;
+}
+
+.third_main_text{
+font-size: 1.5rem;
+}
+
+.third_main_text_bigger{
+font-size: 3.125rem;
+}
+
+
+
+/*nine_screen*/
+
+
+/* eleven screen - wiki */ 
+.nine_screen{
+background-image: url('../img/nine_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;	
+}
+
+
+
+
+
+
+
+
+
+/* eleven screen - wiki */ 
+.eleven_screen{
+background-image: url('../img/eleven_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;	
+}
+
+
+
+.thirteen_screen{
+background-image: url('../img/thirteen_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;	
+}
+
+.thirteen_main_text,
+.thirteen_main_text_bigger {
+color: #fff;
+}
+
+.thirteen_main_text{
+font-size: 1.5rem;
+}
+
+
+
+
+
+.fourteen_screen{
+background-image: url('../img/fourtenn_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;	
+}
+
+
+
+.eighteen_screen{
+background-color: #000;
+}
+
+.eighteen_main_text,
+.extra_adv{
+color: #fff;
+}
+
+.advant_icon{
+background-color: #bb2b3d;
+padding: 0.3rem;
+max-width: 57px;
+float: left;
+margin-right: 2rem;
+}
+
+.extra_adv{
+overflow: hidden;	
+font-size: 1rem;
+}
