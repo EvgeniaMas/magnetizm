@@ -372,6 +372,7 @@ hr {
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
+    max-width: 120rem;
     /*padding-left: 15px;
     padding-right: 15px*/
 }

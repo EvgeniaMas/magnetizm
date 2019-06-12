@@ -104,21 +104,35 @@ body
 height: 100%;   
 font-weight:normal;
 }
-
-
 /*main_screen*/
 
 .main_screen{
 position: relative;	
 max-height: 732px;
 min-height: 500px;
-background-image: url('../img/main_bg2.jpg');
-background-repeat: no-repeat;
-background-size: 80vw;
-background-position: top right;
-padding-top: 3.125rem;
 }
+
+.main_portrait{
+position: absolute;
+bottom: 0;
+left: -9rem;
+max-height: 90%;
+}
+
+.main_content_block{
+  padding-left: 25%;
+  width: 87%;
+}
+
+
+
+
 .main_screen_bg{
+  background-image: url('../img/main_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top right;
+
 }
 .main_bg{
 position: absolute;
@@ -137,6 +151,7 @@ z-index: 1;
   padding: 1rem;  
   border: 2px solid #cf4040;
   max-width: 320px;
+  margin-left: 10%;
 }
 .main_course{
   font-size: 1.625rem;
@@ -207,6 +222,7 @@ padding-bottom: 4rem;
   text-transform: uppercase;
   line-height: 1.213;
   margin-bottom: 2.5rem;
+  margin-top: 0;
 }
 
 
@@ -243,7 +259,7 @@ margin-bottom: 0;
 third screen - stop now!  */
 .third_screen_stop{
 background-color: #000;
-padding-top: 6.0625rem;
+/*padding-top: 6.0625rem;*/
 padding-bottom: 5.625rem;
 position: relative;
 }
@@ -257,6 +273,7 @@ display: block;
 position: absolute;
 bottom: 0;
 left: 2%;
+max-width: 540px;
 }
 
 .third_main_text,
@@ -307,7 +324,7 @@ background-position: center;
 .seven_screen {
 	background-image: url('../img/seven_bg.png');
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 background-position: bottom center;	
 position: relative;
 z-index: 1;
@@ -322,8 +339,11 @@ z-index: 1;
   font-size: 90px;
   font-family: "PT Sans Narrow";
   color: rgb( 32, 34, 30 );
-  line-height: 0.378;
+/*  line-height: 0.378;*/
   text-align: center;
+  background-color: #fff;
+  margin-top: 0;
+  padding-top: 2rem;
 }
 
 .seven_portrait{
@@ -331,6 +351,7 @@ display: block;
 position: absolute;
 left: 0;
 bottom: 0;
+height: 100%;
 z-index: 2;
 }
 
@@ -478,6 +499,7 @@ font-size: 1rem;
 .col-md-12.programm_block{
 background-color: #fff;
 padding: 54px;
+padding-bottom: 0;
 }
 
 .subtitle{
@@ -541,10 +563,22 @@ background-size: cover;
 background-position: center;	
 }
 
+.tarif_block{
+  display: flex;
+  /*justify-content: flex-start;*/
+  align-items: flex-start;
+}
+
+
+
 .block_program{
 	display: inline-block;
-	background-color: #fff;
-	
+	background-color: #fff;	
+}
+
+
+.ordinary.block_program{
+  margin-right: 1.5rem;
 }
 
 .ordinary_title{
@@ -853,8 +887,63 @@ justify-content: center;
   line-height: 2.353;
 }
 
+/*video blocks*/
 
-
+.youtube {
+/*  background-color: red;*/
+  margin-bottom: 1rem;
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+  cursor: pointer;
+ /* max-width: 80%;*/
+ max-width: 80%;
+  
+}
+.youtube img {
+  width: 100%;
+  top: -16.82%;
+  left: 0;
+  opacity: 0.7;
+}
+.youtube .play-button {
+  width: 90px;
+  height: 60px;
+  background-color: #333;
+  box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+  z-index: 1;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+.youtube .play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 15px 0 15px 26.0px;
+  border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+  cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+  position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+  height: 80%;
+  width: 80%;
+  max-width: 200px;
+  top: 0;
+  left: 0;
+}
 
 
 
