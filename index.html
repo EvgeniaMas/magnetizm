@@ -17,27 +17,36 @@
 </head>
 <body>
 <div class="container-fluid main_screen">
+<div class="grey_bg">
+<img class="main_portrait img-responsive" src="img/main_portrait.png" alt="Коуч">
+</div>
+ <div class="container">
   <div class="col-md-12">
-    <div class="col-md-4">
-       <div class="container">
+    <div class="col-md-6">      
       <p class="main_description">Навык, который может сделать<br>
        Вас психологом - гипнотизером №1<br> 
        среди конкурентов</p>     
     </div>
-  </div>
-    <div class="col-md-8 main_screen_bg">
-      <img class="main_portrait img-responsive" src="img/main_portrait.png" alt="Коуч">
+    <div class="col-md-6 main_screen_bg">
+      
        <div class="main_content_block">
         <p class="main_course"> Для коучей, психологов, гипнотизеров, эзотериков</p>
         <hr>
+        
         <h1 class="main_slogan"><span>Как решать 80% проблем</span>
         любого человека за 1 сеанс и продавать свои услуги <span>в 2 раза дороже?</span></h1>
-       <img class="course_icon" src="img/main_icon.png" alt="Иконка">
+
+        <div class="clearfix"></div>
+       
+       <div class="main_slogan_container">
+       	<img class="course_icon" src="img/main_icon.png" alt="Иконка">
        <span class="course_title"> Магнетизм 1.0 - авторский тренинг Вадима Василенко</span>
+   </div>
      <button id="magnetizm_button" class="main_screen_button">Что за магнетизм? </button>
     </div> 
   </div>
  </div>
+</div>
 </div>
 
 
@@ -55,12 +64,12 @@
     </div> 
 
     <div class="col-md-5">
-      <img class="second_portrait img-responsive" src="img/second_portrait.png" alt="Коуч">
+      <img class="second_portrait  img-responsive" src="img/second_portrait.png" alt="Коуч">
     </div>
   </div>
     <div class="col-md-12 second_quest_block">
     <div class="col-md-3">
-      <img class="second_portrait img-responsive" src="img/question.png" alt="Вопрос">
+      <img class="second_portrait question img-responsive" src="img/question.png" alt="Вопрос">
     </div>  
     <div class="col-md-9 ">      
       <p class="second_main_text">Вы, по привычке, пытаетесь найти лазейку в системе,  ту самую не познанную область, которая откроет Вам тайну, позволяющую обрести власть над людьми.</p>
@@ -86,10 +95,10 @@
 
   <img class="third_portrait img-responsive" src="img/third_portrait.png" alt="Коуч">
   <div class="col-md-12">
-    <div class="col-md-5">
+    <div class="col-md-6">
       
     </div>
-    <div class="col-md-7">
+    <div class="col-md-6">
       <p class="third_main_text">Я тоже занимался коучингом, и постоянно искал способы улучшить его. Меня постоянно мучал 1 вопрос:</p>
       <p class="third_main_text_bigger">“Как решать любую проблему   клиента за 1 сеанс?”</p>
        <p class="third_main_text">Кто то использует интервью, а потом пытается показать ошибки в мышлении клиента с помощью метафор, кто то предлагает людям самостоятельно дойти до своих ошибок.</p>
@@ -131,8 +140,8 @@
  <div class="container">
 <div class="reviews_container">
   <div class="col-md-12 vk_block_review">
-   <div class="col-md-1 col-xs-1"><img class="five_block avatar img-responsive" src="img/berezova.png" alt="Аватар"></div>
-    <div class="col-md-11 col-xs-11">
+   <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/berezova.png" alt="Аватар"></div>
+    <div class="col-md-11">
       <p class="vk_review_title"><span>Ксения Березова</span> 3 апр 2018 в 21:34
       </p>
       <p class="vk_review">Здравствуйте, меня зовут Ксения! <br>
@@ -150,8 +159,8 @@
   <p class="five_clients_result"> А добиться изменений можно, только если убрать установки клиента, которые мешают ему добиваться своих целей</p>
 <div class="reviews_container">
 <div class="col-md-12 vk_block_review">
-   <div class="col-md-1 col-xs-1"><img class="five_block avatar img-responsive" src="img/evseev.png" alt="Аватар"></div>
-    <div class="col-md-11 col-xs-11">
+   <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/evseev.png" alt="Аватар"></div>
+    <div class="col-md-11">
       <p class="vk_review_title"><span>Константин Евсеев</span> 2 апр 2018 в 15:21
       </p>
       <p class="vk_review">Меня зовут Константин, я переехал из другого города.  </p>
@@ -170,8 +179,9 @@
 <!-- six screen -couching  -->
 <div class="container-fluid six_screen wow slideInUp" data-wow-duration="1.6s" data-wow-offset="0"> 
  <div class="container">
+ 	<img class="six_portrait img-responsive" src="img/six_portrait.png" alt="Коуч">
  
-  <div class="col-md-12"> 
+  <div class="col-md-12 six_screen_content"> 
      <h2 class="six_couch">КОУЧИНГ</h2>
     <div class="col-md-6">      
       <p class="six_main_text">Гм… Тогда наверное технология коучинга самый главный навык для психолога? (или коуча=)</p>
@@ -182,9 +192,9 @@
 
     </div>
 
-     <div class="col-md-6">
-         <img class="six_portrait img-responsive" src="img/six_portrait.png" alt="Коуч">
-    </div> 
+<!--      <div class="col-md-6">
+         
+    </div>  -->
 
   </div>
  </div>
@@ -269,7 +279,20 @@
              <p class="setups_gives"> ХОТИТЕ, Я НАУЧУ ВАС ВЗЛАМЫВАТЬ СИСТЕМУ ЧЕЛОВЕЧЕСКИХ УСТАНОВОК?
               ХОТИТЕ, Я ДАМ ВАМ ВОЛШЕБНУЮ ФОРМУЛУ?
                ХОТИТЕ НАУЧИТЬСЯ МАГНЕТИЗМУ? </p> 
+
+
+                <div class="video_block"> 
+
+               <div class="youtube video_on_mac" data-embed="tzAzh-bGzp0">
+                   <div class="play-button"></div>
+               </div>
+
                <img class="img-responsive mac_img" src="img/mac2.png" alt="Магнетизм">
+             </div>
+
+
+
+               
          </div>
  </div>
 </div>
@@ -410,9 +433,9 @@
       <p class="fourteen_main_text">И это и удивительно, потому что клиенты после моих сеансов, пишут мне благодарности:</p>
 
         <div class="col-md-12 vk_block_review small_block">
-   <div class="col-md-2 col-xs-2">
+   <div class="col-md-2">
     <img class="five_block avatar img-responsive" src="img/evgenia.png" alt="Аватар"></div>
-    <div class="col-md-10 col-xs-2">
+    <div class="col-md-10">
       <p class="vk_review_title"><span>Ева </span> 20:15
       </p>
       <p class="vk_review">Добрый день! Меня зовут Ева, хочу оставить отзыв о замечательной работе человека по имени Вадим. Дело в том что долгое время у меня жизнь не ладилась, ни в личной жизни, и с работой тоже не получалось. На одном из сайтов я наткнулась на человека по имени Вадим, как я уже говорила, и он провел со мной сеанс, проверил моё бессознательное. Я узнала о себе много того, чего
@@ -539,8 +562,8 @@
 
 <div class="reviews_container">
    <div class="col-md-12 vk_block_review  lidia_review wow slideInUp" data-wow-duration="1.6s" data-wow-offset="0">
-   <div class="col-md-1 col-xs-1"><img class="five_block avatar img-responsive" src="img/lidia.png" alt="Аватар"></div>
-    <div class="col-md-11 col-xs-11">
+   <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/lidia.png" alt="Аватар"></div>
+    <div class="col-md-11">
       <p class="vk_review_title"><span>Лидия Васильевна </span> 6 апр 2018 в 12:56
       </p>
       <p class="vk_review">Здравствуйте! Зовут меня Лидия Васильевна.</p>
@@ -555,8 +578,10 @@
 
 <div class="reviews_container">
      <div class="col-md-12 vk_block_review oleg_review">
-   <div class="col-md-1 col-xs-1"><img class="five_block avatar img-responsive" src="img/oleg.png" alt="Аватар"></div>
-    <div class="col-md-11 col-xs-11">
+   <div class="col-md-1">
+   	<img class="five_block avatar img-responsive" src="img/oleg.png" alt="Аватар">
+   </div>
+    <div class="col-md-11">
       <p class="vk_review_title"><span>Олег Брызгин  </span> 9 апр 2018 в 21:18
       </p>
       <p class="vk_review">Меня зовут Олег. </p>
@@ -755,8 +780,8 @@
   
 <div class="reviews_container">
   <div class="col-md-12 vk_block_review arofeeva_review wow slideInUp" data-wow-duration="1.6s" data-wow-offset="0">
-   <div class="col-md-1 col-xs-1"><img class="five_block avatar img-responsive" src="img/evgenia.png" alt="Аватар"></div>
-    <div class="col-md-10 col-xs-10">
+   <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/evgenia.png" alt="Аватар"></div>
+    <div class="col-md-10">
       <p class="vk_review_title"><span>Евгения Арофеева </span> 11 апр 2018 в 22:15 </p>
       <p class="vk_review">Спасибо большое организаторам за данный тренинг. Мне очень понравилось! </p>
       <p class="vk_review">Я поняла что много новых технологий смогу внедрить в мою работу психолога. Самое главное - я смогла понять каким образом, в каком ключе я могу работать с клиентами, дабы мне лучше их понимать. Спасибо! </p>
@@ -770,8 +795,8 @@
 
 <div class="reviews_container">
    <div class="col-md-12 vk_block_review">
-     <div class="col-md-1 col-xs-1"><img class="five_block avatar img-responsive" src="img/kira.png" alt="Аватар"></div>
-       <div class="col-md-11 col-xs-11">
+     <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/kira.png" alt="Аватар"></div>
+       <div class="col-md-11">
          <p class="vk_review_title"><span>Кира  Андреева </span> 9 апр 2018 в 22:35</p>
          <p class="vk_review">Хорошие впечатления остались у меня от этого тренинга! </p>
          <p class="vk_review">Учитывая что я йога тренер, я узнала достаточно много энергий, вернее не узнала, а почувствовала, ощутила, что оказывается ей можно управлять, не только своей, но и энергией чужой, энергией других людей. </p>
@@ -896,8 +921,8 @@
  <div class="container">
   <div class="reviews_container ">
   <div class="col-md-12 vk_block_review filatova_review">
-   <div class="col-md-1 col-xs-1"><img class="five_block avatar img-responsive" src="img/filatova.png" alt="Аватар"></div>
-    <div class="col-md-11 col-xs-11">
+   <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/filatova.png" alt="Аватар"></div>
+    <div class="col-md-11">
       <p class="vk_review_title"><span>Екатерина Филатова </span> 11 апр 2018 в 14:31
       </p>
       <p class="vk_review">Сегодня я побывала на очень крутом тренинге!</p>
@@ -914,8 +939,8 @@
 </div>
 <div class="reviews_container">
         <div class="col-md-12 vk_block_review">
-   <div class="col-md-1 col-xs-1"><img class="five_block avatar img-responsive" src="img/ponomarev.png" alt="Аватар"></div>
-    <div class="col-md-11 col-xs-11">
+   <div class="col-md-1 "><img class="five_block avatar img-responsive" src="img/ponomarev.png" alt="Аватар"></div>
+    <div class="col-md-11">
       <p class="vk_review_title"><span>Игорь Пономарёв </span> 13 апр 2018 в 18:26
       </p>
       <p class="vk_review">Здравствуйте, меня зовут Игорь, 27 лет, я фитнес тренер.</p> 
@@ -1094,7 +1119,7 @@
   <div class="container">
   <div class="col-md-12">
     <div class="col-md-6">
-      <p class="copywrite">Разработка сайта: <a href=" http://akuftyrev.ru/?utm_source=portfolip&utm_medium=referal&utm_campaign=mesmerizm" >Артём Куфтырев</a></p>
+      <p class="copywrite">Разработка сайта: <a href=" http://akuftyrev.ru/?utm_source=portfolip&utm_medium=referal&utm_campaign=mesmerizm" target="_blank">Артём Куфтырев</a></p>
     </div>
     <div class="col-md-6">
       <button id="open-button" class="open-button">Политика конфиденциальности</button>     

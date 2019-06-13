@@ -349,6 +349,8 @@ hr {
     margin-right: auto;
     margin-left: auto;
     max-width: 75rem;
+    min-width: 20rem;
+
     
 }
 
@@ -374,6 +376,7 @@ hr {
     margin-right: auto;
     margin-left: auto;
     max-width: 120rem;
+    min-width: 20rem;
     /*padding-left: 15px;
     padding-right: 15px*/
 }
@@ -1225,4 +1228,11 @@ hr {
 
 .affix {
     position: fixed
+}
+
+@media (max-width:767px) {
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px
+}
 }

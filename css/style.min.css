@@ -112,31 +112,34 @@ font-weight:normal;
 
 .main_screen{
 position: relative;	
-max-height: 732px;
+/*height: 100vh;*/
 min-height: 500px;
 }
 
 .main_portrait{
 position: absolute;
 bottom: 0;
-left: -9rem;
+left: -11rem;
 max-height: 90%;
 }
 
-.main_content_block{
+/*.main_content_block{
   padding-left: 25%;
   width: 87%;
-}
+}*/
 
 
-
-
-.main_screen_bg{
-  background-image: url('../img/main_bg.jpg');
+.grey_bg{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 58%;
+ 
+   background-image: url('../img/main_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: top right;
-
 }
 .main_bg{
 position: absolute;
@@ -233,7 +236,9 @@ padding-bottom: 4rem;
 }
 
 .second_portrait{
+  display: block;
   margin-top: 2.8125rem;
+  max-width: 30.8125rem;
 }
 
 
@@ -268,22 +273,19 @@ margin-bottom: 0;
 third screen - stop now!  */
 .third_screen_stop{
 background-color: #000;
-/*padding-top: 6.0625rem;*/
 padding-bottom: 5.625rem;
 position: relative;
 }
-
-
-
-
-
 .third_portrait{
 display: block;
 position: absolute;
 bottom: 0;
 left: 2%;
-max-width: 540px;
+max-width: 45.25rem;
 }
+
+
+
 
 .third_main_text,
 .third_main_text_bigger,
@@ -291,22 +293,27 @@ max-width: 540px;
 color:#fff;
 font-family: "PT_Sans_Narrow";
 }
-
 h2.third_stop{
 text-align: center;
 font-size: 8.5625rem;
 margin-top: 2rem;
 margin-bottom: 2.625rem;
 }
-
 .third_main_text{
 font-size: 1.5rem;
-line-height: 2.125rem;
+  font-family: "PT Sans Narrow";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.417;
+  margin-bottom: 3rem;
 }
-
 .third_main_text_bigger{
 font-size: 3.125rem;
+margin-bottom: 3rem;
 }
+
+
+
+
 
 
 .four_screen{
@@ -402,7 +409,51 @@ background-image: url('../img/six-bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;	
+z-index: 1;
 }
+
+.six_screen_content{
+  position: relative;
+  z-index: 8;
+}
+
+
+.six_screen>.container{
+position: relative;
+z-index: 2;
+}
+
+.six_portrait{
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+.main_portrait {
+    left: -8rem;
+}
+
+.course_title {
+    font-size: 1.5rem;
+}
+
+.main_course {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.main_slogan_container{
+  background-color: rgba(0,0,0,0.4);
+  padding: 1rem;  
+}
+
+
+
 
 .six_main_text,
 .six_main_text_bigger{
@@ -541,7 +592,6 @@ margin-bottom: 5.625rem;
   text-align: center;
   margin-bottom: 4.75rem;
 }
-
 .setups_manage{
   font-size: 1.5rem;
   font-family: "PT Sans Narrow";
@@ -550,8 +600,6 @@ margin-bottom: 5.625rem;
   text-align: center;
   margin-bottom: 2.6875rem;
 }
-
-
 .setups_you_do{
   font-size: 1.9375rem;
   font-family: "PT Sans Narrow";
@@ -559,9 +607,7 @@ margin-bottom: 5.625rem;
   line-height: 1.417;
   text-align: center;
   margin-bottom: 2.375rem;
-
 }
-
 .setups_miss{
     font-size: 1.9375rem;
     text-transform: uppercase;
@@ -571,7 +617,6 @@ margin-bottom: 5.625rem;
   text-align: center;
   margin-bottom:2.875rem;
 }
-
 .setups_why{
   font-size: 1.5rem;
   font-family: "PT Sans Narrow";
@@ -580,7 +625,6 @@ margin-bottom: 5.625rem;
   text-align: center;
   margin-bottom: 2.75rem;
 }
-
 .setups_because{
     font-size: 2rem;
   font-family: "PT Sans Narrow";
@@ -589,7 +633,6 @@ margin-bottom: 5.625rem;
   text-align: center;  
   margin-bottom: 2.5625rem;
 }
-
 .setups_because1{
       font-size: 1.5rem;
   font-family: "PT Sans Narrow";
@@ -598,8 +641,6 @@ margin-bottom: 5.625rem;
   text-align: center;  
   margin-bottom: 2.5625rem;
 }
-
-
 .setups_because2 {
   font-size: 1.5625rem;
   font-family: "PT Sans Narrow";
@@ -608,7 +649,6 @@ margin-bottom: 5.625rem;
   text-align: center;
   margin-bottom: 5.8125rem;
 }
-
 .setups_gives {
   font-size: 2.25rem;
   font-family: "PT Sans Narrow";
@@ -620,18 +660,11 @@ width: 80%;
 margin: auto;
 margin-bottom: 2.6875rem;
 }
-
-
-
 .mac_img {
-  width: 80%;
+  width: 93%;
   margin:auto;
   max-width: 58.125rem;
 }
-
-
-
-
 
 /*nine_screen*/
 .nine_screen{
@@ -885,7 +918,7 @@ padding-top: 4rem;
  background-image: url('../img/fifteen_bg.jpg');
 background-repeat: no-repeat;
 background-size: 50%;
-background-position: left; 
+background-position: top left; 
 padding-top: 5.875rem;
 padding-bottom:  5.875rem;
 }
@@ -1073,10 +1106,8 @@ text-align: center;
   font-size: 1.5rem;
   font-family: "PT Sans Narrow";
   color: rgb( 255, 255, 255 );
-  line-height: 1.458;
-  
+  line-height: 1.458;  
 }
-
 .eighteen_main_text.for_all{
 font-size: 3rem;
   font-family: "PT Sans Narrow";
@@ -1084,11 +1115,8 @@ font-size: 3rem;
   line-height: 1.458;
   text-transform: uppercase;
 }
-
-
 .eighteen_image_block{
-  position: relative;
- 
+  position: relative; 
   height: 100%;
 }
 .eighteen_portrait{
@@ -1098,13 +1126,11 @@ right: -13rem;
 max-width: 47rem;
 z-index: 1;
 }
-
 .nineteen_screen{
   background-color: #f7f7f7;
     padding-top: 4.75rem;
     padding-bottom: 4.75rem;
 }
-
 .nineteen_screen_title{
   font-size: 3.4375rem;
   font-family: "PT Sans Narrow";
@@ -1115,9 +1141,7 @@ z-index: 1;
   margin-top: 0;
   margin-bottom: 3.75rem;
   width: 80%;
-
 }
-
 .twenty_screen{
  padding-top: 4.4375rem;
 padding-bottom: 4.4375rem;   
@@ -1131,9 +1155,6 @@ padding-bottom: 4.4375rem;
   text-transform: uppercase;
   line-height: 0.538;
 }
-
-
-
 .twenty_one_mesm{
 min-height: 500px;
 background-image: url('../img/mesm_bg.jpg');
@@ -1143,7 +1164,6 @@ background-position: center;
 padding-top: 92px;
 padding-bottom: 100px;	
 }
-
 .twenty_one_magn{
 min-height: 500px;
 background-image: url('../img/magm_bg.jpg');
@@ -1153,7 +1173,6 @@ background-position: center;
 padding-top: 92px;
 padding-bottom: 100px;
 }
-
 .twenty_one_fas{
 min-height: 500px;
 background-image: url('../img/fas_bg.jpg');
@@ -1210,6 +1229,7 @@ padding-bottom: 0;
   box-shadow: 4px 6.928px 14px 0px rgb( 52, 52, 52 );
   padding: 1rem;
   width: 100%;
+  height: 100%;
   padding-bottom: 5.625rem;
   background-image: url("../img/vk_bg.jpg");
   background-position: bottom 1rem center;
@@ -1692,11 +1712,12 @@ justify-content: center;
 .youtube .play-button {
   width: 90px;
   height: 60px;
-  background-color: #333;
+ background-color: #333;
   box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
   z-index: 1;
   opacity: 0.8;
   border-radius: 6px;
+  background-image: url("../img/eleven_bg.jpg");
 }
 .youtube .play-button:before {
   content: "";
@@ -1726,6 +1747,20 @@ justify-content: center;
   top: 0;
   left: 0;
 }
+/*video on mac*/
+.video_block{
+  position: relative;
+}
+.youtube.video_on_mac{
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 77%;
+}
+
+
 
 
 .policy_title{
