@@ -41,6 +41,10 @@
     display: none;
 }
 
+.main_slogan_container{
+  background-color: rgba(0,0,0,0.4);
+  padding: 1rem;  
+}
 
 
 .second_portrait.question {
