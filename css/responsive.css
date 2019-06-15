@@ -43,6 +43,12 @@ left: -35%;
     max-width: 100%;
 }
 
+.bottom_image_container{
+height: 100%;
+flex-wrap: wrap;
+}
+
+
 .second_main_text {
     font-size: 1.5rem;
     margin-bottom: 2.1rem;
@@ -202,9 +208,6 @@ line-height: 1.8;
 width: 80%;
 float: right;
 }
-/*.six_portrait{
-opacity: 0.5;
-}*/
 .second_screen {
 padding-top: 3rem;
 padding-bottom: 3rem;
@@ -259,12 +262,8 @@ margin:auto;
 display: block;
 margin-bottom: 1rem;
 }
-/*.seven_portrait {
-display: none;
-}*/
 .vk_block_review {
 padding-bottom: 4rem;
-/*background-size: 90%;*/
 }
 .problem_resourse {
 font-size: 4rem;
@@ -407,25 +406,11 @@ font-size: 1.9rem;
 line-height: 1.5;
 margin-bottom: 2.9rem;
 }
-/*.sixteen_screen {
-background-image: none;
-padding-top: 0;
-padding-bottom: 0;
-}*/
-/*.fourteen_img,
-.eighteen_portrait {
-display: none;
-}*/
-
 .eight_main_text.bolder {
 font-size: 2.8rem;
 margin-bottom: 2rem;
 }
 .sixteen_screen_half_bg{
-/*background-image: url('../img/fifteen_bg.jpg');
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-position: center center;*/
 padding-top: 2.5rem;
 padding-bottom: 2.5rem;
 padding-left: 1rem;
@@ -448,7 +433,43 @@ padding-top: 2.5rem;
 padding-bottom: 2.5rem;
 }
 }
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+.sixteen_screen {
+    background-image: url(../img/fifteen_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top left;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+}
+
+
 @media screen and (max-width: 767px) { 
+
+.thirteen_screen{
+background-image: url('../img/thirteen_bg2.jpg');
+}
+
+.eight_img {
+    display: block;
+    max-height: 15rem;
+    width: 80%;
+    margin: auto;
+}
+
+.subtitle.magnetizm,
+.col-md-6.second_block2>p {
+padding-right: 1rem;
+}
+
+
+.ten_img {
+    display: block;
+    max-height: 15rem;
+}
+
 .twenty_three_title {
 font-size: 2.1rem;
 line-height: 1.2;
@@ -791,9 +812,30 @@ height: 1.7rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.col-md-12{
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+}
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
+.course_icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 0.5rem;
+}
+
+.course_title {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+}
+
+.main_course {
+width: 50%;
+float:right;
+}
+
+
 .main_screen_button {
 width: 19rem;
 height: 4rem;
@@ -806,7 +848,7 @@ font-size: 1.8rem;
 .main_portrait{
 opacity: 0.8;
 left: -8rem;
-height: 80%;
+height: 65%;
 }
 .bottom_image_container {
 height: 100%;
@@ -849,6 +891,24 @@ order: 1;
     margin-left: 0;
 }
 }
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+.main_slogan {
+
+    width: 50%;
+    float: right;
+}
+.main_portrait {
+    bottom: 0;
+    left: -10%;
+}
+.main_screen_button {
+margin:auto;
+    margin-bottom: 2rem;
+    margin-top: 2;
+}
+}
+
 @media screen and (max-width: 321px) {
 
 html{
