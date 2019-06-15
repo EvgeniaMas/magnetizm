@@ -15,7 +15,7 @@ margin-right: 0.6875rem;
 .main_portrait{
 position: absolute;
 bottom: 0;
-left: -23%;
+left: -16%;
 height: 90%;
 z-index: 2;
 }
@@ -24,7 +24,7 @@ position: absolute;
 right: 0;
 top: 0;
 height: 100%;
-width: 63%; 
+width: 58%; 
 background-image: url('../img/main_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;

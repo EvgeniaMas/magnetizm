@@ -3,11 +3,23 @@
 .third_portrait{
 left: -10vw;
 }
+
+.main_portrait {
+    left: -14%;
+}
+
+.grey_bg {
+    width: 63%;
+}
+
 }
 
 @media screen and (max-width: 1400px) { 
 .third_portrait{
 left: -14vw;
+}
+.main_portrait {
+    left: -19%;
 }
 
 .seven_portrait{
@@ -25,6 +37,9 @@ left: -20vw;
 }
 .seven_portrait{
 left: -18vw;
+}
+.main_portrait {
+    left: -19%;
 }
 }
 
@@ -407,7 +422,7 @@ line-height: 1.5;
 margin-bottom: 2.9rem;
 }
 .eight_main_text.bolder {
-font-size: 2.8rem;
+font-size: 2.4rem;
 margin-bottom: 2rem;
 }
 .sixteen_screen_half_bg{
@@ -458,6 +473,13 @@ background-image: url('../img/thirteen_bg2.jpg');
     width: 80%;
     margin: auto;
 }
+.twelve_portrait {
+    max-height: 19rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+
 
 .subtitle.magnetizm,
 .col-md-6.second_block2>p {
@@ -642,7 +664,7 @@ padding-top: 2rem;
 padding-bottom: 2rem;
 }
 .eleven_title {
-font-size: 3rem;
+font-size: 2.5rem;
 margin-bottom: 1.5rem;
 }
 .eleven_img {
@@ -812,10 +834,11 @@ height: 1.7rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.col-md-12{
-    padding-right: 0.9rem;
-    padding-left: 0.9rem;
+
+.eight_main_text.bolder {
+    font-size: 2rem;
 }
+
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
@@ -824,15 +847,17 @@ height: 1.7rem;
     height: 1.8rem;
     margin-right: 0.5rem;
 }
-
 .course_title {
-    font-size: 1.3rem;
-    line-height: 1.4rem;
+font-size: 1rem;
+line-height: 1.2rem;
 }
 
-.main_course {
-width: 50%;
-float:right;
+.setups_because {
+    width: 90%;
+}
+
+.setups_text.red {
+    font-size: 4rem;
 }
 
 
@@ -898,6 +923,10 @@ order: 1;
     width: 50%;
     float: right;
 }
+.six_portrait {
+    opacity: 0.5;
+    max-height: 80%;
+}
 .main_portrait {
     bottom: 0;
     left: -10%;
@@ -906,6 +935,10 @@ order: 1;
 margin:auto;
     margin-bottom: 2rem;
     margin-top: 2;
+}
+.main_course {
+width: 80%;
+float:right;
 }
 }
 
