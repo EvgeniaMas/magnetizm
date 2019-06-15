@@ -1,3 +1,42 @@
+
+ ( function() {
+
+  var youtube = document.querySelectorAll( ".youtube" );
+  
+  for (var i = 0; i < youtube.length; i++) {
+    
+    var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
+    
+    var image = new Image();
+        image.src = source;
+        image.addEventListener( "load", function() {
+          youtube[ i ].appendChild( image );
+        }( i ) );
+    
+        youtube[i].addEventListener( "click", function() {
+
+          var iframe = document.createElement( "iframe" );
+
+              iframe.setAttribute( "frameborder", "0" );
+              iframe.setAttribute( "allowfullscreen", "" );
+              iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+              this.innerHTML = "";
+              this.appendChild( iframe );
+        } );  
+  };
+  
+} )();  
+
+
+
+
+
+
+
+
+
+
 var $page = $('html, body');
 $('#magnetizm_button').click(function() {
     $page.animate({
@@ -7,26 +46,7 @@ $('#magnetizm_button').click(function() {
 });
 
 
-var modal = document.querySelector("#modal"),
-        modalOverlay = document.querySelector("#modal-overlay"),
-        closeButton = document.querySelector("#close-button"),
-        openButton = document.querySelector("#open-button");
-
-  closeButton.addEventListener("click", function() {
-    modal.classList.toggle("closed");
-    modalOverlay.classList.toggle("closed");
-  });
-
-  openButton.addEventListener("click", function() {
-    modal.classList.toggle("closed");
-    modalOverlay.classList.toggle("closed");
-  });
- 
-
-
-
-
-    $(document).ready(function() {
+$(document).ready(function() {
       $("a.gallery, a.iframe").fancybox();
     
 url = $("a.modalbox").attr('href').replace("for_spider","content2");
@@ -69,33 +89,3 @@ $("a.iframe").fancybox(
 });
 
 
-
- ( function() {
-
-  var youtube = document.querySelectorAll( ".youtube" );
-  
-  for (var i = 0; i < youtube.length; i++) {
-    
-    var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
-    
-    var image = new Image();
-        image.src = source;
-        image.addEventListener( "load", function() {
-          youtube[ i ].appendChild( image );
-        }( i ) );
-    
-        youtube[i].addEventListener( "click", function() {
-
-          var iframe = document.createElement( "iframe" );
-
-              iframe.setAttribute( "frameborder", "0" );
-              iframe.setAttribute( "allowfullscreen", "" );
-              iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
-
-              this.innerHTML = "";
-              this.appendChild( iframe );
-        } );  
-  };
-  
-} )();   
- 

@@ -8,6 +8,7 @@ url("../fonts/PTSans_Narrow/PTSans-Narrow.otf") format("opentype"),
 url("../fonts/PTSans_Narrow/PTSans-Narrow.svg#svgPTSans-Narrow") format("svg");
 font-style:normal;
 font-weight:normal;
+font-display: swap;
 }
 @font-face{font-family: "Montserrat";
 src:url("../fonts/Montserrat/Montserrat.eot");
@@ -19,6 +20,7 @@ url("../fonts/Montserrat/Montserrat-Regular.otf") format("opentype"),
 url("../fonts/Montserrat/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
 font-style:normal;
 font-weight:normal;
+font-display: swap;
 }
 @font-face{font-family:"Montserrat ExtraBold";
 src:url("../fonts/Montserrat-Extra/Montserrat-ExtraBold.eot");
@@ -30,6 +32,7 @@ url("../fonts/Montserrat-Extra/Montserrat-ExtraBold.otf") format("opentype"),
 url("../fonts/Montserrat-Extra/Montserrat-ExtraBold.svg#svgMontserrat-ExtraBold") format("svg");
 font-style:normal;
 font-weight:normal;
+font-display: swap;
 }
 @font-face{font-family:"Montserrat-Medium";
 src:url("../fonts/Montserrat_Medium/Montserrat-Medium.eot");
@@ -41,17 +44,7 @@ url("../fonts/Montserrat_Medium/Montserrat_Meduim.otf") format("opentype"),
 url("../fonts/Montserrat_Medium/Montserrat-Medium.svg#svgMontserrat-Medium") format("svg");
 font-style:normal;
 font-weight:normal;
-}
-@font-face{font-family:"Avenir-Next-Bold";
-src:url("../fonts/Avenir-Next-Bold/Avenir-Next-Bold.eot");
-src:url("../fonts/Avenir-Next-Bold/Avenir-Next-Bold.eot?#iefix") format("embeddedopentype"),
-url("../fonts/Avenir-Next-Bold/Avenir-Next-Bold.woff2") format("woff2"),
-url("../fonts/Avenir-Next-Bold/AvenirNext-Bold.woff") format("woff"),
-url("../fonts/Avenir-Next-Bold/Avenir-Next-Bold.ttf") format("truetype"),
-url("../fonts/Avenir-Next-Bold/AvenirNext-Bold.otf") format("opentype"),
-url("../fonts/Avenir-Next-Bold/AvenirNext-Bold.svg#svgAvenirNext-Bold") format("svg");
-font-style:normal;
-font-weight:normal;
+font-display: swap;
 }
 @font-face{font-family:"Montserrat-Bold";
 src:url("../fonts/Montserrat-Bold/Montserrat-Bold.eot");
@@ -63,28 +56,7 @@ url("../fonts/Montserrat-Bold/Montserrat-Bold.otf") format("opentype"),
 url("../fonts/Montserrat-Bold/Montserrat-Bold.svg#svgMontserrat-Bold") format("svg");
 font-style:normal;
 font-weight:normal;
-}
-@font-face{font-family:"Montserrat-Light";
-src:url("../fonts/Montserrat-Light/Montserrat_Light.eot");
-src:url("../fonts/Montserrat-Light/Montserrat-Light.eot?#iefix") format("embeddedopentype"),
-url("../fonts/Montserrat-Light/Montserrat-Light.woff2") format("woff2"),
-url("../fonts/Montserrat-Light/Montserrat-Light.woff") format("woff"),
-url("../fonts/Montserrat-Light/Montserrat-Light.ttf") format("truetype"),
-url("../fonts/Montserrat-Light/Montserrat-Light.otf") format("opentype"),
-url("../fonts/Montserrat-Light/Montserrat-Light.svg#svgMontserrat-Light") format("svg");
-font-style:normal;
-font-weight:normal;
-}
-@font-face{font-family:"Montserrat-Light-Lat";
-src:url("../fonts/Montserrat-Light-Lat/Montserrat_Light.eot");
-src:url("../fonts/Montserrat-Light-Lat/Montserrat_Light.eot?#iefix") format("embeddedopentype"),
-url("../fonts/Montserrat-Light-Lat/Montserrat_Light.woff2") format("woff2"),
-url("../fonts/Montserrat-Light-Lat/Montserrat-Light.woff") format("woff"),
-url("../fonts/Montserrat-Light-Lat/Montserrat_Light.ttf") format("truetype"),
-url("../fonts/Montserrat-Light-Lat/Montserrat-Light.otf") format("opentype"),
-url("../fonts/Montserrat-Light-Lat/Montserrat-Light.svg#svgMontserrat-Light") format("svg");
-font-style:normal;
-font-weight:normal;
+font-display: swap;
 }
 a{
 color: #000;
@@ -100,123 +72,25 @@ padding: 0;
 html{
 font-size:16px;
 height: 100%;
+width: 100%;
 overflow-x: hidden;
 cursor: default;
+padding: 0;
+margin:0;
+min-width: 20rem;
 }
 body
 { 
 height: 100%;   
+width: 100%;
+font-family: "PT Sans Narrow";
 font-weight:normal;
+padding: 0;
+margin:0;
+min-width: 20rem;
 }
-/*main_screen*/
-
-.main_screen{
-position: relative;	
-/*height: 100vh;*/
-min-height: 500px;
-}
-
-.main_portrait{
-position: absolute;
-bottom: 0;
-left: -11rem;
-max-height: 90%;
-}
-
-/*.main_content_block{
-  padding-left: 25%;
-  width: 87%;
-}*/
-
-
-.grey_bg{
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 58%;
- 
-   background-image: url('../img/main_bg.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: top right;
-}
-.main_bg{
-position: absolute;
-max-width: 80vw;
-display: block;
-right: 0;
-top:0;
-z-index: 1;
-}
-.main_description{
-  font-size: 1.375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb(25, 25, 25);
-  line-height: 1.364;
-  text-align: center;
-  padding: 1rem;  
-  border: 2px solid #cf4040;
-  max-width: 320px;
-  margin-left: 10%;
-  margin-top: 3.125rem;
-}
-.main_course{
-  font-size: 1.625rem;
-  font-family:"PT Sans Narrow";
-  color: rgb(254, 254, 254);
-  line-height: 1.269;
-  margin-top: 3.125rem;
-}
-.main_slogan{
-  font-size: 3rem;
-  font-family: "PT Sans Narrow";
-  color: #fefefe;
-  text-transform: uppercase;
-  line-height: 1.188;
-
-}
-.main_slogan span{
-color: rgb(207, 64, 64);
-background-color: #fff;	
-display: inline-block;
-padding-right: 9px;
-padding-left: 9px;
-}
-
-.course_title {
-  font-size: 26px;
-  font-family: "PT Sans Narrow";
-  color: rgb(254, 254, 254);
-  line-height: 1.923;
-}
-.container.main_screen_container{
-position: relative;
-z-index: 2;
-}
-.main_screen_button{
-  display: block;
-  border-radius: 3px;
-  background-color: #cf4040;
-  box-shadow: 0px 4px 0px 0px rgba(207, 64, 64, 0.004);
-  width: 367px;
-  height: 77px;
-  outline: none;
-  transition: all 400ms linear;
-  font-size: 31px;
-  font-family: "PT Sans Narrow";
-  color: rgb(254, 254, 254);
-  text-transform: uppercase;
-  line-height: 1.613;
-  margin-bottom: 5.6875rem;
-  margin-top: 3.0625rem;
-  cursor: pointer;
-}
-
-.main_screen_button:hover,
-.main_screen_button:focus,
-.main_screen_button:active{
-background-color: #ad2b2b;	
+.wrapper{
+min-height: calc(100vh - 3.25rem;);	
 }
 
 /*second_screen*/
@@ -224,47 +98,51 @@ background-color: #ad2b2b;
 padding-top: 4.875rem;
 padding-bottom: 4rem;	
 }
-
 .second_main_text_bigger {
-  font-size: 2.9375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb(32, 32, 32);
-  text-transform: uppercase;
-  line-height: 1.213;
-  margin-bottom: 2.5rem;
-  margin-top: 0;
+letter-spacing: 0;
+font-weight: bold;
+font-size: 2.9375rem;
+font-family: "PT Sans Narrow";
+color: rgb(32, 32, 32);
+text-transform: uppercase;
+line-height: 1.213;
+margin-bottom: 2.5rem;
+margin-top: 0;
 }
-
 .second_portrait{
-  display: block;
-  margin-top: 2.8125rem;
-  max-width: 30.8125rem;
+display: block;
+margin:auto;
+margin-top: 2.8125rem;
+max-width: 30.8125rem;
+height: 95%;
 }
-
-
-
+.second_text_container{
+position: relative;
+z-index: 4;
+}
 .second_main_text {
-  font-size: 25px;
-  font-family: "PT Sans Narrow";
-  color: rgb(32, 32, 32);
-  line-height: 1.4;
-  margin-bottom: 2.5rem;
+font-size: 1.5625rem;
+font-family: "PT Sans Narrow";
+color: rgb(32, 32, 32);
+line-height: 1.4;
+margin-bottom: 2.5rem;
 }
-
+.second_main_text.first{
+max-width: 90%;
+}
 .second_main_text.bold_text{
 font-weight: bold;
 }
-
 .second_main_text.upper_text{
 text-transform: uppercase;
+font-weight: bold;
 }
-
 .second_quest_block{
-  border-radius: 10px;
-  padding-top: 2.8125rem;
-  padding-bottom: 2.8125rem;
-  background-color: rgb(226, 230, 235);
-  box-shadow: 0px 15px 18px 0px rgba(0, 0, 0, 0.16);
+border-radius: 0.625rem;
+padding-top: 2.8125rem;
+padding-bottom: 2.8125rem;
+background-color: rgb(226, 230, 235);
+box-shadow: 0px 15px 18px 0px rgba(0, 0, 0, 0.16);
 }
 .second_main_text.last{
 margin-bottom: 0;
@@ -279,14 +157,11 @@ position: relative;
 .third_portrait{
 display: block;
 position: absolute;
+left: 0;
 bottom: 0;
-left: 2%;
-max-width: 45.25rem;
+height: 80%;    
+z-index: 2;
 }
-
-
-
-
 .third_main_text,
 .third_main_text_bigger,
 .third_stop{
@@ -301,109 +176,89 @@ margin-bottom: 2.625rem;
 }
 .third_main_text{
 font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.417;
-  margin-bottom: 3rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.417;
+margin-bottom: 3rem;
 }
 .third_main_text_bigger{
 font-size: 3.125rem;
 margin-bottom: 3rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.06;
 }
-
-
-
-
-
-
 .four_screen{
-  padding-top: 4.4375rem;
+padding-top: 4.4375rem;
 }
-
-
 .fourteen_main_text.list{
-  margin-bottom: 1.125rem;
+margin-bottom: 1.125rem;
 }
 .fourteen_main_text.list.last{
-  margin-bottom: 4.625rem;
+margin-bottom: 4.625rem;
 }
-
-
 .fourteen_img{
-  max-width: 44.875rem;
-  display: block;
-  margin-left: -9rem;
+max-width: 44.875rem;
+display: block;
+margin-left: -9rem;
 }
-
-
-
-
 .four_main_text.bigger{
-  font-size: 3.6875rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.085;
-  margin-bottom: 1.5rem;
+font-size: 3.6875rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.085;
+margin-bottom: 1.5rem;
+font-weight: bold;
 }
-
 .four_main_text{
-   font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  margin-bottom: 2.375rem;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+margin-bottom: 2.375rem;
 }
 .four_main_text span{
-  color: #cf4040;
+color: #cf4040;
+font-weight: bold;
 }
-
 .four_main_text.border{
-  border: 2px solid #cf4040;
-  padding: 1rem;
-  font-size: 1.75rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.25;
-  margin-bottom: 5.375rem;
+border: 2px solid #cf4040;
+padding: 1rem;
+font-size: 1.75rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.25;
+margin-bottom: 5.375rem;
+font-weight: bold;
 }
-
-
-
-
-
 .five_screen{
-  padding-top: 4.5625rem;
-  padding-bottom: 6.25rem;
-  background-color: #f7f7f7;
+padding-top: 4.5625rem;
+padding-bottom: 6.25rem;
+background-color: #f7f7f7;
 }
-
 .five_clients_leave{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  text-align: center;
-  margin:auto;
-  margin-top: 3.9375rem;
-  margin-bottom: 2.375rem;
-  width: 60%;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+text-align: center;
+margin:auto;
+margin-top: 3.9375rem;
+margin-bottom: 2.375rem;
+width: 60%;
 }
-
 .five_clients_result {
-  font-size: 1.9375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  text-transform: uppercase;
-  line-height: 1.387;
-  text-align: center;
-  margin:auto;
-  margin-bottom: 5.1875rem;
-   width: 60%;
-
+font-size: 1.9375rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+text-transform: uppercase;
+line-height: 1.387;
+text-align: center;
+margin:auto;
+margin-bottom: 5.1875rem;
+width: 80%;
+font-weight: bold;
 }
-
-
-
 .six_screen{
 background-image: url('../img/six-bg.jpg');
 background-repeat: no-repeat;
@@ -411,252 +266,242 @@ background-size: cover;
 background-position: center;	
 z-index: 1;
 }
-
 .six_screen_content{
-  position: relative;
-  z-index: 8;
+position: relative;
+z-index: 8;
 }
-
-
 .six_screen>.container{
 position: relative;
 z-index: 2;
 }
-
 .six_portrait{
-  display: block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 3;
-  opacity: 0.5;
+display: block;
+position: absolute;
+right: 10%;
+bottom: 0;
+z-index: 3;
+opacity: 1;
 }
-
-.main_portrait {
-    left: -8rem;
-}
-
 .course_title {
-    font-size: 1.5rem;
+font-size: 1.5rem;
 }
-
-.main_course {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-
 .six_main_text,
 .six_main_text_bigger{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.417;
-  margin-bottom: 2.6875rem;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.417;
+margin-bottom: 2.6875rem;
 }
-
 .six_main_text_bigger{
-  text-transform: uppercase;
+text-transform: uppercase;
 }
-
-
-
 .six_couch {
-  font-size: 90px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 0.378;
-  text-align: center;
+font-size: 5.625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 0.378;
+text-align: center;
 }
-
-
-
 .seven_screen {
-	background-image: url('../img/seven_bg.png');
+background-image: url('../img/seven_bg.png');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: bottom center;	
 position: relative;
 z-index: 1;
 }
-
 .seven_main_text,
 .seven_main_text_bigger{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.417;
-  margin-bottom: 2.5rem;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.417;
+margin-bottom: 2.5rem;
 }
-
 .seven_main_text_bigger{
 text-transform: uppercase;
+font-weight: bold;
 }
-
-
+.seven_main_text.upper_text{
+text-transform: uppercase;
+font-weight: bold;
+margin-bottom: 3rem;
+}
 .seven_hypnose {
-  font-size: 90px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 32, 34, 30 );
-/*  line-height: 0.378;*/
-  text-align: center;
-  background-color: #fff;
-  margin-top: 0;
-  padding-top: 2rem;
+font-size: 5.625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 32, 34, 30 );
+text-align: center;
+background-color: #fff;
+margin-top: 0;
+padding-bottom: 4rem;
+padding-top: 2rem;
 }
-
 .seven_portrait{
 display: block;
 position: absolute;
-left: -10%;
+left: 0;
 bottom: 0;
 height: 100%;
 z-index: 2;
 }
-
+.hypnose_text_block{
+position: relative;
+z-index: 4;
+}
 /*eight_screen - setups*/
 .eight_screen{
-    background-image: url('../img/eight_bg.jpg');
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center center; 
 position: relative;
 padding-top: 4.4375rem;
 }
-
+.eight_screen_bg{
+background-image: url('../img/eight_bg.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position:top 29% center; 
+}
 .eight_img{
-  display: block;
-  max-height: 22.375rem;
-  width: 80%;
-  margin:auto;
+display: block;
+max-height: 22.375rem;
+width: 80%;
+margin:auto;
 }
-
 .eight_main_text {
-  font-size: 1.625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.385;
-  margin-bottom: 2.8125rem;
+font-size: 1.625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.385;
+margin-bottom: 2.8125rem;
 }
-
 .eight_main_text.bigger{
 font-size: 1.75rem;
 margin-bottom: 5.625rem;
 }
-
-
-
 .eight_main_text.bolder{
-  font-size: 3.4375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 0.891;
-  margin-bottom: 2.6875rem;
-
+font-size: 3.4375rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 0.891;
+margin-bottom: 2.6875rem;
+font-weight: bold;
 }
-
-
 .problem_resourse{
-  font-size: 5.625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.078;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 7.375rem;
+font-size: 5.625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.078;
+text-align: center;
+margin: auto;
+margin-bottom: 7.375rem;
 }
-
 .setups_text{
-  font-size: 9.375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 0.4;
-  text-align: center;
-  margin-bottom: 9.375rem;
+font-size: 9.375rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 0.4;
+text-align: center;
+margin-bottom: 9.375rem;
+text-transform: uppercase;
 }
-
 .setups_text.red{
-  font-size: 12.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 207, 64, 64 );
-  line-height: 0.3;
-  text-align: center;
-  margin-bottom: 4.75rem;
+font-size: 12.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 207, 64, 64 );
+text-transform: uppercase;
+line-height: 0.3;
+text-align: center;
+margin-bottom: 4.75rem;
 }
 .setups_manage{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  text-align: center;
-  margin-bottom: 2.6875rem;
-}
-.setups_you_do{
-  font-size: 1.9375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  text-align: center;
-  margin-bottom: 2.375rem;
-}
-.setups_miss{
-    font-size: 1.9375rem;
-    text-transform: uppercase;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  text-align: center;
-  margin-bottom:2.875rem;
-}
-.setups_why{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  text-align: center;
-  margin-bottom: 2.75rem;
-}
-.setups_because{
-    font-size: 2rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  text-align: center;  
-  margin-bottom: 2.5625rem;
-}
-.setups_because1{
-      font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  text-align: center;  
-  margin-bottom: 2.5625rem;
-}
-.setups_because2 {
-  font-size: 1.5625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.28;
-  text-align: center;
-  margin-bottom: 5.8125rem;
-}
-.setups_gives {
-  font-size: 2.25rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.333;
-  text-align: center;
-text-transform: uppercase;
-width: 80%;
-margin: auto;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+text-align: center;
 margin-bottom: 2.6875rem;
 }
-.mac_img {
-  width: 93%;
-  margin:auto;
-  max-width: 58.125rem;
+.setups_you_do{
+font-size: 1.9375rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+text-align: center;
+margin-bottom: 2.375rem;
+font-weight: bold;
 }
-
+.setups_miss{
+font-size: 1.9375rem;
+text-transform: uppercase;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+text-align: center;
+margin-bottom:2.875rem;
+font-weight: bold;
+}
+.setups_why{
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+text-align: center;
+margin-bottom: 2.75rem;
+}
+.setups_because{
+font-size: 2rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+text-align: center;  
+margin: auto;
+margin-bottom: 2.5625rem;
+font-weight: bold;
+width: 76%;
+}
+.setups_because1{
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+text-align: center;  
+margin: auto;
+margin-bottom: 2.5625rem;
+width: 53%;
+}
+.setups_because2 {
+font-size: 1.5625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.28;
+text-align: center;
+margin-bottom: 5.8125rem;
+}
+.setups_gives {
+font-size: 2.25rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.333;
+text-align: center;
+text-transform: uppercase;
+width: 90%;
+margin: auto;
+margin-bottom: 2.6875rem;
+font-weight: bold;
+}
+.mac_img {
+width: 100%;
+margin:auto;
+max-width: 58.125rem;
+position: relative;
+z-index: 55;
+}
+.border_block{
+background-image: url('../img/border.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: top 1rem center;
+}
 /*nine_screen*/
 .nine_screen{
 background-image: url('../img/nine_bg.jpg');
@@ -668,51 +513,37 @@ padding-bottom: 3.5rem;
 }
 .nine_text
 {	
-  font-size: 52px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.212;
-  text-align: center;
-
+font-size: 3.25rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.212;
+text-align: center;
 }
-
 .ten_screen{
-  padding-top: 4.4375rem;
-  padding-bottom: 2.625rem;
+padding-top: 4.4375rem;
+padding-bottom: 2.625rem;
 }
-
 .ten_img {
-  display: block;
-  max-height: 398px;
+display: block;
+max-height: 24.875rem;
 }
-
 .ten_main_title{
-  font-size: 4.375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 0.857;
-  text-align: left;
-  margin-bottom: 3.1875rem;
+font-size: 4.375rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 0.857;
+text-align: left;
+margin-bottom: 3.1875rem;
+font-weight: bold;
 }
-
 .ten_main_text{
-  font-size: 1.6875rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.37;
-  text-align: left;
-  padding-bottom: 2.375rem;
+font-size: 1.6875rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.37;
+text-align: left;
+padding-bottom: 2.375rem;
 }
-
-
-
-
-
-
-
-
-
-
 /* eleven screen - wiki */ 
 .eleven_screen{
 background-image: url('../img/eleven_bg.jpg');
@@ -722,103 +553,87 @@ background-position: center;
 padding-top: 4.4375rem;
 padding-bottom: 5.75rem;
 }
-
 .eleven_title{
-  font-size: 4.0625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  text-transform: uppercase;
-  line-height: 0.923;
-  margin-bottom: 2rem;
-
+font-size: 4.0625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+text-transform: uppercase;
+line-height: 0.923;
+margin-bottom: 2rem;
+font-weight: bold;
 }
-
-
-
 .eleven_main_text{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.417;
-  margin-bottom: 3.3125rem;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.417;
+margin-bottom: 3.3125rem;
 }
-
 .white_line{
-  display: inline-block;
-  width: 1rem;
-  height: 100%;
-  min-height: 17.1875rem;
-  background-color: #fff;
+display: inline-block;
+width: 1rem;
+height: 100%;
+min-height: 17.1875rem;
+background-color: #fff;
 }
 .eleven_img {
-  display: block;
-  max-height: 29.8125rem;
-  margin: auto;
+display: block;
+max-height: 29.8125rem;
+margin: auto;
 }
 .eleven_main_cursive{
-  font-size: 22px;
-  font-family: "PT Sans Narrow";
-  font-style: italic;
-  color: rgb( 255, 255, 255 );
-  line-height: 1.364;
+font-size: 1.375rem;
+font-family: "PT Sans Narrow";
+font-style: italic;
+color: rgb( 255, 255, 255 );
+line-height: 1.364;
+}
+.eleven_main_cursive.name{
+font-weight: bold;	
 }
 .wiki_logo{
 display: block;
 margin-bottom: 1.125rem;
 }
-
 .eleven_padding{
-  padding-bottom: 1.625rem;
+padding-bottom: 1.625rem;
 }
-
-
 /*twelve block, history*/
 .twelve_screen{
-  padding-top: 4.4375rem;
+padding-top: 4.4375rem;
 }
-
 .bottom_image_container{
-  display: table-row; 
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
+display: table-row; 
+height: 100%;
+display: flex;
+align-items: flex-end;
 }
-
 .bottom_image_block{
-  vertical-align:bottom; /* вот она */
-  display:inline-block;
-
+vertical-align:bottom; /* вот она */
+display:inline-block;
 }
-
-
-
 .twelve_portrait{
-  display: block;
-  max-height: 40.875rem;
-
+display: block;
+max-height: 40.875rem;
 }
-
 .twelve_main_text{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  margin-bottom: 2.125rem;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+margin-bottom: 2.125rem;
 }
-
 .twelve_main_text_bigger{
-    font-size: 1.9375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  margin-bottom: 5.5rem;
+font-size: 1.9375rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+margin-bottom: 5.5rem;
+font-weight: bold;
 }
 .twelve_main_text_bigger span{
-  color: #bb2b3d;
+color: #cf4040;
 }
-
-
-
 /*thirteen - it gives*/
 .thirteen_screen{
 background-image: url('../img/thirteen_bg.jpg');
@@ -828,31 +643,25 @@ background-position: bottom center;
 padding-top:5.6875rem;
 padding-bottom: 	5.6875rem;
 }
-
 .thirteen_main_text,
 .thirteen_main_text_bigger {
 color: #fff;
 }
-
 .thirteen_main_text{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.458;
-  margin-bottom: 2.375rem;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.458;
+margin-bottom: 2.375rem;
 }
-
 .thirteen_main_text_bigger{
-  font-size: 2.6875rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1;
-  margin-bottom: 2.6875rem;
+font-size: 2.6875rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1;
+margin-bottom: 2.6875rem;
+font-weight: bold;
 }
-
-
-
-
 /*fourteen screen - education*/
 .fourteen_screen{
 background-image: url('../img/fourtenn_bg.jpg');
@@ -861,226 +670,200 @@ background-size: cover;
 background-position: center;
 padding-top: 5.25rem;	
 }
-
-
 .fourteen_main_text_bigger{
-  font-size: 68px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.118;
-  margin-bottom: 1.875rem;
+font-size: 4.25rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.118;
+margin-bottom: 1.875rem;
+font-weight: bold;
 }
-
 .fourteen_main_text{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.417;
-  margin-bottom: 2.375rem;
-
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.417;
+margin-bottom: 2.375rem;
 }
-
-
+.fourteen_main_text.strong_text{
+font-weight: bold;
+}
 .fifteen_screen{
 padding-top: 4rem;
 }
-
 .fifteen_main_title{
-  font-size: 4.0625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb(25, 25, 25);
-  line-height: 0.846;
-  margin-bottom: 3.5625rem;
+font-size: 4.0625rem;
+font-family: "PT Sans Narrow";
+color: rgb(25, 25, 25);
+line-height: 0.846;
+margin-bottom: 3.5625rem;
+font-weight: bold;
 }
-
 .fifteen_main_text{
-  font-size: 1.4375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb(25, 25, 25);
-  line-height: 1.435;
-  margin-bottom: 2rem;
+font-size: 1.4375rem;
+font-family: "PT Sans Narrow";
+color: rgb(25, 25, 25);
+line-height: 1.435;
+margin-bottom: 2rem;
+width: 95%;
 }
-
 .fifteen_main_text span{
-  color: #cf4040;
+color: #cf4040;
 }
-
+.fifteen_main_text.strong_text{
+font-weight: bold;
+width: 90%;
+}
 .sixteen_screen{
- background-image: url('../img/fifteen_bg.jpg');
+background-image: url('../img/fifteen_bg.jpg');
 background-repeat: no-repeat;
-background-size: 50%;
+background-size: 50% 100%;
 background-position: top left; 
 padding-top: 5.875rem;
 padding-bottom:  5.875rem;
 }
-
-
-
-
-
-.sixteen_screen_half_bg{
-/* background-image: url('../img/fifteen_bg.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center; 
-padding-top: 5.875rem;
-padding-bottom:  5.875rem;*/
-}
-
 .sixteen_main_text_bigger{
-  font-size: 4.75rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.145;
-  text-align: left;
-  margin-bottom: 3rem;
+font-size: 4.75rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.145;
+text-align: left;
+margin-bottom: 3rem;
 }
-
 .sixteen_main_text{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.417;
-  margin-bottom: 2.5rem;
-  padding-right:2.9375rem;
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.417;
+margin-bottom: 2.5rem;
+padding-right:2.9375rem;
 }
 .sixteen_main_text_extra{
-  font-size: 142.51px;
-  font-family: "Montserrat";
-  color: rgb( 25, 25, 25 );
-  padding-left: 2.9375rem;
-  font-weight: bold;
-  text-align: center;
-  line-height: 0.957;  
-  -moz-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
-  -webkit-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
-  -ms-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
+font-size: 8.875rem;
+
+font-family: "Montserrat ExtraBold";
+color: rgb( 25, 25, 25 );
+padding-left: 2.9375rem;
+font-weight: bold;
+text-align: center;
+line-height: 0.957;  
+-moz-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
+-webkit-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
+-ms-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
 }
 .sixteen_main_text_smaller{
-  transform: none;
-  font-size: 5rem;
-  font-family: "Montserrat";
-  text-align: center;
-  padding-left:2.9375rem;
+transform: none;
+font-size: 3.9375rem;
+font-family: "Montserrat ExtraBold";
+text-align: center;
+padding-left:2.9375rem;
 }
 .seventeen_screen{
-  padding-bottom: 6rem;
+padding-bottom: 6rem;
+padding-top: 4.25rem;
 }
 .seventeen_speciality{
-  font-size: 165px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 187, 43, 61 );
-  line-height: 1;
-  text-align: center;
+font-size: 10.3125rem;
+text-transform: uppercase;
+font-family: "PT Sans Narrow";
+color: #cf4040;
+line-height: 1;
+text-align: center;
 }
-
 .date_block{
-  font-family:"Montserrat ExtraBold";
-  border: 2px solid #bb2b3d;
-  font-size: 7.5625rem;
-  text-align: center;
-  height: 16.8125rem;
-  width: 86%;
-  max-width: 22.1875rem;
-  margin-bottom: 2.875rem;
+font-family:"Montserrat ExtraBold";
+border: 2px solid #cf4040;
+font-size: 7.5625rem;
+text-align: center;
+height: 16.8125rem;
+width: 86%;
+max-width: 22.1875rem;
+margin-bottom: 2.875rem;
 }
-
 .date_block span{
-  font-size: 4.375rem;
-  display: block;
-  text-align: center;
+font-size: 4.375rem;
+display: block;
+text-align: center;
 }
-
 .seventeen_title{
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.417;
-  text-align: left;
-  min-height: 4rem;
-  margin-bottom: 1.875rem;
-
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.417;
+text-align: left;
+min-height: 4rem;
+margin-bottom: 1.875rem;
 }
-
 .seventeen_info{
-  font-size: 1.8125rem;
-  color: rgb( 25, 25, 25 );
-  line-height: 1.483;
-  text-align: center;
-  font-family:"Montserrat-Medium";
-  margin-bottom: 3.6875rem;
+font-size: 1.8125rem;
+color: rgb( 25, 25, 25 );
+line-height: 1.483;
+text-align: center;
+font-family:"Montserrat-Medium";
+letter-spacing: 0;
+margin-bottom: 3.6875rem;
 }
-
 .seventeen_main{
-  font-size: 1.8125rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.483;
-  margin-bottom: 4.25rem;
-  text-align: center;
+font-size: 1.8125rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.483;
+margin-bottom: 4.25rem;
+text-align: center;
+font-weight: bold;
 }
-
 .seventeen_no{
-    font-size: 1.8125rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.483;
-  margin-bottom: 3.25rem;
-  text-align: center;
+font-size: 1.8125rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.483;
+margin-bottom: 3.25rem;
+text-align: center;
+font-weight: bold;
 }
-
-
 .eighteen_screen{
 background-color: #000;
 position: relative;
 padding-top: 4.75rem;
 }
-
 .eighteen_main_text,
 .extra_adv{
 color: #fff;
 }
-
+.eighteen_screen {
+padding-top: 3rem;
+}
 .eighteen_main_text{
-  font-size: 26px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.654;
-  text-align: left; 
-  margin-bottom: 3.5625rem;
+font-size: 1.625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.654;
+text-align: left; 
+margin-bottom: 3.5625rem;
 }
-
 .eighteen_main_text.upper_text{
-  font-size: 4.1875rem;
-  text-transform: uppercase;
-  line-height: 0.448;
-  text-align: left;
+font-size: 4.1875rem;
+text-transform: uppercase;
+line-height: 0.448;
+text-align: left;
 }
-
-
-
-
-
 .advant_icon{
 background-color: #bb2b3d;
 padding: 0.4375rem;
-height: 57px;
-width: 57px;
+height: 3.5625rem;
+width: 3.5625rem;
 float: left;
 margin-right: 0.8125rem;
 }
-
 .extra_adv{
 overflow: hidden;	
-  font-size: 1.3125rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.524;
-  text-align: left;
-  margin-bottom: 2.125rem;
-
+font-size: 1.3125rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.524;
+text-align: left;
+margin-bottom: 2.125rem;
 }
-
 .important_couch{
 border: 2px solid #bb2b3d;
 padding: 1.625rem;
@@ -1088,27 +871,25 @@ max-width:90%;
 box-sizing: border-box;
 margin-bottom: 6rem;
 }
-
 .important_couch>.eighteen_main_text{
 text-align: center;
 }
-
 .eighteen_main_text.sum_text {
-  font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.458;  
+font-size: 1.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.458;  
 }
 .eighteen_main_text.for_all{
 font-size: 3rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.458;
-  text-transform: uppercase;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.458;
+text-transform: uppercase;
 }
 .eighteen_image_block{
-  position: relative; 
-  height: 100%;
+position: relative; 
+height: 100%;
 }
 .eighteen_portrait{
 position: absolute;
@@ -1117,34 +898,36 @@ right: -13rem;
 max-width: 47rem;
 z-index: 1;
 }
+.eighteen_screen_texts{
+position: relative;
+z-index: 4;
+}
 .nineteen_screen{
-  background-color: #f7f7f7;
-    padding-top: 4.75rem;
-    padding-bottom: 4.75rem;
+background-color: #f7f7f7;
+padding-top: 4.75rem;
+padding-bottom: 4.75rem;
 }
 .nineteen_screen_title{
-  font-size: 3.4375rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.182;
-  text-align: center;
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 3.75rem;
-  width: 80%;
+font-size: 3.4375rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.182;
+text-align: center;
+margin: auto;
+margin-top: 0;
+margin-bottom: 3.75rem;
+width: 80%;
 }
 .twenty_screen{
- padding-top: 4.4375rem;
+padding-top: 4.4375rem;
 padding-bottom: 4.4375rem;   
 }
-
-
 .twenty_one_title {
-  font-size: 65px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  text-transform: uppercase;
-  line-height: 0.538;
+font-size: 65px;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+text-transform: uppercase;
+line-height: 0.538;
 }
 .twenty_one_mesm{
 min-height: 500px;
@@ -1173,351 +956,286 @@ background-position: center;
 padding-top: 92px;
 padding-bottom: 100px;
 }
-
-
 .programm_icon{
 max-width: 3.5625rem;
 float: left;
 margin-right: 2rem;
 display: inline-block;
 }
-
 .program_text{
 overflow: hidden;	
 font-size: 1rem;
 margin-bottom: 1.8125rem;
 }
-
 .col-md-12.programm_block{
 background-color: #fff;
 padding: 3.375rem;
 padding-bottom: 0;
 }
-
+.col-md-6.second_block{
+padding-left: 3.375rem;
+padding-right: 0;
+}  
 .col-md-12.programm_block.magn_block{
-  padding-left: 0;
-  padding-top: 0;
+padding-left: 0;
+padding-top: 0;
 }
-
 .subtitle.magnetizm{
-  margin-top: 3.375rem;
+margin-top: 3.375rem;
 }
-
-
 .subtitle{
-  font-size: 45px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 187, 43, 61 );
-  line-height: 0.778;
-  margin-top: 0;
-  margin-bottom: 2rem;
+font-size: 2.8125rem;
+font-family: "PT Sans Narrow";
+color: rgb( 187, 43, 61 );
+line-height: 0.778;
+margin-top: 0;
+margin-bottom: 2rem;
 }
-
-
 .vk_block_review {
-  border-radius: 3px;
-  background-color: rgb( 255, 255, 255 );
-  box-shadow: 4px 6.928px 14px 0px rgb( 52, 52, 52 );
-  padding: 1rem;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 5.625rem;
-  background-image: url("../img/vk_bg.jpg");
-  background-position: bottom 1rem center;
-  background-repeat: no-repeat;
+border-radius: 0.1875rem;
+background-color: rgb( 255, 255, 255 );
+box-shadow: 4px 6.928px 14px 0px rgb( 52, 52, 52 );
+padding: 1rem;
+width: 100%;
+height: 100%;
+padding-bottom: 3.625rem;
+background-image: url("../img/vk_bg.jpg");
+background-position: bottom 1rem center;
+background-repeat: no-repeat;
+background-size: 88%;
 }
-
-
 .vk_block_review.small_block{
- padding-bottom: 0;
- background-image: none; 
- margin-bottom: 1.4375rem;
+padding-bottom: 0;
+background-image: none; 
+margin-bottom: 1.4375rem;
 }
-
 .reviews_container
 {
-  width: 90%;
-  margin: auto;
-
-  
+width: 90%;
+margin: auto;
 }
-
-
-
-
-
 .vk_review {
-  font-size: 14px;
-  font-family: "Open Sans";
-  color: rgb( 0, 0, 0 );
-  line-height: 1.714;
-  margin-bottom: 35px;
-
+font-size: 0.875rem;
+font-family: "Open Sans";
+color: rgb( 0, 0, 0 );
+line-height: 1.714;
+margin-bottom: 2.1875rem;
 }
-
-
 .vk_review_title {
-  font-size: 15px;
-  font-family: "Open Sans";
-  color:#c8bec6;  
-  font-weight: bold;
-  line-height: 2.267;
+font-size: 0.9375rem;
+font-family: "Open Sans";
+color:#c8bec6;  
+font-weight: bold;
+line-height: 2.267;
+margin-bottom: 1rem;
 }
-
 .vk_review_title span  {
-  color: rgb( 81, 90, 145 );
-  }
-
+color: rgb( 81, 90, 145 );
+}
 .five_block.avatar{
 display: block;
-max-width: 63px;
+max-width: 3.9375rem;
 margin:auto;
 display: block;
 }
-
-
 .twenty_two_screen{
-  padding-top: 4.75rem;
-  padding-bottom: 5.875rem;
+padding-top: 4.75rem;
+padding-bottom: 5.875rem;
 }
-
 .filatova_review{
-  margin-bottom: 2.5625rem;
+margin-bottom: 2.5625rem;
 }
-
 .lidia_review{
-  margin-bottom: 2.5625rem;
-  margin-top: 4.875rem;
+margin-bottom: 2.5625rem;
+margin-top: 4.875rem;
 }
-
 .oleg_review{
-  margin-bottom: 6.6875rem;
+margin-bottom: 6.6875rem;
 }
 .arofeeva_review{
-  margin-bottom: 1.625rem;
+margin-bottom: 1.625rem;
 }
-
-
-
 .twenty_three_screen{
-min-height: 500px;
 background-image: url('../img/tarif_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;	
 }
-
-.tarif_block{
-  display: flex;
-  /*justify-content: flex-start;*/
-  align-items: flex-start;
-}
-
-
-
 .block_program{
-	display: inline-block;
-	background-color: #fff;	
+background-color: #fff;	
+padding-bottom: 2rem;
+max-width: 22rem;
 }
-
-
 .ordinary.block_program{
-  margin-right: 1.5rem;
+margin-right: 1.5rem;
+min-width: 20rem;
+float: right;
 }
-
 .ordinary_title{
-	padding: 1rem;
-  font-size: 51px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.196;
-  text-align: left;
- border-bottom: 1px solid #000;
-  margin: 0;
+padding: 2rem 1rem;
+font-size: 3.1875rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.196;
+text-align: left;
+border-bottom: 1px solid #000;
+margin: 0;
+font-weight: bold;
+margin-bottom: 2rem;
 }
-
 .included{
-	padding: 1rem;
+padding-bottom: 1rem;
+padding-right: 1rem;
+padding-left: 1rem;
 }
-
 .vip_title{
-  font-size: 51px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.196;
-  text-align: left;
-  border-bottom: 1px solid #000;
-  background-color: #bb2b3d;
-  margin: 0;
-  padding: 1rem;
-  
+font-size: 3.1875rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 1.196;
+text-align: left;
+border-bottom: 1px solid #000;
+background-color: #bb2b3d;
+margin: 0;
+margin-bottom: 2rem;
+padding: 2rem 1rem;
+font-weight: bold;
 }
-
-
-
 /*twenty_four_screen */
-
 .twenty_four_screen {
-	background-color: #f7f7f7;
-	padding-top: 4.75rem;
-	padding-bottom: 4.75rem;
-  
-
+background-color: #f7f7f7;
+padding-top: 4.75rem;
+padding-bottom: 4.75rem;
 }
 .twenty_four_title{
-  font-size: 55px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.182;
-  text-align: center;
+font-size: 3.4375rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.182;
+text-align: center;
 }
-
 a.gallery>iframe{
-	display: block;
-	max-width: 80%;
+display: block;
+max-width: 80%;
 }
-
-
 /*twenty_three_screen*/
-
 .twenty_three_screen{
-	padding-top: 67px;
-	padding-bottom: 111px;
+padding-top: 4.1875rem;
+padding-bottom: 6.9375rem;
 }
-
 .twenty_three_title{
-  font-size: 72px;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  line-height: 0.625;
-  text-align: center;
-  padding-bottom: 73px;
+font-size: 4.5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+line-height: 0.625;
+text-align: center;
+padding-bottom: 4.5625rem;
 }
-
-
-
 /*twenty_five_screen*/
 .twenty_five_screen{
 padding-bottom: 6.4375rem;
 padding-top: 5.5625rem;
 }
-
-
-
 .twenty_five_text1 {
-  font-size: 2.625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.429;
-  text-align: center;
+font-size: 2.625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.429;
+text-align: center;
+font-weight: bold;
 }
-
-
-
 .results_block{
-	background-image: url('../img/result_bg.jpg');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+background-image: url('../img/result_bg.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
 }
-
-
-
-
-
 .twenty_five_text2{
-  font-size: 2.625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.429;
-  text-align: center;
-  margin-top: 4.8125rem;
-  margin-bottom: 4.8125rem;
+font-size: 2.625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.429;
+text-align: center;
+margin:auto;
+margin-top: 4.8125rem;
+margin-bottom: 4.8125rem;
+max-width: 70%;
 }
-
-
-
-
 .twenty_five_text3{
-  font-size: 2.625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 25, 25, 25 );
-  line-height: 1.238;
-  text-align: center;
-  margin-bottom: 3.1875rem;
-
+font-size: 2.625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 25, 25, 25 );
+line-height: 1.238;
+text-align: center;
+margin-bottom: 3.1875rem;
+font-weight: bold;
 }
-
-
-
 .twenty_five_text4{
 margin-bottom: 7.25rem;	
-  font-size: 5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 187, 43, 61 );
-  line-height: 0.5;
-  text-align: center;
-
+font-size: 5rem;
+font-family: "PT Sans Narrow";
+color: rgb( 187, 43, 61 );
+line-height: 0.5;
+text-align: center;
+font-weight: bold;
 }
 .write_me{
 display: inline-block;
 text-transform: uppercase;
 margin-right: 2rem;
 margin-left: 2rem;
-  font-size: 3.0625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 34, 34, 34 );
-  text-transform: uppercase;
-  line-height: 0.816;
-  text-align: center;
-
-
+font-size: 3.0625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 34, 34, 34 );
+text-transform: uppercase;
+line-height: 0.816;
+text-align: center;
+font-weight: bold;
 }
 .write_me_block{
-	margin:auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+margin:auto;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
 .social_posts{
-  max-width: 609px;
-  height: 241px;
-  width: 90%;
-  margin:auto;
-  margin-bottom: 2.375rem;
-  margin-top: 5.125rem;
+max-width: 38.0625rem;
+height: 15.0625rem;
+width: 90%;
+margin:auto;
+margin-bottom: 2.375rem;
+margin-top: 5.125rem;
 }
-
-
 .button_send {
-  display: block;
-  border-radius: 20px;
-  background-image: -moz-linear-gradient( 90deg, rgb(62,101,143) 0%, rgb(98,132,177) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(62,101,143) 0%, rgb(98,132,177) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(62,101,143) 0%, rgb(98,132,177) 100%);
-  width: 426px;
-  height: 81px;
-  line-height: 81px;
-  margin:auto;
-  max-width: 90%; 
-  font-size: 2.3125rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 255, 255, 255 );
-  text-align: center;
-  transition: all 400ms ease-out;
-  outline: none;
-  cursor: pointer;
+display: block;
+border-radius: 1.25rem;
+background-image: -moz-linear-gradient( 90deg, rgb(62,101,143) 0%, rgb(98,132,177) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgb(62,101,143) 0%, rgb(98,132,177) 100%);
+background-image: -ms-linear-gradient( 90deg, rgb(62,101,143) 0%, rgb(98,132,177) 100%);
+width: 26.625rem;
+height: 5.0625rem;
+line-height: 5.0625rem;
+margin:auto;
+max-width: 90%; 
+font-size: 2.3125rem;
+font-family: "PT Sans Narrow";
+color: rgb( 255, 255, 255 );
+text-align: center;
+transition: all 400ms ease-out;
+outline: none;
+cursor: pointer;
 }
-
 .buttons_icon{
 display: inline-block;
-max-width: 2.75rem;
+height: 2rem;
 line-height: 100%;
 padding-top: 0;
 padding-right: 1rem;
+text-decoration: none;
 }
-
+.buttons_icon.instagram{
+height: 2.5rem;
+}
 .button_send:hover,
 .button_send:active,
 .button_send:focus
@@ -1525,98 +1243,6 @@ padding-right: 1rem;
 color: #fff;
 opacity: 0.8;
 }
-
-
-/*модальное окно для политики*/
-
-.modal {
-  display: block; 
-  width: 600px;
-  max-width: 100%;  
-  height: 400px;
-  max-height: 100%;  
-  position: fixed;  
-  z-index: 100;  
-  left: 50%;
-  top: 50%; 
-  transform: translate(-50%, -50%);
-  display: none;   
-  background: #fff;
-  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
-}
-.closed {
-  display: block;
-}
-
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 50;
-  display: none;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-.modal-overlay.closed{
-	display: block;
-}
-
-
-.modal-guts {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  padding: 20px 50px 20px 20px;
-}
-
-.modal .close-button {
-  position: absolute;
-  z-index: 1;
-  top: 10px;
-  right: 10px;  
-  border: 0;  
-  color: #000;
-  background-color: transparent;
-  padding: 5px 10px;
-  font-size: 1.3rem;
-  font-size: 2rem;
-  transition: all 400ms ease-out;
-  cursor: pointer;
-}
-
-.modal .close-button:hover {
-opacity: 0.8;
-}
-
-
-
-
-.open-button {
-  border: 0;  
-  background: transparent;
-  color: #000;
-   font-size: 1.0625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 44, 44, 44 );
-  line-height: 2.353;
-  text-align: right;
-  display: block;
-  float: right;
-  cursor: pointer;
-  transition: all 400ms ease-out;
-}
-
-.open-button:hover,
-.open-button:active{
-  opacity: 0.7;
-}
-
-
 a.gallery.fifteen_img.img-responsive>img{
 height: 6.5rem;
 margin:auto;
@@ -1625,16 +1251,12 @@ margin-bottom: 1rem;
 cursor: pointer;
 transition: all 400ms ease-out;
 }
-
-
 a.gallery.fifteen_img.img-responsive>img:hover{
-  opacity: 0.7;
+opacity: 0.7;
 }
-
-
 .gallery_image_block{
-  min-height: 600px;
-  height: 100%;
+min-height: 37.5rem;
+height: 100%;
 }
 
 
@@ -1654,123 +1276,117 @@ justify-content: center;
 
 
 .copywrite {
-  font-size: 1.0625rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 44, 44, 44 );
-  line-height: 2.353;
-  text-align: left;
-  padding: 0;
-  margin: 0;
+font-size: 1.0625rem;
+font-family: "PT Sans Narrow";
+color: rgb( 44, 44, 44 );
+line-height: 2.353;
+text-align: left;
+padding: 0;
+margin: 0;
 }
 
 .copywrite a {
-  font-size: 17px;
-  font-family: "PT Sans Narrow";
-  color: #5b89bd;
-  display: inline-block;
-  text-decoration: none;
-  line-height: 2.353;
-  cursor: pointer;
-  transition: all 400ms ease-out;
+font-size: 17px;
+font-family: "PT Sans Narrow";
+color: #5b89bd;
+display: inline-block;
+text-decoration: none;
+line-height: 2.353;
+cursor: pointer;
+transition: all 400ms ease-out;
 }
 
 .copywrite a:hover,
 .copywrite a:active,
 .copywrite a:visited{
-  opacity: 0.7;
+opacity: 0.7;
 }
 
 
 /*video blocks*/
+.video_wrapper{
+max-width: 90%;
+margin:auto;
+}
 
 .youtube {
-/*  background-color: red;*/
-  margin-bottom: 1rem;
-  position: relative;
-  padding-top: 56.25%;
-  overflow: hidden;
-  cursor: pointer;
- /* max-width: 80%;*/
- max-width: 80%;
-  
+background-color: #000;
+margin-bottom: 2rem;
+position: relative;
+padding-top: 56.25%;
+overflow: hidden;
+cursor: pointer;
 }
 .youtube img {
-  width: 100%;
-  top: -16.82%;
-  left: 0;
-  opacity: 0.7;
+width: 100%;
+top: -16.82%;
+left: 0;
+opacity: 0.7;
 }
 .youtube .play-button {
-  width: 90px;
-  height: 60px;
- background-color: #333;
-  box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
-  z-index: 1;
-  opacity: 0.8;
-  border-radius: 6px;
-  background-image: url("../img/eleven_bg.jpg");
+width: 5.625rem;
+height: 3.75rem;
+z-index: 1;
+opacity: 1;
+position: relative;
+z-index: 67;
+cursor: pointer;
+transition: all 400ms ease-out;
 }
+
+.youtube .play-button:hover{
+	opacity: 0.8;
+}
+
 .youtube .play-button:before {
-  content: "";
-  border-style: solid;
-  border-width: 15px 0 15px 26.0px;
-  border-color: transparent transparent transparent #fff;
+content: "";
+border-style: solid;
+border-width: 15px 0 15px 26px;
+border-color: transparent transparent transparent #fff;
 }
 .youtube img,
 .youtube .play-button {
-  cursor: pointer;
+cursor: pointer;
 }
 .youtube img,
 .youtube iframe,
 .youtube .play-button,
 .youtube .play-button:before {
-  position: absolute;
+position: absolute;
 }
 .youtube .play-button,
 .youtube .play-button:before {
-  top: 50%;
-  left: 50%;
-  transform: translate3d( -50%, -50%, 0 );
+top: 50%;
+left: 50%;
+transform: translate3d( -50%, -50%, 0 );
 }
 .youtube iframe {
-  height: 100%;
-  width: 100%; 
-  top: 0;
-  left: 0;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
 }
 /*video on mac*/
 .video_block{
-  position: relative;
+position: relative;
+width: 55%;
+margin:auto;
 }
 .youtube.video_on_mac{
-  position: absolute;
-  top:0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  width: 77%;
+position: absolute;
+top:0;
+right: 0;
+left: 0;
+margin: auto;
 }
-
-
-
-
-.policy_title{
-    font-size: 2.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 44, 44, 44 );
-  text-align: center;
-  margin-bottom: 1.5rem;
-  margin-top: 0;
+.youtube.video_on_mac iframe{
+z-index: 77;
+height: 85%;
+width: 90%;
+margin:auto;
+top: 0%;
+bottom:0;
+left: 0;
+right: 0;
+margin:auto;
 }
-
-.policy_text{
-      font-size: 1.5rem;
-  font-family: "PT Sans Narrow";
-  color: rgb( 44, 44, 44 );
-  text-align: left;
-}
-
-
-
-		
-		

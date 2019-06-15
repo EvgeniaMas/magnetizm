@@ -1,0 +1,117 @@
+/*main_screen*/
+.main_screen{
+position: relative;	
+max-height: 45.4375rem;
+}
+.main_course {
+font-size: 1.5rem;
+text-align: center;
+margin-top: 3.125rem;
+}
+.course_icon{
+display: inline-block;
+margin-right: 0.6875rem;
+}
+.main_portrait{
+position: absolute;
+bottom: 0;
+left: -23%;
+height: 90%;
+z-index: 2;
+}
+.grey_bg{
+position: absolute;
+right: 0;
+top: 0;
+height: 100%;
+width: 63%; 
+background-image: url('../img/main_bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top right;
+}
+.main_bg{
+position: absolute;
+max-width: 80vw;
+display: block;
+right: 0;
+top:0;
+z-index: 1;
+}
+.main_content_block{
+position: relative;
+z-index: 4;
+margin-left: 8.5%;
+}
+.main_description{
+font-size: 1.375rem;
+font-family: "PT Sans Narrow";
+color: rgb(25, 25, 25);
+line-height: 1.364;
+text-align: center;
+padding: 1rem;  
+border: 2px solid #cf4040;
+max-width: 20rem;  
+margin-top: 3.125rem;
+}
+.main_course{
+font-size: 1.625rem;
+font-family:"PT Sans Narrow";
+color: rgb(254, 254, 254);
+line-height: 1.269;
+margin-top: 3.125rem;
+}
+.main_slogan{
+font-size: 3rem;
+font-family: "PT Sans Narrow";
+color: #fefefe;
+text-transform: uppercase;
+line-height: 4rem;
+}
+.main_slogan span{
+color: rgb(207, 64, 64);
+background-color: #fff;	
+display: inline-block;
+padding-right: 0.5625rem;
+padding-left: 0.5625rem;
+}
+.course_title {
+font-size: 1.625rem;
+font-family: "PT Sans Narrow";
+color: rgb(254, 254, 254);
+line-height: 1.923;
+}
+.container.main_screen_container{
+position: relative;
+z-index: 2;
+}
+.main_screen_button{
+display: block;
+border-radius: 3px;
+background-color: #cf4040;
+box-shadow: 0px 4px 0px 0px rgba(82, 25, 27, 0.5);
+width: 22.9375rem;
+height:4.8125rem;
+outline: none;
+transition: all 400ms linear;
+font-size: 1.9375rem;
+font-family: "PT Sans Narrow";
+color: rgb(254, 254, 254);
+text-transform: uppercase;
+line-height: 1.613;
+margin-bottom: 5.6875rem;
+margin-top: 3.0625rem;
+cursor: pointer;
+border: 3px solid rgb( 207, 64, 64 );
+}
+.main_screen_button:hover
+{
+background-color: #ad2b2b;	
+border: 3px solid #ad2b2b;
+}
+hr.main_horizontal{
+height: 0.0625rem;
+background-color: #e2e6eb;  
+position: relative;
+z-index: 1;
+}
