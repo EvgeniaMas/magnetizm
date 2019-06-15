@@ -94,107 +94,6 @@ input::-moz-focus-inner {
     border: 0;
     padding: 0
 }
-
-/*input {
-    line-height: normal
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0
-}
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    height: auto
-}
-
-input[type="search"] {
-    -webkit-appearance: textfield;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none
-}
-
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em
-}
-
-legend {
-    border: 0;
-    padding: 0
-}
-
-textarea {
-    overflow: auto
-}
-
-optgroup {
-    font-weight: bold
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0
-}
-
-td,
-th {
-    padding: 0
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-input,
-button,
-select,
-textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit
-}
-
-a {
-    color: #337ab7;
-    text-decoration: none
-}*/
-
-/*a:hover,
-a:focus {
-    color: #23527c;
-    text-decoration: underline
-}*/
-
-/*a:focus {
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
-}
-
-figure {
-    margin: 0
-}*/
-
 img {
     vertical-align: middle
 }
@@ -204,29 +103,6 @@ img {
     max-width: 100%;
     height: auto
 }
-
-/*.img-rounded {
-    border-radius: 6px
-}
-
-.img-thumbnail {
-    padding: 4px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    display: inline-block;
-    max-width: 100%;
-    height: auto
-}*/
-
-.img-circle {
-    border-radius: 50%
-}
-
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -264,11 +140,8 @@ hr {
     margin-left: auto;
     max-width: 75rem;
     width: 100%;
-    min-width: 20rem;
-     
+    min-width: 20rem;     
 }
-
-
 @media (max-width:767px) {
     .container {
         width: 90vw;
@@ -302,8 +175,6 @@ hr {
     max-width: 120rem;
     min-width: 20rem;    
     width: 100%;
-/*    padding-left: 15px;
-    padding-right: 15px*/
 }
 
 .row {
@@ -361,8 +232,6 @@ hr {
 .col-lg-12 {
     position: relative;
     min-height: 1px;
-/*    padding-left: 15px;
-    padding-right: 15px*/
 }
 
 .col-xs-1,

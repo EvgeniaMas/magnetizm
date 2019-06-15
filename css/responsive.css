@@ -1,35 +1,28 @@
-
 @media screen and (max-width: 1600px) { 
 .third_portrait{
 left: -10vw;
 }
-
 .main_portrait {
-    left: -14%;
+left: -14%;
 }
-
 .grey_bg {
-    width: 63%;
+width: 63%;
 }
-
 }
-
 @media screen and (max-width: 1400px) { 
 .third_portrait{
 left: -14vw;
 }
 .main_portrait {
-    left: -19%;
+left: -19%;
 }
-
 .seven_portrait{
 left: -14vw;
 }
 .col-md-12.programm_block {
-    padding: 3rem;
-    padding-bottom: 0;
+padding: 3rem;
+padding-bottom: 0;
 }
-
 }
 @media screen and (max-width: 1280px) { 
 .third_portrait{
@@ -39,10 +32,9 @@ left: -20vw;
 left: -18vw;
 }
 .main_portrait {
-    left: -19%;
+left: -19%;
 }
 }
-
 @media screen and (max-width: 1140px) { 
 .third_portrait{
 left: -35%;
@@ -52,43 +44,41 @@ opacity: 0.6;
 left: -35%;
 }
 }
-
 @media screen and (max-width: 1024px) { 
 .second_main_text.first {
-    max-width: 100%;
+max-width: 100%;
 }
-
+.third_screen_stop {
+padding-bottom: 4rem;
+}
 .bottom_image_container{
 height: 100%;
 flex-wrap: wrap;
 }
-
-
 .second_main_text {
-    font-size: 1.5rem;
-    margin-bottom: 2.1rem;
+font-size: 1.5rem;
+margin-bottom: 2.1rem;
 }
-
 .col-md-12.programm_block {
-    padding: 2.8rem;
-    padding-bottom: 0;
+padding: 2.8rem;
+padding-bottom: 0;
 }
 .twenty_three_screen {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
 }
 .eight_main_text.bigger {
-    margin-bottom: 3rem;
+margin-bottom: 3rem;
 }
 .main_screen{
 max-height: 100%;
 height: auto;
 }
 .seven_hypnose {
-    font-size: 4rem;
-    font-family: "PT Sans Narrow";
-    padding-bottom: 0;
-    padding-top: 1rem;
+font-size: 4rem;
+font-family: "PT Sans Narrow";
+padding-bottom: 0;
+padding-top: 1rem;
 }
 .eighteen_portrait {
 opacity: 0.8;
@@ -148,9 +138,6 @@ margin-bottom: 3rem;
 font-size: 4rem;
 line-height: 4rem;
 }
-/*.grey_bg {
-width: 100vw;
-}*/
 .subtitle {
 font-size: 2.5rem;
 line-height: 1.2;
@@ -160,9 +147,9 @@ margin-bottom: 1.5rem;
 }
 .ordinary_title,
 .vip_title  {
-    padding: 1.5rem 0.9rem;
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+padding: 1.5rem 0.9rem;
+font-size: 2.5rem;
+margin-bottom: 1.5rem;
 }
 .twenty_three_title {
 font-size: 3rem;
@@ -171,24 +158,19 @@ padding-bottom: 2rem;
 margin-bottom: 1rem;
 margin-top: 1rem;
 }
-
 .thirteen_screen {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
 }
-
-
 .thirteen_main_text_bigger {
-    font-size: 1.9rem;
-    margin-bottom: 2rem;
+font-size: 1.9rem;
+margin-bottom: 2rem;
 }
-
 .advant_icon {
-    height: 3rem;
-    width: 3rem;
-    margin-right: 0.6rem;
+height: 3rem;
+width: 3rem;
+margin-right: 0.6rem;
 }
-
 .eighteen_main_text.for_all {
 font-size: 3rem;
 margin-bottom: 0;
@@ -284,7 +266,6 @@ padding-bottom: 4rem;
 font-size: 4rem;
 margin-bottom: 3.5rem;
 }
-
 .nine_text {
 font-size: 2.5rem;
 }
@@ -293,8 +274,8 @@ font-size: 4rem;
 margin-bottom: 3rem;
 }
 .ten_main_text {
-    font-size: 1.4rem;
-    padding-bottom: 2rem;
+font-size: 1.4rem;
+padding-bottom: 2rem;
 }
 .ten_screen {
 padding-top: 3rem;
@@ -310,28 +291,28 @@ max-height: 22rem;
 padding-top: 3rem;
 }
 .fourteen_main_text_bigger {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
+font-size: 3rem;
+margin-bottom: 1.5rem;
 }
 .fifteen_main_title {
-    font-size: 3rem;
-    margin-bottom: 3rem;
+font-size: 3rem;
+margin-bottom: 3rem;
 }
 .fifteen_main_text {
-    font-size: 1.3rem;
-    margin-bottom: 1.7rem;
+font-size: 1.3rem;
+margin-bottom: 1.7rem;
 }
 .sixteen_screen {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
 }
 .sixteen_main_text_extra {
 font-size: 6rem;
 margin-left: 0;
 }
 .sixteen_main_text_bigger {
-    font-size: 3rem;
-    margin-bottom: 2.5rem;
+font-size: 3rem;
+margin-bottom: 2.5rem;
 }
 .sixteen_main_text_smaller {
 font-size: 4rem;
@@ -346,15 +327,15 @@ height: 12.8125rem;
 font-size: 4rem;
 }
 .seventeen_screen {
-    padding-bottom: 4rem;
-    padding-top: 3rem;
+padding-bottom: 4rem;
+padding-top: 3rem;
 }
 .seventeen_speciality {
 font-size: 6.5rem;
 }
 .setups_because2 {
-    font-size: 1.5rem;
-    margin-bottom: 4rem;
+font-size: 1.5rem;
+margin-bottom: 4rem;
 }
 .setups_text {
 font-size: 5.5rem;
@@ -392,8 +373,6 @@ height: 4.8125rem;
 line-height: 3.8125rem;
 font-size: 1.5rem;
 }
-
-
 .write_me {
 margin-right: 1rem;
 margin-left: 1rem;
@@ -448,50 +427,83 @@ padding-top: 2.5rem;
 padding-bottom: 2.5rem;
 }
 }
-
 @media screen and (max-width: 1024px) and (orientation: portrait) {
 .sixteen_screen {
-    background-image: url(../img/fifteen_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: top left;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+background-image: url('../img/fifteen_bg.jpg');
+background-repeat: no-repeat;
+background-size: 100% 50%;
+background-position: top left;
+padding-top: 3rem;
+padding-bottom: 3rem;
 }
+.subtitle.magnetizm,
+.col-md-6.second_block2>img.programm_icon {
+margin-left: 2.8rem;
+}
+.program_text.last2{
+padding-bottom: 3rem;
+}
+.fourteen_img {
+margin-left: 0rem;
+}
+.date_block {
+margin: auto;
+margin-bottom: 2rem;
+}
+.seventeen_title {
+line-height: 1.417;
+text-align: center;
 }
 
-
+a.gallery.fifteen_img.img-responsive>img {
+height: 8rem;
+}
+.gallery_image_block {
+min-height: 40.5rem;
+height: 100%;
+}
+.eighteen_portrait {
+max-height: 90%;
+right: -7rem;
+}
+}
 @media screen and (max-width: 767px) { 
-
+.four_portrait{
+display: block;
+margin: auto;
+max-width: 24rem;
+}
+.reviews_container{
+width: 100%;
+}
+.third_screen_stop {
+padding-bottom: 3rem;
+}
+.vk_block_review{
+width: 95%;
+margin-left: 0;
+margin-right: 0;
+box-shadow: 4px 6.928px 14px 0px rgba( 52, 52, 52, 0.5 );
+}
 .thirteen_screen{
 background-image: url('../img/thirteen_bg2.jpg');
 }
-
 .eight_img {
-    display: block;
-    max-height: 15rem;
-    width: 80%;
-    margin: auto;
+display: block;
+max-height: 15rem;
+width: 80%;
+margin: auto;
 }
 .twelve_portrait {
-    max-height: 19rem;
-    margin: auto;
-    margin-bottom: 1rem;
+max-height: 19rem;
+margin: auto;
+display: block;
+margin-bottom: 1rem;
 }
-
-
-
-.subtitle.magnetizm,
-.col-md-6.second_block2>p {
-padding-right: 1rem;
-}
-
-
 .ten_img {
-    display: block;
-    max-height: 15rem;
+display: block;
+max-height: 15rem;
 }
-
 .twenty_three_title {
 font-size: 2.1rem;
 line-height: 1.2;
@@ -549,7 +561,6 @@ font-size: 2.8rem;
 line-height: 1.2;
 padding-bottom: 2rem;
 }
-
 .eighteen_main_text.for_all {
 font-size: 2.7rem;
 }
@@ -561,9 +572,9 @@ font-size: 2.5rem;
 line-height: 1.2;
 }
 .seventeen_info {
-    font-size: 1.5rem;
-    color: rgb( 25, 25, 25 );
-    margin-bottom: 2.9rem;
+font-size: 1.5rem;
+color: rgb( 25, 25, 25 );
+margin-bottom: 2.9rem;
 }
 .main_description {
 font-size: 1.3rem;
@@ -633,11 +644,14 @@ margin-bottom: 2rem;
 width: 90%;
 }
 a.gallery.fifteen_img.img-responsive>img{
-max-width: 7rem;
 width: 90%;
+height: 5rem;
 margin:auto;
 display: block;
 margin-bottom: 1rem;
+}
+.gallery_image_block {
+min-height: 27.5rem;
 }
 .seven_portrait {
 display: none;
@@ -676,11 +690,9 @@ padding-top: 2rem;
 font-size: 5rem;
 padding-left: 0;
 }
-
 .sixteen_main_text_extra.first_point{
-    margin-top: 2rem;
+margin-top: 2rem;
 }
-
 .sixteen_main_text_smaller {
 font-size: 2.5rem;
 margin-left: 0;
@@ -779,7 +791,7 @@ padding-bottom: 0;
 .eighteen_portrait {
 display: none;
 }
-.sixteen_screen_half_bg{
+.sixteen_screen_half_bg2{
 background-image: url('../img/fifteen_bg.jpg');
 background-repeat: no-repeat;
 background-size: 100% 100%;
@@ -805,20 +817,18 @@ min-height: auto;
 padding-top: 2rem;
 padding-bottom: 2rem;
 }
-
-
 .main_course {
-    font-size: 1.4rem;
-    font-family: "PT Sans Narrow";
-    color: rgb(254, 254, 254);
-    line-height: 1.1;
-    margin-top: 1.5rem;
+font-size: 1.4rem;
+font-family: "PT Sans Narrow";
+color: rgb(254, 254, 254);
+line-height: 1.1;
+margin-top: 1.5rem;
 }
 .video_block{
 width: 95%;
 }
 .seven_main_text.first{
-    padding-top: 2rem;
+padding-top: 2rem;
 }
 .buttons_icon{
 height: 1.2rem;
@@ -827,39 +837,67 @@ height: 1.2rem;
 height: 1.7rem;
 }
 .second_main_text {
-    font-size: 1.3rem;
-    margin-bottom: 1.9rem;
+font-size: 1.3rem;
+margin-bottom: 1.9rem;
 }
 .second_quest_block {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
 }
-
 .eight_main_text.bolder {
-    font-size: 2rem;
+font-size: 2rem;
 }
-
+.advant_icon {
+height: 2rem;
+width: 2rem;
+margin-right: 0.5rem;
 }
-
+.subtitle.magnetizm,
+.col-md-6.second_block2>img.programm_icon {
+margin-left: 2.8rem;
+}
+.program_text.last2{
+padding-bottom: 3rem;
+}
+.twelve_main_text_bigger {
+font-size: 1.6rem;
+}
+.sixteen_main_text {
+padding-right: 0rem;
+width: 90%;
+margin: auto;
+margin-bottom: 1.5rem;
+}
+}
 @media screen and (max-width: 767px) and (orientation: portrait) {
 .course_icon {
-    width: 1.8rem;
-    height: 1.8rem;
-    margin-right: 0.5rem;
+width: 1.8rem;
+height: 1.8rem;
+margin-right: 0.5rem;
 }
 .course_title {
 font-size: 1rem;
 line-height: 1.2rem;
 }
-
+.problem_resourse {
+font-size: 2.8rem;
+margin-bottom: 2.8rem;
+}
+.block_program {
+display: block;
+margin: auto;
+margin-bottom: 1.5rem;
+}
 .setups_because {
-    width: 90%;
+width: 90%;
 }
-
 .setups_text.red {
-    font-size: 4rem;
+font-size: 4rem;
 }
-
+.date_block {
+font-size: 5rem;
+height: 10.8125rem;
+}
 
 .main_screen_button {
 width: 19rem;
@@ -872,7 +910,7 @@ font-size: 1.8rem;
 }
 .main_portrait{
 opacity: 0.8;
-left: -8rem;
+left: -5rem;
 height: 65%;
 }
 .bottom_image_container {
@@ -885,8 +923,8 @@ max-width: 90%;
 margin:auto;
 }
 .twelve_portrait {
-    display: block;
-   margin-bottom: 1.5rem;
+display: block;
+margin-bottom: 1.5rem;
 }
 .block_program {
 display: block;
@@ -899,7 +937,7 @@ margin-right: 0;
 float:none;
 }
 .setups_because1 {
-    width: 90%;
+width: 90%;
 }
 .programm_block.magn_block{
 display: flex;
@@ -912,38 +950,75 @@ order: 2;
 order: 1;
 }
 .magn_image{
-    margin-right: 0;
-    margin-left: 0;
+margin-right: 0;
+margin-left: 0;
 }
 }
-
 @media screen and (max-width: 767px) and (orientation: landscape) {
 .main_slogan {
+width: 50%;
+float: right;
+}.setups_text.red {
+font-size: 6rem;
+}
+hr.main_horizontal{
+margin-top: 1.5em;
+width: 66vw;
+margin-right: 0;
+}
+.main_slogan_container {
+margin-bottom: 1.5rem;
+max-width: 90vw;
+}
+.quests_texts{
+padding-left: 1rem;
+}
+.ordinary.block_program{
+float: none;
+margin: auto;
+margin-bottom: 2rem;
+}
+.vip.block_program {
+margin: auto;
+}
+.social_posts {
+max-width: 24rem;
+width: 90%;
+}
+a.gallery.fifteen_img.img-responsive>img {
+width: 80%;
+height: 6rem;
+}
+.gallery_image_block {
+min-height: 33rem;
+}
 
-    width: 50%;
-    float: right;
+.vk_block_review {
+background-size: 83%;
+}
+.seventeen_title {
+text-align: center;
 }
 .six_portrait {
-    opacity: 0.5;
-    max-height: 80%;
+opacity: 0.5;
+max-height: 80%;
 }
 .main_portrait {
-    bottom: 0;
-    left: -10%;
+bottom: 0;
+left: 1%;
 }
 .main_screen_button {
 margin:auto;
-    margin-bottom: 2rem;
-    margin-top: 2;
+margin-bottom: 2rem;
+margin-top: 2;
 }
 .main_course {
 width: 80%;
 float:right;
+margin-bottom: 1.5rem;
 }
 }
-
 @media screen and (max-width: 321px) {
-
 html{
 overflow-x: visible;
 }
