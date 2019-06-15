@@ -443,6 +443,10 @@ margin-left: 2.8rem;
 .program_text.last2{
 padding-bottom: 3rem;
 }
+.main_slogan_container{
+background-color: rgba(0,0,0,0.4);
+padding: 1rem;  
+}
 .fourteen_img {
 margin-left: 0rem;
 }
@@ -453,6 +457,9 @@ margin-bottom: 2rem;
 .seventeen_title {
 line-height: 1.417;
 text-align: center;
+}
+.six_portrait {
+max-height: 84%;
 }
 
 a.gallery.fifteen_img.img-responsive>img {
@@ -465,6 +472,18 @@ height: 100%;
 .eighteen_portrait {
 max-height: 90%;
 right: -7rem;
+}
+
+.main_portrait {
+}
+.grey_bg {
+    width: 100%;
+}
+.main_description {
+color: #fff;
+}
+.desktops_breaks{
+	display: none;
 }
 }
 @media screen and (max-width: 767px) { 
