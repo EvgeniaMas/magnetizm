@@ -94,8 +94,6 @@ right: -8rem;
 height: 80%;
 width: auto;
 }
-@media screen and (max-width: 1140px) { 
-}
 @media screen and (max-width: 1024px) { 
 .eight_img {
 display: block;
@@ -103,6 +101,17 @@ max-height: 20rem;
 width: 60%;
 margin: auto;
 }
+
+.second_quest_block{
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.setups_because1 {
+    margin-bottom: 2rem;
+    width: 77%;
+}
+
 .ten_img {
 display: block;
 max-height: 18.875rem;
@@ -578,6 +587,15 @@ background-position: top center;
 padding-top: 3rem;
 padding-bottom: 3rem;
 }
+.problem_resourse {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.container-fluid{
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+
 .seven_hypnose {
 margin-bottom: 0;
 }

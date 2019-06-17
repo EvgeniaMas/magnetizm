@@ -151,7 +151,7 @@ border-radius: 0.625rem;
 padding-top: 2.8125rem;
 padding-bottom: 2.8125rem;
 background-color: rgb(226, 230, 235);
-box-shadow: 0px 15px 18px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0px 0.9375rem 1.125rem 0px rgba(0, 0, 0, 0.16);
 }
 .second_main_text.last{
 margin-bottom: 0;
@@ -352,6 +352,7 @@ background-size: cover;
 background-position: bottom center;	
 position: relative;
 z-index: 1;
+width: 100%;
 }
 .seven_main_text,
 .seven_main_text_bigger{
@@ -1019,7 +1020,7 @@ padding-top: 4.4375rem;
 padding-bottom: 4.4375rem;   
 }
 .twenty_one_title {
-font-size: 65px;
+font-size: 4.0625rem;
 font-family: "PT Sans Narrow";
 color: rgb( 255, 255, 255 );
 text-transform: uppercase;
@@ -1030,24 +1031,24 @@ background-image: url('../img/mesm_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-padding-top: 92px;
-padding-bottom: 100px;	
+padding-top: 5.75rem;
+padding-bottom: 6.25rem;	
 }
 .twenty_one_magn{
 background-image: url('../img/magm_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;	
-padding-top: 92px;
-padding-bottom: 100px;
+padding-top: 5.75rem;
+padding-bottom: 6.25rem;
 }
 .twenty_one_fas{
 background-image: url('../img/fas_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;	
-padding-top: 92px;
-padding-bottom: 100px;
+padding-top: 5.75rem;
+padding-bottom: 6.25rem;
 }
 .programm_icon{
 max-width: 3.5625rem;
@@ -1396,7 +1397,7 @@ padding: 0;
 margin: 0;
 }
 .copywrite a {
-font-size: 17px;
+font-size: 1.0625rem;
 font-family: "PT Sans Narrow";
 color: #5b89bd;
 display: inline-block;
@@ -1496,3 +1497,5 @@ left: 0;
 right: 0;
 margin:auto;
 }
+
+
