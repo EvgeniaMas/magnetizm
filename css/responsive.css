@@ -735,6 +735,12 @@ font-size: 2.5rem;
 padding-left: 5%;
 width: 87%;
 }
+.vk_block_review {
+background-size: 95%;
+}
+.mobile{
+display: none;
+}
 .seventeen_main {
 font-size: 1.6rem;
 margin-bottom: 2rem;
@@ -1548,7 +1554,7 @@ float:right;
 margin-bottom: 0.4rem;
 }
 .main_portrait {
-left: 0rem;
+left: -4rem;
 bottom: 0;
 }
 @media screen and (max-width: 321px) {

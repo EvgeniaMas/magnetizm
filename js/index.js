@@ -28,33 +28,11 @@
   
 } )();  
 
-
-
-
-// var lastScrollTop = 0;
-// $(window).scroll(function(event){
-// var st = $(this).scrollTop();
-// if (st > lastScrollTop){
-//    new WOW().init();
-// } else {
-  
-  
-//    return false;
-// }
-// lastScrollTop = st;
-// });
-
-
-
-
-
-
-
 var $page = $('html, body');
 $('#magnetizm_button').click(function() {
     $page.animate({
         scrollTop: $('#magnetizm').offset().top
-    }, 2400);
+    }, 2000);
     return false;
 });
 
