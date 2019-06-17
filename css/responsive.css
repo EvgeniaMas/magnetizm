@@ -594,6 +594,7 @@ padding-bottom: 3rem;
 .container-fluid{
 	padding-left: 0.9375rem;
 	padding-right: 0.9375rem;
+	box-sizing: border-box;
 }
 
 .seven_hypnose {
