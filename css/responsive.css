@@ -105,13 +105,12 @@ margin: auto;
 .second_quest_block{
 padding-left: 1rem;
 padding-right: 1rem;
+box-sizing: border-box;
 }
-
 .setups_because1 {
     margin-bottom: 2rem;
     width: 77%;
 }
-
 .ten_img {
 display: block;
 max-height: 18.875rem;
@@ -591,12 +590,6 @@ padding-bottom: 3rem;
     font-size: 3rem;
     margin-bottom: 3rem;
 }
-.container-fluid{
-	padding-left: 0.9375rem;
-	padding-right: 0.9375rem;
-	box-sizing: border-box;
-}
-
 .seven_hypnose {
 margin-bottom: 0;
 }
