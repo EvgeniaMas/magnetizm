@@ -12,16 +12,13 @@ position: absolute;
 top: 1rem;
 right: 3.75rem;
 max-height: 34.4375rem;
-/*max-width: 50.5rem;*/
 }
 .twelve_portrait {
 left: 8.8125rem;
 max-height: 38.875rem;
-/*max-width: 42.75rem;*/
 }
 .eighteen_portrait {
 right: 5.7%;
-/*max-width: 45rem;*/
 max-height: 83.875rem;
 }
 }
@@ -41,7 +38,6 @@ left: 5.2rem;
 .four_portrait {
 right: 0rem;
 max-height: 33.4375rem;
-/*max-width: 48.5rem;*/
 }
 }
 @media screen and (max-width: 1500px){
@@ -51,7 +47,6 @@ left: 0rem;
 .four_portrait {
 right: 0rem;
 max-height: 29.4375rem;
-/*max-width: 44.5rem;*/
 }
 }
 @media screen and (max-width: 1400px) { 
@@ -76,14 +71,12 @@ left: -14%;
 @media screen and (max-width: 1300px) { 
 .four_portrait {
 max-height: 26.4375rem;
-/*max-width: 41.5rem;*/
 }
 .seven_portrait {
 left: -18.3%;
 }
 .twelve_portrait {
 max-height: 32.875rem;
-/*max-width: 36.75rem;*/
 }
 .eighteen_portrait {
 right: -8rem;
@@ -101,7 +94,6 @@ max-height: 20rem;
 width: 60%;
 margin: auto;
 }
-
 .second_quest_block{
 padding-left: 1rem;
 padding-right: 1rem;
@@ -757,6 +749,12 @@ margin-left:0;
 font-size: 2.5rem;
 padding-left: 5%;
 width: 87%;
+}
+.off_container{
+display: none;
+}
+.hypnose_text_block {
+padding-left: 0;
 }
 .vk_block_review {
 background-size: 95%;
