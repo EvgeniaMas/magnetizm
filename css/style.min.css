@@ -1,15 +1,3 @@
-@font-face{font-family:"PT Sans Narrow";
-src:url("../fonts/PTSans_Narrow/PT_Sans_Narrow.eot");
-src:url("../fonts/PTSans_Narrow/PT_Sans_Narrow?#iefix") format("embeddededopentype"),
-url("../fonts/PTSans_Narrow/PT_Sans_Narrow.woff2") format("woff2"),
-url("../fonts/PTSans_Narrow/PTSans-Narrow.woff") format("woff"),
-url("../fonts/PTSans_Narrow/PT_Sans_Narrow.ttf") format("truetype"),
-url("../fonts/PTSans_Narrow/PTSans-Narrow.otf") format("opentype"),
-url("../fonts/PTSans_Narrow/PTSans-Narrow.svg#svgPTSans-Narrow") format("svg");
-font-style:normal;
-font-weight:normal;
-font-display: swap;
-}
 @font-face{font-family: "Montserrat";
 src:url("../fonts/Montserrat/Montserrat.eot");
 src:url("../fonts/Montserrat/Montserrat?#iefix") format("embeddededopentype"),
@@ -83,7 +71,7 @@ body
 { 
 height: 100%;   
 width: 100%;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 font-weight:normal;
 padding: 0;
 margin:0;
@@ -92,11 +80,10 @@ min-width: 20rem;
 .wrapper{
 min-height: calc(100vh - 3.25rem);	
 }
-
 /*second_screen*/
 .second_screen{
 padding-top: 4.875rem;
-padding-bottom: 4rem;	
+padding-bottom: 4.125rem;	
 }
 .second_screen_content{
 overflow-x: hidden;
@@ -105,18 +92,16 @@ overflow-x: hidden;
 letter-spacing: 0;
 font-weight: bold;
 font-size: 2.9375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb(32, 32, 32);
 text-transform: uppercase;
 line-height: 1.213;
 margin-bottom: 2.5rem;
 margin-top: 0;
 }
-
 .second_portrait_container{
 position: relative;
 }
-
 .second_screen_content{
 	display: flex;
 }
@@ -131,10 +116,26 @@ z-index: 4;
 }
 .second_main_text {
 font-size: 1.5625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb(32, 32, 32);
 line-height: 1.4;
 margin-bottom: 2.5rem;
+}
+
+
+.bottom.second_main_text {
+font-size: 1.5625rem;
+font-family: 'PT Sans Narrow', sans-serif;
+color: #202020;
+line-height: 2.125rem;
+margin-bottom: 2rem;
+padding-left: 1rem;
+}
+.second_main_text.first2{
+margin-top: 3.9375rem;
+}
+.second_main_text.last2{
+margin-bottom: 4rem;
 }
 .second_main_text.first{
 max-width: 90%;
@@ -142,16 +143,27 @@ max-width: 90%;
 .second_main_text.bold_text{
 font-weight: bold;
 }
+.second_main_text.less,
+.second_main_text.bold_text{
+	margin-bottom: 1rem;
+}
 .second_main_text.upper_text{
 text-transform: uppercase;
 font-weight: bold;
+margin-bottom: 1rem;
 }
-.second_quest_block{
+.col-md-12.second_quest_block{
 border-radius: 0.625rem;
-padding-top: 2.8125rem;
-padding-bottom: 2.8125rem;
-background-color: rgb(226, 230, 235);
-box-shadow: 0px 0.9375rem 1.125rem 0px rgba(0, 0, 0, 0.16);
+background-color: #fbfbfb;
+box-shadow: 0 0.9375rem 1.125rem 0 rgba(0, 0, 0, 0.16);
+max-width: 72.9375rem;
+}
+.second_portrait_question{
+display: block;
+max-width: 15.5rem;	
+max-height: 19.875rem;
+margin: auto;
+margin-top: 7.1875rem;
 }
 .second_main_text.last{
 margin-bottom: 0;
@@ -167,63 +179,103 @@ position: relative;
 height: 100%;
 box-sizing: border-box;
 }
-.third_screen_container{
+/*.third_screen_container{
 overflow: hidden;
+}*/
+/*.third_portrait{
+position: absolute;
+left: 10.4375rem;
+bottom: 0;
+display:block;
+height: 44.375rem;
+width: 45.25rem;
+z-index: 2;
+}*/
+
+
+.flex_block{
+display: flex;
+position: relative;
 }
+.image_left_container{
+width: 50%;
+height: 100%;
+position: absolute;
+overflow-x: hidden;
+left: 0;
+bottom: 0;
+}
+.image_right_container{
+width: 50%;
+height: 100%;
+position: absolute;
+overflow-x: hidden;
+right: 0;
+bottom: 0;
+}
+
+
 .third_portrait{
 position: absolute;
-left: 7.18%;
+right: 4.3125rem;
 bottom: 0;
 display:block;
 max-height: 44.375rem;
 max-width: 45.25rem;
 height: 100%;
-width: 100%;
 z-index: 2;
 }
+
 .third_main_text,
 .third_main_text_bigger,
 .third_stop{
 color:#fff;
-font-family: "PT_Sans_Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
+letter-spacing: 0;
 }
 h2.third_stop{
 text-align: center;
+line-height: 6.5rem;
 font-size: 8.5625rem;
-margin-top: 2rem;
-margin-bottom: 2.625rem;
+margin-top: 5.4375rem;
+margin-bottom: 4.375rem;
+letter-spacing: 2px;
 }
 .third_main_text{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
-color: rgb( 255, 255, 255 );
-line-height: 1.417;
-margin-bottom: 3rem;
+font-family: 'PT Sans Narrow', sans-serif;
+color: #fff;
+line-height: 2.125rem;
+margin-bottom: 1.775rem;
 }
+
+.third_main_text.last{
+margin-bottom: 2.875rem;
+}
+
 .third_main_text_bigger{
 font-size: 3.125rem;
-margin-bottom: 3rem;
-font-family: "PT Sans Narrow";
-color: rgb( 255, 255, 255 );
-line-height: 1.06;
+margin-bottom: 3.0625rem;
+font-family: 'PT Sans Narrow', sans-serif;
+color: #fff;
+line-height: 3.3125rem;
 }
 .third_main_text.last{
-margin-bottom: 4.875rem;
+margin-bottom: 5.6875rem;
 }
 .four_screen{
-padding-top: 4.4375rem;
+padding-top: 3.5rem;
 position: relative;
 overflow: hidden;
 }
 .four_portrait{
 position: absolute;
-top: 1rem;
-right: 5.75rem;
+top: 0rem;
+left: 0;
 max-height: 36.4375rem;
 max-width: 52.5rem;
 z-index: 1;
 height: 100%;
-width: 100%;
 display: block;
 }
 .four_screen_container{
@@ -231,25 +283,29 @@ position: relative;
 z-index: 2;
 }
 .fourteen_main_text.list{
-margin-bottom: 1.125rem;
+margin-bottom: 1rem;
 }
 .fourteen_main_text.list.last{
-margin-bottom: 4.625rem;
+margin-bottom: 5.375rem;
 }
 .four_main_text.bigger{
 font-size: 3.6875rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.085;
-margin-bottom: 1.5rem;
+margin-bottom: 1.3rem;
+padding-top: 1.375rem;
 font-weight: bold;
 }
 .four_main_text{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
-margin-bottom: 2.375rem;
+margin-bottom: 1.9rem;
+}
+.four_main_text.last{
+	margin-bottom: 2.875rem;
 }
 .four_main_text span{
 color: #cf4040;
@@ -257,35 +313,34 @@ font-weight: bold;
 }
 .four_main_text.border{
 border: 2px solid #cf4040;
-padding: 1.1875rem 2.25rem;
+padding: 1.25rem 2.5625rem 1.1875rem 2.375rem;
 font-size: 1.75rem;
-font-family: "PT Sans Narrow";
-color: rgb( 25, 25, 25 );
+font-family: 'PT Sans Narrow', sans-serif;
+color: #191919;
 line-height: 1.25;
 margin-bottom: 5.375rem;
-font-weight: bold;
 max-width: 38.0625rem;
 box-sizing: border-box;
 }
 .five_screen{
-padding-top: 4.5625rem;
-padding-bottom: 6.25rem;
-background-color: #f7f7f7;
+padding-top: 5.375rem;
+padding-bottom: 6.875rem;
+background-color: #f6f6f6;
 }
 .five_clients_leave{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;
 margin:auto;
-margin-top: 3.9375rem;
+margin-top: 4.8125rem;
 margin-bottom: 2.375rem;
-width: 60%;
+max-width: 40.3125rem;
 }
 .five_clients_result {
 font-size: 1.9375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 text-transform: uppercase;
 line-height: 1.387;
@@ -310,10 +365,10 @@ z-index: 8;
 position: relative;
 z-index: 2;
 }
-.six_portrait.img-responsive{
+.six_portrait{
 display: block;
 position: absolute;
-right: 2.6%;
+left: 9rem;
 bottom: 0;
 z-index: 3;
 height: 100%;
@@ -327,23 +382,31 @@ font-size: 1.5rem;
 .six_main_text,
 .six_main_text_bigger{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.417;
-margin-bottom: 2.6875rem;
+margin-bottom: 2.5875rem;
 }
 .six_main_text_bigger{
 text-transform: uppercase;
+margin-bottom: 1.9rem;
 }
 .six_main_text.last_text{
-margin-bottom: 4.9375rem;
+margin-bottom: 5.1875rem;
 }
+
+.six_main_text.less_interval{
+	margin-bottom: 2rem;
+}
+
 .six_couch {
 font-size: 5.625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
-line-height: 0.378;
+line-height: 2.125rem;
 text-align: center;
+margin-top:6.4375rem;
+margin-bottom: 3.9375rem;
 }
 .seven_screen {
 background-image: url('../img/seven_bg.png');
@@ -357,34 +420,34 @@ width: 100%;
 .seven_main_text,
 .seven_main_text_bigger{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.417;
-margin-bottom: 2.5rem;
+margin-bottom: 1.8rem;
+
 }
 .seven_main_text_bigger{
 text-transform: uppercase;
-font-weight: bold;
+
 }
 .seven_main_text.upper_text{
 text-transform: uppercase;
-font-weight: bold;
-margin-bottom: 3rem;
+margin-bottom: 6.25rem;
 }
 .seven_hypnose {
 font-size: 5.625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 32, 34, 30 );
 text-align: center;
 background-color: #fff;
 margin-top: 0;
-padding-bottom: 4rem;
-padding-top: 2rem;
+padding-bottom: 5.9375rem;
+padding-top: 5rem;
 }
 .seven_portrait{
 display: block;
 position: absolute;
-left: 0;
+right: 4.25rem;
 bottom: 0;
 height: 100%;
 max-width: 57.5rem;
@@ -399,7 +462,8 @@ box-sizing: border-box;
 /*eight_screen - setups*/
 .eight_screen{
 position: relative;
-padding-top: 4.4375rem;
+padding-top: 4.8375rem;
+padding-bottom: 4.5625rem;
 }
 .eight_screen_bg{
 background-image: url('../img/eight_bg.jpg');
@@ -410,12 +474,13 @@ background-position:top 29% center;
 .eight_img{
 display: block;
 max-height: 22.375rem;
-width: 80%;
+max-width: 30.375rem;
 margin:auto;
+margin-left: -1.5rem;
 }
 .eight_main_text {
 font-size: 1.625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.385;
 margin-bottom: 2.8125rem;
@@ -426,7 +491,7 @@ margin-bottom: 5.625rem;
 }
 .eight_main_text.bolder{
 font-size: 3.4375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 0.891;
 margin-bottom: 2.6875rem;
@@ -434,61 +499,65 @@ font-weight: bold;
 }
 .problem_resourse{
 font-size: 5.625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.078;
 text-align: center;
 margin: auto;
-margin-bottom: 7.375rem;
+margin-bottom: 12rem;
 }
 .setups_text{
 font-size: 9.375rem;
-font-family: "PT Sans Narrow";
-color: rgb( 25, 25, 25 );
+font-family: 'PT Sans Narrow', sans-serif;
+color: #191919;
 line-height: 0.4;
 text-align: center;
-margin-bottom: 9.375rem;
+margin-bottom: 16.5rem;
 text-transform: uppercase;
+font-weight: bold;
 }
 .setups_text.red{
 font-size: 12.5rem;
-font-family: "PT Sans Narrow";
-color: rgb( 207, 64, 64 );
+font-family: 'PT Sans Narrow', sans-serif;
+color: #cf4040;
 text-transform: uppercase;
 line-height: 0.3;
 text-align: center;
-margin-bottom: 4.75rem;
+font-weight: bold;
+margin-bottom: 8.8125rem;
 }
 .setups_manage{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;
-margin-bottom: 2.6875rem;
+margin-bottom: 2rem;
 }
 .setups_you_do{
-font-size: 1.9375rem;
-font-family: "PT Sans Narrow";
+font-size: 1.5rem;
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;
-margin-bottom: 2.375rem;
-font-weight: bold;
+/*margin-bottom: 5.375rem;*/
+margin-bottom: 2rem;
+
 }
 .setups_miss{
 font-size: 1.9375rem;
 text-transform: uppercase;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;
-margin-bottom:2.875rem;
+/*margin-bottom:5.875rem;*/
+margin-bottom: 2rem;
 font-weight: bold;
 }
 .setups_why{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;
@@ -496,36 +565,51 @@ margin-bottom: 2.75rem;
 }
 .setups_because{
 font-size: 2rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;  
 margin: auto;
 margin-bottom: 2.5625rem;
 font-weight: bold;
-width: 76%;
+max-width: 77%;
 }
 .setups_because1{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;  
 margin: auto;
-margin-bottom: 2.5625rem;
+margin-bottom: 3.375rem;
 width: 53%;
 }
 .setups_because2 {
 font-size: 1.5625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.28;
 text-align: center;
 margin-bottom: 5.8125rem;
+
 }
+
+.setups_wonder{
+font-size: 1.625rem;
+font-family: 'PT Sans Narrow', sans-serif;
+color: #191919;
+text-transform: uppercase;
+max-width: 60.125rem;
+line-height: 2.25rem;
+margin:auto;
+margin-bottom: 6.5rem;
+text-align: center;
+}
+
+
 .setups_gives {
 font-size: 2.25rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.333;
 text-align: center;
@@ -546,7 +630,7 @@ z-index: 55;
 background-image: url('../img/border.png');
 background-repeat: no-repeat;
 background-size: contain;
-background-position: top 1rem center;
+background-position: top center;
 }
 /*nine_screen*/
 .nine_screen{
@@ -554,28 +638,30 @@ background-image: url('../img/nine_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;	
-padding-top: 3.5rem;
-padding-bottom: 3.5rem;
+padding-top: 3.375rem;
+padding-bottom:3.6875rem;
 }
 .nine_text
 {	
 font-size: 3.25rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.212;
 text-align: center;
 }
 .ten_screen{
 padding-top: 4.4375rem;
-padding-bottom: 2.625rem;
+padding-bottom: 3.6875rem;
 }
 .ten_img {
 display: block;
 max-height: 24.875rem;
+max-width: 44.1875rem;
+margin-left: -3rem;
 }
 .ten_main_title{
 font-size: 4.375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 0.857;
 text-align: left;
@@ -584,7 +670,7 @@ font-weight: bold;
 }
 .ten_main_text{
 font-size: 1.6875rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.37;
 text-align: left;
@@ -596,12 +682,12 @@ background-image: url('../img/eleven_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;	
-padding-top: 4.4375rem;
-padding-bottom: 5.75rem;
+padding-top: 5.3125rem;
+padding-bottom: 7rem;
 }
 .eleven_title{
 font-size: 4.0625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 text-transform: uppercase;
 line-height: 0.923;
@@ -610,26 +696,30 @@ font-weight: bold;
 }
 .eleven_main_text{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.417;
 margin-bottom: 3.3125rem;
 }
 .white_line{
 display: inline-block;
-width: 1rem;
+width: 1.0625rem;
 height: 100%;
-min-height: 17.1875rem;
+min-height: 17.25rem;
 background-color: #fff;
+margin-left: 2.5625rem;
 }
 .eleven_img {
 display: block;
 max-height: 29.8125rem;
-margin: auto;
+max-width: 22.75rem;
+float: right;
+margin-right: 2rem;
+margin-top: -3rem;
 }
 .eleven_main_cursive{
 font-size: 1.375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 font-style: italic;
 color: rgb( 255, 255, 255 );
 line-height: 1.364;
@@ -639,7 +729,8 @@ font-weight: bold;
 }
 .wiki_logo{
 display: block;
-margin-bottom: 1.125rem;
+margin-bottom: 1.6875rem;
+max-width: 11.0625rem;
 }
 .eleven_padding{
 padding-bottom: 1.625rem;
@@ -655,13 +746,13 @@ display: flex;
 align-items: flex-end;
 }
 .bottom_image_block{
-vertical-align:bottom; /* вот она */
+vertical-align:bottom; 
 display:inline-block;
 }
 .twelve_portrait{
 position: absolute;
 bottom: 0;
-left: 11.8125rem;
+right: 1.375rem;
 display: block;
 max-height: 40.875rem;
 max-width: 44.75rem;
@@ -669,7 +760,7 @@ height: 100%;
 }
 .twelve_main_text{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 margin-bottom: 2.125rem;
@@ -679,7 +770,7 @@ margin-right: -1.025rem;
 }
 .twelve_main_text_bigger{
 font-size: 1.9375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 margin-bottom: 5.5rem;
@@ -695,8 +786,8 @@ background-image: url('../img/thirteen_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: bottom center;
-padding-top:5.6875rem;
-padding-bottom: 	5.6875rem;
+padding-top:6.3125rem;
+padding-bottom: 3.8125rem;
 }
 .consult_image{
 display: none;
@@ -707,14 +798,14 @@ color: #fff;
 }
 .thirteen_main_text{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.458;
 margin-bottom: 2.375rem;
 }
 .thirteen_main_text_bigger{
 font-size: 2.6875rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1;
 margin-bottom: 2.6875rem;
@@ -730,7 +821,7 @@ padding-top: 5.25rem;
 }
 .fourteen_main_text_bigger{
 font-size: 4.25rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.118;
 margin-bottom: 1.875rem;
@@ -738,16 +829,14 @@ font-weight: bold;
 }
 .fourteen_main_text{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.417;
-margin-bottom: 2.375rem;
+margin-bottom: 1.4rem;
 }
-.fourteen_main_text.strong_text{
-font-weight: bold;
-}
+
 .fourteen_main_text.strong_text.fourteen_extra_texts{
-margin-top: 1.3125rem;
+margin-top: 0.5rem;
 font-size: 2rem;
 line-height: 0.938;
 }
@@ -767,11 +856,11 @@ bottom: 0;
 left: -7.0625rem;
 }
 .fifteen_screen{
-padding-top: 4rem;
+padding-top: 5.625rem;
 }
 .fifteen_main_title{
 font-size: 4.0625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb(25, 25, 25);
 line-height: 0.846;
 margin-bottom: 3.5625rem;
@@ -779,7 +868,7 @@ font-weight: bold;
 }
 .fifteen_main_text{
 font-size: 1.4375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb(25, 25, 25);
 line-height: 1.435;
 margin-bottom: 2rem;
@@ -798,15 +887,15 @@ margin-right: -2.125rem;
 .sixteen_screen{
 background-image: url('../img/fifteen_bg.jpg');
 background-repeat: no-repeat;
-background-size: 52% 100%;
+background-size: 52.5% 100%;
 background-position: top left; 
-padding-top: 5.875rem;
-padding-bottom:  5.875rem;
+padding-top: 5.75rem;
+padding-bottom:  5.5rem;
 overflow-x: hidden;
 }
 .sixteen_main_text_bigger{
 font-size: 4.75rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.145;
 text-align: left;
@@ -814,39 +903,66 @@ margin-bottom: 3rem;
 }
 .sixteen_main_text{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.417;
-margin-bottom: 2.5rem;
-padding-right:2.9375rem;
+margin-bottom: 1.9rem;
+
 }
 .sixteen_main_text_extra{
 font-size: 8.875rem;
 font-family: "Montserrat ExtraBold";
 color: rgb( 25, 25, 25 );
-padding-left: 2.9375rem;
 font-weight: bold;
 text-align: center;
-line-height: 0.957;  
+line-height: 8.25rem; 
 -moz-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
 -webkit-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
 -ms-transform: matrix( 0.96834976895376,0,0,0.96834975481033,0,0);
 }
+
+.whites_block{
+padding-left: 1rem;
+box-sizing: border-box;
+}
+
+.sixteen_main_text_extra.first_point{
+margin-top: 0.5rem;
+}
+
 .sixteen_main_text_smaller{
 transform: none;
-font-size: 3.9375rem;
+font-size: 5rem;
+line-height: 8.25rem; 
 font-family: "Montserrat ExtraBold";
 text-align: center;
-padding-left:2.9375rem;
 }
+
+.sixteen_main_text_smaller.magnet_train{
+font-size: 3.7375rem;
+line-height: 6.8125rem;	
+}
+
+
+.sixteen_main_text_extra.two_days{
+font-size:5.75rem;
+
+}
+.sixteen_main_text_extra.for_days{
+font-size:6.5625rem;
+
+}
+
+
+
 .seventeen_screen{
-padding-bottom: 6rem;
+padding-bottom: 6.8125rem;
 padding-top: 4.25rem;
 }
 .seventeen_speciality{
 font-size: 10.3125rem;
 text-transform: uppercase;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: #cf4040;
 line-height: 1;
 text-align: center;
@@ -856,10 +972,10 @@ font-family:"Montserrat ExtraBold";
 border: 2px solid #cf4040;
 font-size: 7.5625rem;
 text-align: center;
-height: 16.8125rem;
-width: 86%;
-max-width: 22.1875rem;
-margin-bottom: 2.875rem;
+height: 16.9375rem;
+box-sizing: border-box;
+max-width: 22.3125rem;
+margin-bottom: 4.125rem;
 }
 .date_block span{
 font-size: 4.375rem;
@@ -868,36 +984,36 @@ text-align: center;
 }
 .seventeen_title{
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: left;
 min-height: 4rem;
-margin-bottom: 1.875rem;
+margin-bottom: 2.5625rem;
 }
 .seventeen_info{
 font-size: 1.8125rem;
 color: rgb( 25, 25, 25 );
 line-height: 1.483;
 text-align: center;
-font-family:"Montserrat-Medium";
+font-family: 'PT Sans Narrow', sans-serif;
 letter-spacing: 0;
-margin-bottom: 3.6875rem;
+margin-bottom: 2.6875rem;
 }
 .seventeen_main{
-font-size: 1.8125rem;
-font-family: "PT Sans Narrow";
+font-size: 2.8125rem;
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
-line-height: 1.483;
-margin-bottom: 4.25rem;
+line-height: 3.4375rem;
+margin-bottom: 3.25rem;
 text-align: center;
 font-weight: bold;
 }
 .seventeen_no{
-font-size: 1.8125rem;
-font-family: "PT Sans Narrow";
+font-size: 2.8125rem;
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
-line-height: 1.483;
+line-height: 3.4375rem;
 margin-bottom: 3.25rem;
 text-align: center;
 font-weight: bold;
@@ -917,7 +1033,7 @@ padding-top: 3rem;
 }
 .eighteen_main_text{
 font-size: 1.625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.654;
 text-align: left; 
@@ -950,7 +1066,7 @@ margin-right: 0.8125rem;
 .extra_adv{
 overflow: hidden;	
 font-size: 1.3125rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.524;
 text-align: left;
@@ -968,14 +1084,14 @@ text-align: center;
 }
 .eighteen_main_text.sum_text {
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.458;
 margin-bottom: 1.5rem;  
 }
 .eighteen_main_text.for_all{
 font-size: 3rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.458;
 text-transform: uppercase;
@@ -988,7 +1104,7 @@ height: 100%;
 .eighteen_portrait{
 position: absolute;
 bottom: 0;
-right: 8.7%;
+left: 0;
 overflow-x: hidden;
 max-width: 47rem;
 max-height: 85.875rem;
@@ -1002,11 +1118,11 @@ z-index: 4;
 .nineteen_screen{
 background-color: #f7f7f7;
 padding-top: 4.75rem;
-padding-bottom: 4.75rem;
+padding-bottom: 6.0625rem;
 }
 .nineteen_screen_title{
 font-size: 3.4375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.182;
 text-align: center;
@@ -1021,52 +1137,84 @@ padding-bottom: 4.4375rem;
 }
 .twenty_one_title {
 font-size: 4.0625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 text-transform: uppercase;
-line-height: 0.538;
+line-height: 1;
+margin-top: 0;
+margin-bottom: 3.8125rem;
 }
 .twenty_one_mesm{
 background-image: url('../img/mesm_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-padding-top: 5.75rem;
-padding-bottom: 6.25rem;	
+padding-top: 6.5rem;
+padding-bottom: 7.125rem;	
 }
 .twenty_one_magn{
 background-image: url('../img/magm_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;	
-padding-top: 5.75rem;
-padding-bottom: 6.25rem;
+padding-top: 6.25rem;
+padding-bottom: 6.4375rem;
 }
 .twenty_one_fas{
 background-image: url('../img/fas_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;	
-padding-top: 5.75rem;
+padding-top: 5.8125rem;
 padding-bottom: 6.25rem;
 }
 .programm_icon{
-max-width: 3.5625rem;
+max-width: 1.3125rem;
+max-height: 1rem;
+line-height:2.8125rem; 
 float: left;
 margin-right: 2rem;
 display: inline-block;
 }
 .program_text{
 overflow: hidden;	
-font-size: 1rem;
-margin-bottom: 1.8125rem;
+font-size: 1.5rem;
+line-height:2.8125rem; 
+color: #191919;
+
 }
-.col-md-12.programm_block{
+.col-md-12.programm_block.mesm_block{
 background-color: #fff;
-padding: 3.375rem;
-padding-bottom: 0;
+padding: 3.25rem 2.5rem 2.3125rem 3.8125rem;
 box-sizing: border-box;
 }
+.col-md-12.programm_block.magn_block{
+background-color: #fff;
+padding: 0;
+box-sizing: border-box;
+}
+
+.col-md-12.programm_block.fas_block{
+background-color: #fff;
+padding: 3.5625rem 4.8125rem 0 3.4375rem;
+box-sizing: border-box;
+}
+
+.twenty_one_img.mesm_img{
+display: block;
+height: 100%;
+max-width: 29.9375rem;
+max-height: 28.25rem;
+float: right;	
+}
+
+.twenty_one_img.fas_img{
+	max-height: 23.0625rem;
+	max-width: 29rem;
+	height: 100%;
+	float: right;
+}
+
 .col-md-6.second_block{
 padding-left: 3.375rem;
 padding-right: 0;
@@ -1080,7 +1228,7 @@ margin-top: 3.375rem;
 }
 .subtitle{
 font-size: 2.8125rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 187, 43, 61 );
 line-height: 0.778;
 margin-top: 0;
@@ -1088,18 +1236,25 @@ margin-bottom: 2rem;
 }
 .vk_block_review {
 border-radius: 0.1875rem;
-background-color: rgb( 255, 255, 255 );
-box-shadow: 4px 6.928px 14px 0px rgb( 52, 52, 52 );
+background-color: rgb( 255, 255, 255);
+box-shadow: 4px 6.928px 14px 0px rgba(0, 0, 0, 0.15);
 padding: 1rem;
 width: 100%;
 height: 100%;
-padding-bottom: 3.625rem;
-background-image: url("../img/vk_bg.jpg");
-background-position: bottom 1rem center;
-background-repeat: no-repeat;
-background-size: 88%;
+/*border: 1px solid rgba(52,52,52, 0.25);*/
+
 box-sizing: border-box;
 }
+
+.review_content_block{
+padding-bottom: 3.625rem;	
+background-image: url("../img/vk_bg.jpg");
+background-position: bottom left;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+
 .vk_block_review.small_block{
 padding-bottom: 0;
 background-image: none; 
@@ -1110,25 +1265,30 @@ width: 100%;
 margin:auto;
 }
 .vk_block_review.small_block{
-width: 88.6%;
-max-width: 33.25rem;
+width: 100%;
+max-width: 34.8125rem;
+box-sizing: border-box;
 margin-left: 0;
 }
 .reviews_container
 {
-width: 90%;
 margin: auto;
+max-width: 62.25rem;
 }
 .vk_review {
 font-size: 0.875rem;
-font-family: "Open Sans";
+font-family: 'Open Sans', sans-serif;
 color: rgb( 0, 0, 0 );
 line-height: 1.714;
 margin-bottom: 2.1875rem;
 }
+.vk_review.small_part {
+margin-bottom: 1.5rem;
+}
+
 .vk_review_title {
 font-size: 0.9375rem;
-font-family: "Open Sans";
+font-family: 'Open Sans', sans-serif;
 color:#c8bec6;  
 
 line-height: 2.267;
@@ -1155,6 +1315,13 @@ margin-bottom: 2.5625rem;
 margin-bottom: 2.5625rem;
 margin-top: 4.875rem;
 }
+.five_block.avatar{
+max-width: 4rem;
+}
+#small_avatar{
+max-width: 2.25rem;	
+}
+
 .oleg_review{
 margin-bottom: 6.6875rem;
 }
@@ -1170,7 +1337,8 @@ background-position: center;
 .block_program{
 background-color: #fff;	
 padding-bottom: 2rem;
-max-width: 26.875rem;
+max-width: 27.0625rem;
+width: 100%;
 }
 .ordinary.block_program{
 margin-right: 1.5rem;
@@ -1179,7 +1347,7 @@ float: right;
 .ordinary_title{
 padding: 2rem 1.75rem;
 font-size: 3.1875rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.196;
 text-align: left;
@@ -1197,7 +1365,7 @@ color: rgb(25, 25, 25);
 line-height: 1.917;
 overflow: hidden;
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 text-align: left;
 }
 span.tarif{
@@ -1205,13 +1373,13 @@ float: left;
 color: rgb(25, 25, 25);
 margin-right: 0.3125rem;
 font-size: 1.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 text-align: left;
 line-height: 1.917;
 }
 .vip_title{
 font-size: 3.1875rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.196;
 text-align: left;
@@ -1230,7 +1398,7 @@ padding-bottom: 4.75rem;
 }
 .twenty_four_title{
 font-size: 3.4375rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.182;
 text-align: center;
@@ -1241,62 +1409,70 @@ max-width: 80%;
 }
 /*twenty_three_screen*/
 .twenty_three_screen{
-padding-top: 4.1875rem;
-padding-bottom: 6.9375rem;
+padding-top: 5.875rem;
+padding-bottom: 7.25rem;
 }
 .twenty_three_title{
 font-size: 4.5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 0.625;
 text-align: center;
-padding-bottom: 4.5625rem;
+margin-top: 0;
+margin-bottom: 4.5rem;
+
 }
 /*twenty_five_screen*/
 .twenty_five_screen{
 padding-bottom: 6.4375rem;
-padding-top: 5.5625rem;
 }
-.twenty_five_text1 {
-font-size: 2.625rem;
-font-family: "PT Sans Narrow";
-color: rgb( 25, 25, 25 );
-line-height: 1.429;
-text-align: center;
-font-weight: bold;
-}
+
 .results_block{
 background-image: url('../img/result_bg.jpg');
 background-repeat: no-repeat;
 background-size: contain;
-background-position: center;
+background-position: top center;	
+}
+
+.twenty_five_text1 {
+font-size: 2.625rem;
+font-family: 'PT Sans Narrow', sans-serif;
+color: rgb( 25, 25, 25 );
+line-height: 1.429;
+margin-top: 3.75rem;
+text-align: center;
+font-weight: bold;
 }
 .twenty_five_text2{
 font-size: 2.625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.429;
 text-align: center;
 margin:auto;
-margin-top: 4.8125rem;
-margin-bottom: 4.8125rem;
+margin-top: 3.875rem;
+margin-bottom: 3.8125rem;
 max-width: 70%;
 }
+.twenty_five_text2.more{
+	max-width: 88%;
+}
+
 .twenty_five_text3{
 font-size: 2.625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.238;
 text-align: center;
-margin-bottom: 3.1875rem;
+margin-bottom: 3.5625rem;
 font-weight: bold;
 }
 .twenty_five_text4{
-margin-bottom: 7.25rem;	
+margin-bottom: 7.125rem;	
 font-size: 5rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 187, 43, 61 );
-line-height: 0.5;
+line-height: 1;
 text-align: center;
 font-weight: bold;
 }
@@ -1306,7 +1482,7 @@ text-transform: uppercase;
 margin-right: 2rem;
 margin-left: 2rem;
 font-size: 3.0625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 34, 34, 34 );
 text-transform: uppercase;
 line-height: 0.816;
@@ -1321,8 +1497,8 @@ justify-content: center;
 }
 .social_posts{
 max-width: 38.0625rem;
-height: 15.0625rem;
-width: 90%;
+max-height: 15.0625rem;
+width: 98%;
 margin:auto;
 margin-bottom: 2.375rem;
 margin-top: 5.125rem;
@@ -1339,7 +1515,7 @@ line-height: 5.0625rem;
 margin:auto;
 max-width: 90%; 
 font-size: 2.3125rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 text-align: center;
 transition: all 400ms ease-out;
@@ -1389,7 +1565,7 @@ justify-content: center;
 }
 .copywrite {
 font-size: 1.0625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 44, 44, 44 );
 line-height: 2.353;
 text-align: left;
@@ -1398,7 +1574,7 @@ margin: 0;
 }
 .copywrite a {
 font-size: 1.0625rem;
-font-family: "PT Sans Narrow";
+font-family: 'PT Sans Narrow', sans-serif;
 color: #5b89bd;
 display: inline-block;
 text-decoration: none;
@@ -1476,7 +1652,7 @@ left: 0;
 /*video on mac*/
 .video_block{
 position: relative;
-width: 55%;
+width: 75%;
 margin:auto;
 }
 .youtube.video_on_mac{
@@ -1497,5 +1673,4 @@ left: 0;
 right: 0;
 margin:auto;
 }
-
 
