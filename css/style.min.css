@@ -89,7 +89,6 @@ padding-bottom: 4.125rem;
 overflow-x: hidden;
 }
 .second_main_text_bigger {
-letter-spacing: 0;
 font-weight: bold;
 font-size: 2.9375rem;
 font-family: 'PT Sans Narrow', sans-serif;
@@ -98,12 +97,14 @@ text-transform: uppercase;
 line-height: 1.213;
 margin-bottom: 2.5rem;
 margin-top: 0;
+letter-spacing: 0.1rem;
+margin-right: -20px;
 }
 .second_portrait_container{
 position: relative;
 }
 .second_screen_content{
-	display: flex;
+display: flex;
 }
 .second_portrait{
 display: block;
@@ -119,6 +120,10 @@ font-size: 1.5625rem;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb(32, 32, 32);
 line-height: 1.4;
+margin-bottom: 2.5rem;
+}
+
+.col-md-7>.second_main_text.bold_text{
 margin-bottom: 2.5rem;
 }
 
@@ -145,7 +150,7 @@ font-weight: bold;
 }
 .second_main_text.less,
 .second_main_text.bold_text{
-	margin-bottom: 1rem;
+margin-bottom: 1rem;
 }
 .second_main_text.upper_text{
 text-transform: uppercase;
@@ -175,24 +180,9 @@ background-color: #000;
 position: relative;
 }
 .third_block_image{
-/*padding-right: 4.25rem;*/
 height: 100%;
 box-sizing: border-box;
 }
-/*.third_screen_container{
-overflow: hidden;
-}*/
-/*.third_portrait{
-position: absolute;
-left: 10.4375rem;
-bottom: 0;
-display:block;
-height: 44.375rem;
-width: 45.25rem;
-z-index: 2;
-}*/
-
-
 .flex_block{
 display: flex;
 position: relative;
@@ -248,11 +238,9 @@ color: #fff;
 line-height: 2.125rem;
 margin-bottom: 1.775rem;
 }
-
 .third_main_text.last{
 margin-bottom: 2.875rem;
 }
-
 .third_main_text_bigger{
 font-size: 3.125rem;
 margin-bottom: 3.0625rem;
@@ -270,8 +258,8 @@ overflow: hidden;
 }
 .four_portrait{
 position: absolute;
-top: 0rem;
-left: 0;
+top: 4.585rem;
+left: 1rem;
 max-height: 36.4375rem;
 max-width: 52.5rem;
 z-index: 1;
@@ -296,6 +284,7 @@ line-height: 1.085;
 margin-bottom: 1.3rem;
 padding-top: 1.375rem;
 font-weight: bold;
+letter-spacing: 0.1rem;
 }
 .four_main_text{
 font-size: 1.5rem;
@@ -305,7 +294,7 @@ line-height: 1.417;
 margin-bottom: 1.9rem;
 }
 .four_main_text.last{
-	margin-bottom: 2.875rem;
+margin-bottom: 2.875rem;
 }
 .four_main_text span{
 color: #cf4040;
@@ -321,6 +310,9 @@ line-height: 1.25;
 margin-bottom: 5.375rem;
 max-width: 38.0625rem;
 box-sizing: border-box;
+font-weight: bold;
+margin-left: 0.25rem;
+margin-right: -0.9375rem;
 }
 .five_screen{
 padding-top: 5.375rem;
@@ -334,9 +326,9 @@ color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;
 margin:auto;
-margin-top: 4.8125rem;
+margin-top: 4.1125rem;
 margin-bottom: 2.375rem;
-max-width: 40.3125rem;
+max-width: 39.1125rem;
 }
 .five_clients_result {
 font-size: 1.9375rem;
@@ -346,7 +338,7 @@ text-transform: uppercase;
 line-height: 1.387;
 text-align: center;
 margin:auto;
-margin-bottom: 5.1875rem;
+margin-bottom: 5.6875rem;
 width: 80%;
 font-weight: bold;
 }
@@ -368,7 +360,7 @@ z-index: 2;
 .six_portrait{
 display: block;
 position: absolute;
-left: 9rem;
+left: 11rem;
 bottom: 0;
 z-index: 3;
 height: 100%;
@@ -394,18 +386,16 @@ margin-bottom: 1.9rem;
 .six_main_text.last_text{
 margin-bottom: 5.1875rem;
 }
-
 .six_main_text.less_interval{
-	margin-bottom: 2rem;
+margin-bottom: 2rem;
 }
-
 .six_couch {
 font-size: 5.625rem;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 2.125rem;
 text-align: center;
-margin-top:6.4375rem;
+margin-top:6.8375rem;
 margin-bottom: 3.9375rem;
 }
 .seven_screen {
@@ -424,11 +414,11 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.417;
 margin-bottom: 1.8rem;
-
 }
 .seven_main_text_bigger{
 text-transform: uppercase;
-
+font-size: 1.875rem;
+line-height: 2.125rem;
 }
 .seven_main_text.upper_text{
 text-transform: uppercase;
@@ -447,7 +437,7 @@ padding-top: 5rem;
 .seven_portrait{
 display: block;
 position: absolute;
-right: 4.25rem;
+right: 3.75rem;
 bottom: 0;
 height: 100%;
 max-width: 57.5rem;
@@ -469,7 +459,7 @@ padding-bottom: 4.5625rem;
 background-image: url('../img/eight_bg.jpg');
 background-repeat: no-repeat;
 background-size: contain;
-background-position:top 29% center; 
+background-position:top 28% center; 
 }
 .eight_img{
 display: block;
@@ -540,12 +530,11 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;
-/*margin-bottom: 5.375rem;*/
+font-weight: bold;
 margin-bottom: 2rem;
-
 }
 .setups_miss{
-font-size: 1.9375rem;
+font-size: 1.5rem;
 text-transform: uppercase;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
@@ -564,15 +553,14 @@ text-align: center;
 margin-bottom: 2.75rem;
 }
 .setups_because{
-font-size: 2rem;
+font-size: 1.5rem;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;  
 margin: auto;
-margin-bottom: 2.5625rem;
+margin-bottom: 2rem;
 font-weight: bold;
-max-width: 77%;
 }
 .setups_because1{
 font-size: 1.5rem;
@@ -581,7 +569,7 @@ color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: center;  
 margin: auto;
-margin-bottom: 3.375rem;
+margin-bottom: 2.5rem;
 width: 53%;
 }
 .setups_because2 {
@@ -590,10 +578,8 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.28;
 text-align: center;
-margin-bottom: 5.8125rem;
-
+margin-bottom:3.125rem;
 }
-
 .setups_wonder{
 font-size: 1.625rem;
 font-family: 'PT Sans Narrow', sans-serif;
@@ -605,8 +591,6 @@ margin:auto;
 margin-bottom: 6.5rem;
 text-align: center;
 }
-
-
 .setups_gives {
 font-size: 2.25rem;
 font-family: 'PT Sans Narrow', sans-serif;
@@ -648,6 +632,8 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.212;
 text-align: center;
+font-weight: bold;
+letter-spacing: 0.1rem;
 }
 .ten_screen{
 padding-top: 4.4375rem;
@@ -665,8 +651,9 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 0.857;
 text-align: left;
-margin-bottom: 3.1875rem;
+margin-bottom: 4.1875rem;
 font-weight: bold;
+letter-spacing: 0.1rem;
 }
 .ten_main_text{
 font-size: 1.6875rem;
@@ -691,7 +678,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 text-transform: uppercase;
 line-height: 0.923;
-margin-bottom: 2rem;
+margin-bottom: 1.8125rem;
 font-weight: bold;
 }
 .eleven_main_text{
@@ -699,7 +686,7 @@ font-size: 1.5rem;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 255, 255, 255 );
 line-height: 1.417;
-margin-bottom: 3.3125rem;
+margin-bottom: 3.25rem;
 }
 .white_line{
 display: inline-block;
@@ -722,7 +709,8 @@ font-size: 1.375rem;
 font-family: 'PT Sans Narrow', sans-serif;
 font-style: italic;
 color: rgb( 255, 255, 255 );
-line-height: 1.364;
+line-height: 1.875rem;
+opacity: 0.95;
 }
 .eleven_main_cursive.name{
 font-weight: bold;	
@@ -733,7 +721,7 @@ margin-bottom: 1.6875rem;
 max-width: 11.0625rem;
 }
 .eleven_padding{
-padding-bottom: 1.625rem;
+padding-bottom: 2.0625rem;
 }
 /*twelve block, history*/
 .twelve_screen{
@@ -982,14 +970,23 @@ font-size: 4.375rem;
 display: block;
 text-align: center;
 }
+
+.title_date_container{
+display: flex;
+align-items: flex-end;
+min-height: 4.25rem;
+margin-bottom: 2.5625rem;
+}
+
+
 .seventeen_title{
 font-size: 1.5rem;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.417;
 text-align: left;
-min-height: 4rem;
-margin-bottom: 2.5625rem;
+
+
 }
 .seventeen_info{
 font-size: 1.8125rem;
@@ -1104,7 +1101,7 @@ height: 100%;
 .eighteen_portrait{
 position: absolute;
 bottom: 0;
-left: 0;
+left: 1rem;
 overflow-x: hidden;
 max-width: 47rem;
 max-height: 85.875rem;
@@ -1203,18 +1200,14 @@ box-sizing: border-box;
 .twenty_one_img.mesm_img{
 display: block;
 height: 100%;
-max-width: 29.9375rem;
 max-height: 28.25rem;
 float: right;	
 }
-
 .twenty_one_img.fas_img{
-	max-height: 23.0625rem;
-	max-width: 29rem;
-	height: 100%;
-	float: right;
+max-height: 23.0625rem;	
+height: 100%;
+float: right;
 }
-
 .col-md-6.second_block{
 padding-left: 3.375rem;
 padding-right: 0;
@@ -1247,7 +1240,7 @@ box-sizing: border-box;
 }
 
 .review_content_block{
-padding-bottom: 3.625rem;	
+padding-bottom: 2.625rem;	
 background-image: url("../img/vk_bg.jpg");
 background-position: bottom left;
 background-repeat: no-repeat;
@@ -1280,7 +1273,7 @@ font-size: 0.875rem;
 font-family: 'Open Sans', sans-serif;
 color: rgb( 0, 0, 0 );
 line-height: 1.714;
-margin-bottom: 2.1875rem;
+margin-bottom: 1.9rem;
 }
 .vk_review.small_part {
 margin-bottom: 1.5rem;
@@ -1336,16 +1329,17 @@ background-position: center;
 }
 .block_program{
 background-color: #fff;	
-padding-bottom: 2rem;
-max-width: 27.0625rem;
+padding-bottom: 2.6875rem;
+max-width: 27.5625rem;
 width: 100%;
+box-sizing: border-box;
 }
 .ordinary.block_program{
-margin-right: 1.5rem;
+margin-right: 3.5625rem;
 float: right;
 }
 .ordinary_title{
-padding: 2rem 1.75rem;
+padding: 2.625rem 2.4375rem 2.3125rem 2.4375rem ;
 font-size: 3.1875rem;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
@@ -1354,11 +1348,11 @@ text-align: left;
 border-bottom: 1px solid #000;
 margin: 0;
 font-weight: bold;
-margin-bottom: 2rem;
+margin-bottom: 2.5rem;
 }
 .tarif_content{
-padding-right: 1.75rem;
-padding-left:1.75rem;
+padding-right: 2.8125rem;
+padding-left:2.375rem;
 }
 .included{
 color: rgb(25, 25, 25);
@@ -1367,6 +1361,7 @@ overflow: hidden;
 font-size: 1.5rem;
 font-family: 'PT Sans Narrow', sans-serif;
 text-align: left;
+margin-right: 0;
 }
 span.tarif{
 float: left;
@@ -1386,8 +1381,8 @@ text-align: left;
 border-bottom: 1px solid #000;
 background-color: #bb2b3d;
 margin: 0;
-margin-bottom: 2rem;
-padding: 2rem 1.75rem;
+margin-bottom: 2.5rem;
+padding: 2.625rem 2.4375rem 2.3125rem 2.4375rem ;
 font-weight: bold;
 }
 /*twenty_four_screen */
@@ -1402,6 +1397,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 25, 25, 25 );
 line-height: 1.182;
 text-align: center;
+margin-top: 0;
 }
 a.gallery>iframe{
 display: block;
@@ -1455,7 +1451,7 @@ margin-bottom: 3.8125rem;
 max-width: 70%;
 }
 .twenty_five_text2.more{
-	max-width: 88%;
+max-width: 88%;
 }
 
 .twenty_five_text3{
@@ -1552,11 +1548,20 @@ a.gallery.fifteen_img.img-responsive>img:hover{
 opacity: 0.7;
 }
 .gallery_image_block{
-min-height: 37.5rem;
+/*min-height: 37.5rem;*/
 height: 100%;
 padding-left: 1.3rem;
 box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
 }
+
+.col-md-6.gallery_image_block{
+width: 44%;
+height: 100%;
+}
+
+
 footer{
 background-color: #f6f6f6;
 min-height: 3.25rem;
@@ -1673,4 +1678,3 @@ left: 0;
 right: 0;
 margin:auto;
 }
-

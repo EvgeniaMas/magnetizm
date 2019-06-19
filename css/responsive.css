@@ -1,92 +1,9 @@
-@media screen and (max-width: 1830px) { 
-/*.eighteen_portrait {
-right: 6.7%;
-}*/
-}
-@media screen and (max-width: 1700px) { 
-/*.third_portrait{
-left: 0%;
-}*/
-/*.four_portrait {
-position: absolute;
-top: 1rem;
-right: 3.75rem;
-max-height: 34.4375rem;
-}*/
-/*.twelve_portrait {
-left: 8.8125rem;
-max-height: 38.875rem;
-}*/
-/*.eighteen_portrait {
-right: 5.7%;
-max-height: 83.875rem;
-}*/
-}
-@media screen and (max-width: 1600px) { 
-.grey_bg {
-width: 63%;
-}
-/*.seven_portrait {
-left: -8%;
-}*/
-/*.eighteen_portrait{
-right: 0%;
-}*/
-/*.twelve_portrait{
-left: 5.2rem;
-}*/
-/*.four_portrait {
-right: 0rem;
-max-height: 33.4375rem;
-}*/
-}
-@media screen and (max-width: 1500px){
-/*.twelve_portrait {
-left: 0rem;
-}*/
-/*.four_portrait {
-right: 0rem;
-max-height: 29.4375rem;
-}*/
-}
 @media screen and (max-width: 1400px) { 
 .col-md-12.programm_block {
 padding: 3rem;
 padding-bottom: 0;
 }
-/*.third_portrait{
-left: -9%;
-}*/
-/*.eighteen_portrait {
-right: -6rem;
-}*/
-/*.twelve_portrait {
-max-height: 36.875rem;
-max-width: 40.75rem;
-}*/
-/*.seven_portrait {
-left: -14%;
-}*/
 }
-@media screen and (max-width: 1300px) { 
-/*.four_portrait {
-max-height: 26.4375rem;
-}*/
-/*.seven_portrait {
-left: -18.3%;
-}*/
-/*.twelve_portrait {
-max-height: 32.875rem;
-}*/
-/*.eighteen_portrait {
-right: -8rem;
-}*/
-}
-@media screen and (max-width: 1280px) { 
-/*.third_portrait{
-height: 80%;
-width: auto;
-}*/
 @media screen and (max-width: 1024px) { 
 .eight_img {
 display: block;
@@ -94,9 +11,55 @@ max-height: 20rem;
 width: 60%;
 margin: auto;
 }
+
+.vk_block_review {
+
+    padding-bottom: 0;
+}
+
+.twelve_portrait {
+    max-height: 30.875rem;
+}
+
+
+.ordinary.block_program {
+    margin-right: 1.5rem;
+   
+}
+
+
+.sixteen_main_text_smaller.magnet_train {
+    font-size: 3rem;
+    line-height: 3.5;
+}
+
 .favor{
 display: none;
 }
+.seven_main_text.upper_text {
+    margin-bottom: 4rem;
+}
+.six_couch {
+    margin-top: 4.4375rem;
+    margin-bottom: 1.9375rem;
+}
+
+.col-md-7.second_block2{
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+}
+
+
+.grey_bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 63%;
+    background-position: top left;
+}
+
+
 .second_quest_block{
 padding-left: 1rem;
 padding-right: 1rem;
@@ -375,9 +338,9 @@ font-size: 2.5rem;
 margin-bottom: 4rem;
 width: 90%;
 }
-.gallery_image_block {
+/*.gallery_image_block {
 min-height: 27.5rem;
-}
+}*/
 a.gallery.fifteen_img.img-responsive>img{
 height: 5rem;
 width: 90%;
@@ -540,6 +503,9 @@ padding: 0.8rem;
 font-size: 1.5rem;
 line-height: 1.6;
 margin-bottom: 2.9rem;
+margin-left: 0;
+margin-right: 0;
+max-width: 100%;
 }
 .eight_main_text.bolder {
 font-size: 2.4rem;
@@ -589,6 +555,85 @@ background-position: top center;
 padding-top: 3rem;
 padding-bottom: 3rem;
 }
+
+.four_main_text.border {
+    max-width: 70%;
+}
+
+.four_portrait {
+top: 0;
+}
+
+.col-md-12.second_quest_block {
+padding-bottom: 1.4rem;
+}
+
+
+
+.twenty_one_img.fas_img {
+    max-height: 20rem;
+     height: 100%;
+    float: none;
+}
+
+
+.twenty_one_img.mesm_img {
+    max-height: 20.25rem;
+    float: none;
+}
+
+.col-md-6.gallery_image_block{
+width: 100%;
+}
+
+.title_date_container {
+    display: block;    
+    min-height: auto;   
+}
+.main_course{
+    text-align: center;
+    width: 80%;
+     margin: auto;
+    margin-top: 1.8rem;  
+}
+.flex_block{
+display: block;
+position: relative;
+}
+.image_left_container{
+width: 100%;
+position: relative;
+min-width:100%;
+}
+.image_right_container{
+width: 100%;
+position: relative;
+min-width:100%;
+}
+.eighteen_portrait{
+position: relative;
+right: 0;
+display: block;
+margin:auto;
+max-height: 30rem;
+opacity: 1;
+}
+.twelve_portrait {
+    display: block;
+    position: relative;
+    margin: auto;
+    left: 0;
+    margin-bottom: 1.5rem;
+}
+
+.eleven_img {
+display: block;
+max-height: 20rem;
+margin:auto;
+margin-top: 2rem;
+float:none;
+}
+
 .problem_resourse {
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -652,8 +697,7 @@ position: relative;
 margin: auto;
 display: block;
 max-height: 25rem;
-/*max-width: 14.375rem;*/
-right: 0;
+left: 0;
 }
 .seven_portrait {
 position: relative;
@@ -664,7 +708,7 @@ margin-left:0;
 }
 .third_portrait {
 display: block!important;
-left:0;
+right:0;
 position: relative;
 margin: auto;
 max-height: 24.375rem;
@@ -675,14 +719,14 @@ right: 0;
 left: 0;
 display: block;
 margin: auto;
-max-width: 24rem;
+max-height: 24rem;
 }
 .main_description {
-font-size: 1rem;
+font-size: 1.2rem;
 line-height: 1.2;
 max-width: 20rem;
-margin-top: 1.5rem;
-padding: 0.4rem;
+margin-top: 1.8rem;
+padding: 0.6rem;
 }
 hr.main_horizontal {
 margin-left:1rem;
@@ -722,7 +766,7 @@ a.gallery.fifteen_img.img-responsive>img {
 height: 8rem;
 }
 .gallery_image_block {
-min-height: 40.5rem;
+/*min-height: 40.5rem;*/
 height: 100%;
 }
 .main_portrait {
@@ -761,6 +805,51 @@ padding-left: 5%;
 width: 87%;
 }
 
+.col-md-6.gallery_image_block{
+width: 100%;
+}
+
+.col-md-12.programm_block.mesm_block {
+    background-color: #fff;
+    padding: 1.6rem 1.5rem 1.6rem 1.5rem;
+    box-sizing: border-box;
+}
+
+.col-md-7.second_block2{
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+}
+
+.program_text {
+    margin-bottom: 1.3rem;
+    line-height: 1.6rem;
+}
+
+
+
+.col-md-12.programm_block.fas_block {
+    background-color: #fff;
+    padding: 1.6rem 1.5rem 0 1.5rem;
+    box-sizing: border-box;
+}
+
+.twenty_one_img.fas_img {
+    max-height: 13rem;
+     height: 100%;
+    float: none;
+}
+
+
+.twenty_one_img.mesm_img {
+    max-height: 15.25rem;
+    float: none;
+}
+
+
+.seven_main_text.upper_text {
+    margin-bottom: 3rem;
+}
+
 
 .flex_block{
 display: block;
@@ -769,38 +858,22 @@ position: relative;
 .image_left_container{
 width: 100%;
 position: relative;
-/*background-color: green;*/
 min-width:100%;
-min-height: 222px;
-/*min-height: 400px;*/
-/*overflow-x: hidden;
-left: 0;
-bottom: 0;*/
 }
 .image_right_container{
 width: 100%;
 position: relative;
-/*background-color: green;*/
 min-width:100%;
-
-/*min-height: 222px;*/
 }
-/*min-height: 400px;*/
-/*overflow-x: hidden;
-right: 0;
-bottom: 0;
-}*/
-
-
 
 .white_line{
 margin-left: 1rem;
 }
 
 .setups_wonder {
-    font-size: 1.4rem;  
-    max-width: 90%;
-    line-height: 2rem;
+    font-size: 1.3rem;  
+    max-width: 95%;
+    line-height: 1.8rem;
     margin-bottom: 2rem;
     
 }
@@ -855,6 +928,14 @@ min-height: auto;
 text-align: center;
 margin-bottom: 1.5rem;
 }
+
+.title_date_container {
+    display: block;    
+    min-height: auto;
+   
+}
+
+
 .consult_image{
 display: block;
 max-width: 100vw;
@@ -960,13 +1041,36 @@ padding-top: 0;
 height: 80%;
 z-index: 2;
 }
+.six_portrait{
+position: relative;
+margin: auto;
+display: block;
+max-height: 25rem;
+left: 0;
+}
+.seven_portrait {
+position: relative;
+max-height: 25rem;
+left: 0;
+display: inline-block;
+margin-left:0;
+}
+.third_portrait {
+display: block!important;
+right:0;
+left:0;
+position: relative;
+margin: auto;
+max-height: 17rem;
+}
 .four_portrait{
 position: relative;
 right: 0;
 left: 0;
+top: 0rem;
 display: block;
 margin: auto;
-max-width: 24rem;
+max-height: 20rem;
 }
 .reviews_container{
 width: 100%;
@@ -1029,6 +1133,7 @@ padding-bottom: 2rem;
 .twenty_five_text1 {
 font-size: 1.5rem;
 margin-bottom: 2rem;
+margin-top: 1rem;
 }
 .twenty_five_text2 {
 font-size: 1.5rem;
@@ -1119,7 +1224,18 @@ text-align: center;
 font-size: 3rem;
 margin-bottom: 2rem;
 line-height: 1;
+margin-top: 3rem;
 }
+
+.second_main_text.first2 {
+    margin-top: 2.5rem;
+}
+
+
+.second_main_text.last2 {
+    margin-bottom: 2rem;
+}
+
 .five_clients_leave {
 font-size: 1.3rem;
 margin-top: 2rem;
@@ -1139,7 +1255,7 @@ display: block;
 margin-bottom: 1rem;
 }
 .gallery_image_block {
-min-height: 27.5rem;
+/*min-height: 27.5rem;*/
 padding-left: 0;
 }
 .container-fluid.seven_screen{
@@ -1179,22 +1295,52 @@ font-size: 2.5rem;
 margin-bottom: 1.5rem;
 }
 .eleven_img {
-display: block;
+display: block!important;
 max-height: 16rem;
-padding-top: 2rem;
+margin:auto;
+margin-top: 2rem;
+float:none;
 }
 .sixteen_main_text_extra {
 font-size: 5rem;
 padding-left: 0;
+line-height: 5.5rem;
 }
 .sixteen_main_text_extra.first_point{
-margin-top: 2rem;
+margin-top: 0;
 }
+
 .sixteen_main_text_smaller {
 font-size: 2.5rem;
 margin-left: 0;
 padding-left: 0rem;
+line-height: 4rem;
 }
+
+.sixteen_main_text_smaller.magnet_train {
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.sixteen_main_text_extra.for_days {
+    font-size: 2.3rem;
+    line-height: 3rem;
+
+}
+
+.sixteen_main_text_extra.two_days {
+    font-size: 2.3rem;
+     line-height: 3rem;
+}
+
+
+.seventeen_no {
+    font-size: 1.9rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+
 .date_block {
 font-family: "Montserrat ExtraBold";
 border: 2px solid #bb2b3d;
@@ -1260,6 +1406,8 @@ line-height: 1.3rem;
 .six_couch {
 font-size: 3rem;
 line-height: 1;
+margin-top: 3rem;
+margin-bottom: 1.9375rem;
 }
 .nine_screen {
 padding-top: 3rem;
@@ -1347,6 +1495,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: rgb(254, 254, 254);
 line-height: 1.1;
 margin-top: 1.5rem;
+text-align: center;
 }
 .video_block{
 width: 95%;
@@ -1384,9 +1533,12 @@ height: 2rem;
 width: 2rem;
 margin-right: 0.5rem;
 }
-.subtitle.magnetizm,
+
 .col-md-6.second_block2>img.programm_icon {
 margin-left: 2rem;
+}
+.subtitle.magnetizm{
+margin-left: 0;
 }
 .program_text.last2{
 padding-bottom: 3rem;
@@ -1445,6 +1597,13 @@ height: 1.5rem;
 margin-right: 0.5rem;
 margin-left: 2rem;
 }
+.third_main_text_bigger {
+    font-size: 1.8rem;   
+}
+.four_portrait{
+max-height: 16rem;
+}
+
 .twenty_five_text2 {
 max-width: 100%;
 }
@@ -1540,16 +1699,38 @@ margin-left: 0;
 max-height: 16rem;
 }*/
 .gallery_image_block {
-min-height: 34rem;
+/*min-height: 34rem;*/
 }
 }
 @media screen and (max-width: 767px) and (orientation: landscape) {
 .setups_text.red {
 font-size: 6rem;
 }
+
+.twenty_three_title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding-bottom: 1.5rem;
+}
+
+.twenty_one_img.fas_img {
+    max-height: 19.0625rem;
+ }
+
+.twenty_one_img.magn_image {
+    max-width: 60%;
+}
+
+
+
+
 .main_content_block {
 width: 60%;
 float: right;
+}
+.main_slogan {
+    font-size: 1.5rem;
+    line-height: 1.7;
 }
 .second_main_text,
 .seven_main_text, 
@@ -1611,7 +1792,7 @@ width: 70%;
 height: 6rem;
 }
 .gallery_image_block {
-min-height: 36rem;
+/*min-height: 36rem;*/
 }
 .vk_block_review {
 background-size: 83%;
