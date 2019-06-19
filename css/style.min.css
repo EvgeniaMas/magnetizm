@@ -611,7 +611,7 @@ z-index: 55;
 background-image: url('../img/border.png');
 background-repeat: no-repeat;
 background-size: contain;
-background-position: top center;
+background-position: top 1rem center;
 }
 /*nine_screen*/
 .nine_screen{
