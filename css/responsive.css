@@ -1185,7 +1185,9 @@ font-size: 1.3rem;
 color: #fff;
 line-height: 1.364;
 margin:auto;
+margin-right: 0;
 margin-top: 1.5rem;
+
 }
 .main_slogan {
 font-size: 1.3rem;
@@ -1814,11 +1816,15 @@ margin-bottom: 0.4rem;
 left: -4rem;
 bottom: 0;
 }
-@media screen and (max-width: 321px) {
-html{
-overflow-x: visible;
 }
-/*.third_portrait {
-max-height: 10.375rem;    
-}*/
+
+
+@media screen and (max-width: 327px) {
+html,
+body,
+.wrapper
+{
+overflow-x: visible!important;
+}
+
 }
