@@ -1,3 +1,4 @@
+
 /*main_screen*/
 .main_screen{
 position: relative;	
@@ -16,19 +17,21 @@ height: 2.125rem;
 margin-left: 0.3125rem; 
 margin-right: 0.6875rem;
 }
-
-
 .col-md-12.main_12{
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 }
 .main_portrait{
 position: absolute;
 display: block;
-right: -0.5rem;
+right: -0.9rem;
 bottom: 0;
-padding-top:3.6875rem;
+max-height: 41.5625rem;
+max-width: 23.25rem;
 height: 100%;
-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
 z-index: 2;
 }
 .col-md-6.main_block_first_part{
@@ -39,11 +42,12 @@ position: absolute;
 right: 0;
 top: 0;
 height: 100%;
-width: 58%; 
+width: 58.2%; 
+/*max-width: 69.8125rem;*/
 background-image: url('../img/main_bg.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-background-position: top right;
+background-position: center;
 }
 .main_bg{
 position: absolute;
@@ -66,7 +70,8 @@ line-height: 1.364;
 text-align: center;
 padding: 1.725rem 1.4375rem 1.725rem 1.4375rem; 
 /*padding: 2.125rem 1rem 2.125rem 1rem; */
-box-sizing: border-box; 
+-webkit-box-sizing: border-box;
+        box-sizing: border-box; 
 border: 3px solid #cf4040;
 width: 20.725rem; 
 margin-top: 3.875rem;
@@ -80,6 +85,7 @@ color: rgb(254, 254, 254);
 line-height: 1.269;
 margin-top: 3.75rem;
 text-align: left;
+padding-left: 0.5rem;
 }
 .main_slogan{
 font-size: 3rem;
@@ -87,6 +93,7 @@ font-family: 'PT Sans Narrow', sans-serif;
 color: #fefefe;
 text-transform: uppercase;
 line-height: 3.5625rem;
+letter-spacing: 0.05rem;
 }
 .main_slogan span{
 color: rgb( 207, 64, 64 );
@@ -109,10 +116,13 @@ z-index: 2;
 display: block;
 border-radius: 3px;
 background-color: #cf4040;
-box-shadow: 0px 4px 0px 0px rgba(82, 25, 27, 0.5);
+-webkit-box-shadow: 0px 4px 0px 0px rgba(82, 25, 27, 0.5);
+        box-shadow: 0px 4px 0px 0px rgba(82, 25, 27, 0.5);
 width: 22.9375rem;
 height:4.8125rem;
 outline: none;
+-webkit-transition: all 400ms linear;
+-o-transition: all 400ms linear;
 transition: all 400ms linear;
 font-size: 1.9375rem;
 font-family: 'PT Sans Narrow', sans-serif;
@@ -137,5 +147,4 @@ z-index: 1;
 margin-left: -5.9375rem;
 margin-bottom: 3.1875rem;
 }
-
 

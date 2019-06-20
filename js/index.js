@@ -1,33 +1,44 @@
+(function() {
 
- ( function() {
 
-  var youtube = document.querySelectorAll( ".youtube" );
-  
-  for (var i = 0; i < youtube.length; i++) {
-    
+var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+      function onYouTubeIframeAPIReady(container,id) {
+        player = new YT.Player(container, {
+          videoId: id,
+          events: {
+            'onReady': onPlayerReady            
+          }
+        });
+      }
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+  var youtube = document.querySelectorAll( ".youtube" );  
+  for (var i = 0; i < youtube.length; i++) {    
     var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
-    
     var image = new Image();
         image.src = source;
         image.addEventListener( "load", function() {
           youtube[ i ].appendChild( image );
-        }( i ) );
-    
-        youtube[i].addEventListener( "click", function() {
+        }( i ) );    
+        youtube[i].addEventListener( "click", function() {       
+         var id = this.dataset.embed;
+             var container = (this).getAttribute('id')+"container"; 
+                onYouTubeIframeAPIReady(container, id);
 
-          var iframe = document.createElement( "iframe" );
-
-              iframe.setAttribute( "frameborder", "0" );
-              iframe.setAttribute( "allowfullscreen", "" );
-              iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
-
-              this.innerHTML = "";
-              this.appendChild( iframe );
         } );  
   };
-  
+ 
 } )();  
 
+// anchor to secon_block
 var $page = $('html, body');
 $('#magnetizm_button').click(function() {
     $page.animate({
@@ -51,18 +62,18 @@ $("a.modalbox").fancybox(
 
       $("a.gallery2").fancybox(
       {            
-"padding" : 20, // отступ контента от краев окна
-"imageScale" : false, // Принимает значение true - контент(изображения) масштабируется по размеру окна, или false - окно вытягивается по размеру контента. По умолчанию - TRUE
-      "zoomOpacity" : false,  // изменение прозрачности контента во время анимации (по умолчанию false)
-      "zoomSpeedIn" : 1000,  // скорость анимации в мс при увеличении фото (по умолчанию 0)
-      "zoomSpeedOut" : 1000,  // скорость анимации в мс при уменьшении фото (по умолчанию 0)
-      "zoomSpeedChange" : 1000, // скорость анимации в мс при смене фото (по умолчанию 0)
-      "frameWidth" : 700,   // ширина окна, px (425px - по умолчанию)
-      "frameHeight" : 600, // высота окна, px(355px - по умолчанию)
-      "overlayShow" : true, // если true затеняят страницу под всплывающим окном. (по умолчанию true). Цвет задается в jquery.fancybox.css - div#fancy_overlay 
-      "overlayOpacity" : 0.8,   // Прозрачность затенения   (0.3 по умолчанию)
-      "hideOnContentClick" :false, // Если TRUE  закрывает окно по клику по любой его точке (кроме элементов навигации). Поумолчанию TRUE    
-      "centerOnScroll" : false // Если TRUE окно центрируется на экране, когда пользователь прокручивает страницу    
+"padding" : 20, 
+"imageScale" : false, 
+      "zoomOpacity" : false,  
+      "zoomSpeedIn" : 1000, 
+      "zoomSpeedOut" : 1000,  
+      "zoomSpeedChange" : 1000,
+      "frameWidth" : 700,  
+      "frameHeight" : 600, 
+      "overlayShow" : true, 
+      "overlayOpacity" : 0.8,  
+      "hideOnContentClick" :false, 
+      "centerOnScroll" : false 
         
       });
     
@@ -73,10 +84,56 @@ $("a.modalbox").fancybox(
 
 $("a.iframe").fancybox(
 {                  
-      "frameWidth" : 800,   // ширина окна, px (425px - по умолчанию)
-      "frameHeight" : 600 // высота окна, px(355px - по умолчанию)
+      "frameWidth" : 800,  
+      "frameHeight" : 600 
                   
 });    
 });
 
+//animation of percents
+var number= $("#number");
+var number_block= $('#problems_block');
+var number_animation = null;
+function scrollTracking(){
+    var wt = $(window).scrollTop();
+    var wh = $(window).height();
+    var et = $(number_block).offset().top;
+    var eh = $(number_block).outerHeight();
 
+    if (wt + wh >= et && wt + wh - eh * 2 <= et + (wh - eh)){
+        if (number_animation == null || number_animation == false) {
+            calcCount(); 
+        }
+        number_animation = true;
+    } else {
+
+        number_animation = false;
+    }
+}
+
+$(window).scroll(function(){
+    scrollTracking();
+});
+    
+$(document).ready(function(){ 
+    scrollTracking();
+});
+
+
+function calcCount() {
+    for (var i = 0; i < $(number).length; i++) {
+        var end = $(number).eq(i).text();
+        countStart(end, i);
+
+    }
+}
+
+function countStart(end, i) {
+    var start = 0;
+    var interval = setInterval(function () {
+        $(number).eq(i).text(++start);
+        if (start == end) {
+            clearInterval(interval);
+        }
+    }, 60);
+}

@@ -48,7 +48,7 @@
  <div class="container">
   <div class="col-md-12 second_screen_content  wow fadeIn" data-wow-duration="1.7s" data-wow-offset="0">    
     <div class="col-md-7">
-      <p class="second_main_text_bigger">Вы на этом сайте, потому что хотите быть лучшим в своем деле</p>
+      <p class="second_main_text_bigger">Вы на этом сайте,  потому что хотите быть лучшим в своем деле</p>
       <p class="second_main_text first">Хотите давать максимальные результаты Вашим клиентам. <br> Хотите стать признанным экспертом и опередить всех Ваших конкурентов.</p>      
        <p class="second_main_text first"> Вы постоянно в поиске, ищете изо дня в день, но никак не можете найти. Ищете тот самый золотой ключик, ту самую волшебную формулу, которая поможет Вам. Надежда, что Вы ее найдете еще <br  class="desktops_breaks">есть, но терпения на поиски становится все меньше.</p>
        <p class="second_main_text bold_text">Из чувства любопытства Вы переходите на очередной сайт:</p>
@@ -126,9 +126,9 @@
    </div>     
 </div> 
 <!-- five screen - reviews  -->
- <div class="container-fluid five_screen wow fadeIn" data-wow-duration="2s" data-wow-offset="0"> 
+ <div class="container-fluid five_screen"> 
  <div class="container">
-<div class="reviews_container">
+<div class="reviews_container wow fadeIn" data-wow-duration="2s" data-wow-offset="0">
   <div class="col-md-12 vk_block_review">
    <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/berezova.png" alt="Аватар"></div>
     <div class="col-md-11 review_content_block">
@@ -144,10 +144,10 @@
   </div>
 </div>
 </div>
- <div class="container">
+ <div class="container wow fadeIn" data-wow-duration="2s" data-wow-offset="0">
   <p class="five_clients_leave">Если после Ваших сеансов у клиентов нет реальных изменений в жизни, то в крутой упаковке нет никакого смысла, так как они будут уходить от Вас, и Вы будете постоянно искать новых.</p>
   <p class="five_clients_result"> А добиться изменений можно, только если убрать установки клиента, которые мешают ему добиваться своих целей</p>
-<div class="reviews_container">
+<div class="reviews_container wow fadeIn" data-wow-duration="2s" data-wow-offset="0">
 <div class="col-md-12 vk_block_review">
    <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/evseev.png" alt="Аватар"></div>
     <div class="col-md-11 review_content_block">
@@ -207,7 +207,7 @@
 </div>
 
 <!--eight  screen -not possible to help all  -->
-<div class="container-fluid eight_screen wow fadeIn" data-wow-duration="3s" data-wow-offset="0"> 
+<div id="problems_block" class="container-fluid eight_screen wow fadeIn" data-wow-duration="3s" data-wow-offset="0"> 
 
  <div class="container eight_screen_bg">  
   <div class="col-md-12">
@@ -221,11 +221,11 @@
        <p class="eight_main_text bigger">Навык помогать в нестандартных и сложных ситуациях, там, где другие неспособны.</p>            
     </div>    
   </div>
-  <div class="col-md-12 setups">
-   <h3 class="problem_resourse">источник 90% проблем<br> любого человека - это его<br>
+  <div class="col-md-12 setups">   
+   <h3 class="problem_resourse">источник <span id="number">90</span>% проблем<br> любого человека - это его<br>
      ограничивающие установки </h3>
-      <p class="setups_text">Установки </p>
-       <p class="setups_text red">Установки </p>
+      <p class="setups_text wow slideInUp" data-wow-duration="1.5s" data-wow-offset="100">Установки </p>
+       <p class="setups_text red wow slideInUp" data-wow-delay="0.1s" data-wow-duration="1.5s" data-wow-offset="100">Установки </p>
        <p class="setups_manage">Установки управляют любым человеком </p>
         <p class="setups_you_do">Но Вы работаете с его целями.<br>
                 Его комплексами.<br>
@@ -248,7 +248,8 @@
                ХОТИТЕ НАУЧИТЬСЯ МАГНЕТИЗМУ? </p> 
                 <div class="video_block"> 
                  <div class="video_block_container">
-                   <div class="youtube video_on_mac" data-embed="seC9w9vXmBk">
+                   <div id="main_video" class="youtube video_on_mac" data-embed="seC9w9vXmBk">
+                    <div id="main_videocontainer"></div>
                    <div class="play-button"></div>
                </div>
              </div>
@@ -448,7 +449,7 @@
       </div>
      </div>
   </div>
-<div class="reviews_container  wow fadeIn" data-wow-duration="2s" data-wow-offset="0">
+<div class="reviews_container">
    <div class="col-md-12 vk_block_review  lidia_review ">
    <div class="col-md-1"><img class="five_block avatar img-responsive" src="img/lidia.png" alt="Аватар"></div>
     <div class="col-md-11 review_content_block">
@@ -460,10 +461,10 @@
      
     </div>
   </div>
-</div>
+ </div>
 
 
-<div class="reviews_container wow fadeIn" data-wow-duration="2s" data-wow-offset="0">
+<div class="reviews_container">
      <div class="col-md-12 vk_block_review oleg_review">
    <div class="col-md-1">
     <img class="five_block avatar img-responsive" src="img/oleg.png" alt="Аватар">
@@ -479,6 +480,7 @@
  </div>
  </div>
 </div>
+
 <!-- sixteen screen - stop now!  -->
 <div class="container-fluid sixteen_screen wow fadeIn" data-wow-duration="2s" data-wow-offset="0"> 
  <div class="container sixteen_contents_container"> 
@@ -587,42 +589,48 @@
   <h3 class="nineteen_screen_title">Посмотрите как происходит процесс месмеризма на практике: </h3>      
     <div class="col-md-4 col-sm-6 col-xs-12">
          <div class="video_wrapper">
-           <div class="youtube" data-embed="oCN2mD0n31c">
+           <div id="show1" class="youtube" data-embed="oCN2mD0n31c">
+              <div class="video_player" id="show1container"></div>
               <div class="play-button"></div>
            </div>
         </div>       
      </div>
          <div class="col-md-4 col-sm-6 col-xs-12 ">
             <div class="video_wrapper">
-           <div class="youtube" data-embed="SfPyM34Isvk">
+           <div id="show2" class="youtube" data-embed="SfPyM34Isvk">
+            <div class="video_player" id="show2container"></div>
               <div class="play-button"></div>
            </div>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12 ">
             <div class="video_wrapper">
-               <div class="youtube" data-embed="L_OZiKvMBq8">
+               <div id="show3" class="youtube" data-embed="L_OZiKvMBq8">
+                <div class="video_player" id="show3container"></div>
               <div class="play-button"></div>
            </div>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12 ">
             <div class="video_wrapper">
-              <div class="youtube" data-embed="JCS657pdja0">
+              <div id="show4" class="youtube" data-embed="JCS657pdja0">
+                <div class="video_player" id="show4container"></div>
                 <div class="play-button"></div>
               </div>
            </div>
        </div>
         <div class="col-md-4 col-sm-6 col-xs-12 ">
-            <div class="video_wrapper">
-              <div class="youtube" data-embed="cfMmCmSf7gA">
+            <div class="video_wrapper">              
+              <div id="show5"class="youtube" data-embed="cfMmCmSf7gA">
+                <div class="video_player" id="show5container"></div>
                 <div class="play-button"></div>
               </div>
            </div>
        </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="video_wrapper">
-              <div class="youtube" data-embed="M7Cy0J5sQwA">
+              <div id="show6" class="youtube" data-embed="M7Cy0J5sQwA">
+                <div class="video_player" id="show6container"></div>
                 <div class="play-button"></div>
               </div>
            </div>
@@ -661,7 +669,7 @@
  <div class="container">
   <h2 class="twenty_one_title">Краткая программа</h2>
   <div class="col-md-12 programm_block mesm_block"> 
-    <div class="col-md-6">  
+    <div class="col-md-7">  
     <h3 class="subtitle">Месмеризм:</h3>        
       <img class="programm_icon" src="img/icon_mark.png" alt="Иконка">
        <p class="program_text">Инициирование магнитных протоколов</p>
@@ -681,7 +689,7 @@
        <img class="programm_icon" src="img/icon_mark.png" alt="Иконка">
        <p class="program_text last">Магнетизм звуков</p>
     </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
          <img class="twenty_one_img mesm_img" src="img/mesm_img.png" alt="Месмеризм">
     </div>
   </div>
@@ -706,7 +714,7 @@
        <img class="programm_icon" src="img/icon_mark.png" alt="Иконка">
        <p class="program_text">Методы снятия головной боли</p>
        <img class="programm_icon" src="img/icon_mark.png" alt="Иконка">
-       <p class="program_text last2">Магнетический массаж. Это омолаживающая техника, основанная на магнетизме прикосновения.</p>       
+       <p class="program_text last">Магнетический массаж. Это омолаживающая техника,<br class="desktops_breaks"> основанная на магнетизме прикосновения.</p>       
     </div> 
   </div>
  </div>
@@ -714,7 +722,7 @@
 <div class="container-fluid twenty_one_fas wow fadeIn" data-wow-duration="2s" data-wow-offset="0"> 
  <div class="container">  
   <div class="col-md-12 programm_block fas_block">     
-    <div class="col-md-6">   
+    <div class="col-md-7">   
     <h3 class="subtitle">Очарование/Фасцинация:</h3>       
       <img class="programm_icon" src="img/icon_mark.png" alt="Иконка">
        <p class="program_text">Ритуальный протокол: гипноз глазами</p>
@@ -725,9 +733,9 @@
        <img class="programm_icon" src="img/icon_mark.png" alt="Иконка">
        <p class="program_text">Передача состояний</p>
        <img class="programm_icon" src="img/icon_mark.png" alt="Иконка">
-       <p class="program_text last">Самогипноз</p> 
+       <p class="program_text last2">Самогипноз</p> 
     </div>        
-     <div class="col-md-6">
+     <div class="col-md-5">
          <img class="twenty_one_img fas_img" src="img/fas_img.png" alt="Месмеризм">
     </div>
   </div>
@@ -770,116 +778,91 @@
     <div class="col-md-12">
        <div class="col-md-6 col-xs-12">
          <div class="ordinary block_program">
-
-   <p class="ordinary_title">Стандарт<br>
-    35 000 руб.</p>
-    <hr>
-    <div class="tarif_content">
-    <span class="tarif">•</span>
-    <p class="included">
-     Стандартный блок тренинга
-    </p>
-    <span class="tarif">•</span>
-    <p class="included">
-     Работа с манекенами
-    </p>
-    <span class="tarif">•</span>
-    <p class="included">
-     Сертификат о прохождении курса
-    </p>
-    <span class="tarif">•</span>
-    <p class="included">
-     Кофе брейки
-    </p>
-     </div>
+           <p class="ordinary_title">Стандарт<br>35 000 руб.</p>
+            <div class="tarif_content"><span class="tarif">•</span>
+            <p class="included">Стандартный блок тренинга </p>
+            <span class="tarif">•</span><p class="included">
+            Работа с манекенами </p>
+            <span class="tarif">•</span><p class="included">
+            Сертификат о прохождении курса</p>
+            <span class="tarif">•</span><p class="included">
+            Кофе брейки</p>
+       </div>
     </div>
   </div>
-         <div class="col-md-6 col-xs-12">
-             <div class="vip block_program">
-        <p class="vip_title">VIP <br>
-       70 000 руб.</p>
+  <div class="col-md-6 col-xs-12">
+    <div class="vip block_program">
+      <p class="vip_title">VIP <br>70 000 руб.</p>
         <div class="tarif_content">
-       <span class="tarif">•</span>
-    <p class="included">
-     Попадание в реестр специалистов
-  ЕАНГиМ
-    </p>
-    <span class="tarif">•</span>
-    <p class="included">
-     Стандартный блок тренинга
-    </p>
-    <span class="tarif">•</span>
-    <p class="included">
-     Работа с манекенами
-    </p>
-    <span class="tarif">•</span>
-    <p class="included">
-     Кофе брейки
-    </p>
-     <span class="tarif">•</span>
-    <p class="included">
-     Отработка навыка на реальном клиенте
-    </p>
-    <span class="tarif">•</span>
-    <p class=" included">
-     3 Skype-Консультации после тренинга <br>(по 1 часу каждая)
-    </p>
-    <span class="tarif">•</span>
-    <p class="included">
-     Обед со мной, в перерыве, за мой счет
-    </p>
-    <span class="tarif">•</span>
-    <p class="included">
-     Сертификат о прохождении курса
-    </p>
-     </div>
-      </div> 
+       <span class="tarif">•</span> <p class="included">
+     Попадание в реестр специалистов ЕАНГиМ </p>
+      <span class="tarif">•</span><p class="included">
+     Стандартный блок тренинга</p>
+      <span class="tarif">•</span><p class="included">
+     Работа с манекенами</p>
+      <span class="tarif">•</span><p class="included">
+     Кофе брейки</p>
+     <span class="tarif">•</span><p class="included">
+     Отработка навыка на реальном клиенте </p>
+     <span class="tarif">•</span><p class=" included">
+     3 Skype-Консультации после тренинга <br>(по 1 часу каждая)</p>
+     <span class="tarif">•</span><p class="included">
+     Обед со мной, в перерыве, за мой счет</p>
+     <span class="tarif">•</span> <p class="included">
+     Сертификат о прохождении курса</p>
+        </div>
       </div>
+      </div> <!-- col-md-6 -->
     </div>
   </div>
 </div>
-
 <div class="container-fluid twenty_four_screen wow fadeIn" data-wow-duration="2s" data-wow-offset="0"> 
  <div class="container">
   <h3 class="twenty_four_title">Отзывы клиентов в видео-формате </h3>
     <div class="col-md-4 col-sm-6 col-xs-12">
          <div class="video_wrapper">
-           <div class="youtube" data-embed="jXsQ804sZCI">
+           <div id="rev1" class="youtube" data-embed="jXsQ804sZCI">
+            <div class="video_player" id="rev1container"></div>
               <div class="play-button"></div>
            </div>
         </div>       
      </div>
          <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="video_wrapper">
-           <div class="youtube" data-embed="fHbClbjRNdo">
+           <div id="rev2" class="youtube" data-embed="fHbClbjRNdo">
+            <div class="video_player" id="rev2container"></div>
               <div class="play-button"></div>
            </div>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="video_wrapper">
-               <div class="youtube" data-embed="UrKAc-thmx8">
+               <div id="rev3" class="youtube" data-embed="UrKAc-thmx8">
+                <div class="video_player" id="rev3container"></div>
               <div class="play-button"></div>
            </div>
         </div>
       </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="video_wrapper">
-              <div class="youtube" data-embed="Ry2OfRttJpU">
+              <div id="rev4" class="youtube" data-embed="Ry2OfRttJpU">
+                <div class="video_player" id="rev4container"></div>
                 <div class="play-button"></div>
               </div>
            </div>
        </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="video_wrapper">
-              <div class="youtube" data-embed="be8unOycMyQ">
+              <div id="rev5" class="youtube" data-embed="be8unOycMyQ">
+                <div class="video_player" id="rev5container"></div>
                 <div class="play-button"></div>
               </div>
            </div>
        </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="video_wrapper">
-              <div class="youtube" data-embed="6woOfQDNizw">
+              <div id="rev6" class="youtube" data-embed="6woOfQDNizw">
+                <div class="video_player" id="rev6container"></div>
                 <div class="play-button"></div>
               </div>
            </div>
@@ -890,7 +873,7 @@
 <div class="container-fluid twenty_five_screen wow fadeIn" data-wow-duration="2s"> 
  <div class="container"> 
   <div class="col-md-12 results_block">   
-      <p class="twenty_five_text1">А теперь представьте, что Вы можете влиять <br> на людей, и снимать их внутренние убеждения <br> и ограничения за 1 сеанс. </p>
+      <p class="twenty_five_text1">А теперь представьте, что Вы можете влиять <br class="desktops_breaks"> на людей, и снимать их внутренние убеждения <br class="desktops_breaks"> и ограничения за 1 сеанс. </p>
        <p class="twenty_five_text2">Они приходят на Ваши сеансы, а после них реально меняют свою жизнь.</p>
        <p class="twenty_five_text2 more">Приходят к Вам снова, как за лекарством. Рассказывают о Вас другим. Оставляют Вам видео-отзывы. </p>
         <p class="twenty_five_text3">Вы повышаете цены - и они все равно покупают у Вас.<br> Хотите так?
@@ -899,13 +882,13 @@
       </div>
       <div class="col-md-12 ">
         <div class="write_me_block">
-        <img src="img/vk.png" alt="Иконка">
+        <img class="write_icons" src="img/vk.png" alt="Иконка">
         <p class="write_me">Просто напишите мне в соц. сети</p>
-        <img src="img/instagramm.png" alt="Иконка">
+        <img class="write_icons" src="img/instagramm.png" alt="Иконка">
       </div>
         <div class="col-md-12">
-          <div class="col-md-6"> <img class="social_posts" src="img/post_vk.png" alt="Скрин">
-            <a href="https://m.vk.com/realnyjpikaprp" class="vk_message button_send">
+          <div class="col-md-6"> <img class="social_posts" src="img/post_vk.png" alt="Скрин"> 
+            <a href="https://vk.com/im?media=&sel=414222633" class="vk_message button_send">
              <img  class="buttons_icon vkontakte" src="img/vk_icon.png" alt="Иконка">Написать сообщение </a>
           </div>
           <div class="col-md-6"> 
