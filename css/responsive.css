@@ -34,6 +34,16 @@ max-height: 20rem;
 width: 60%;
 margin: auto;
 }
+.setups_because {
+    width: 70%;
+}
+
+
+.main_screen_button {
+    font-size: 1.4rem;
+}
+
+
 
 .bottom.second_main_text {
     font-size: 1.3rem;
@@ -130,7 +140,7 @@ max-height: 18.875rem;
 margin:auto;
 }
 .twenty_one_img{
-max-width: 24rem;
+max-height: 18rem;
 }
 .twenty_one_img.magn_image{
 max-width: 80%;
@@ -144,7 +154,7 @@ margin-bottom: 2rem;
 .second_portrait{
 position: absolute;
 bottom: 0;
-max-width: 25.8125rem;
+/*max-width: 25.8125rem;*/
 max-height: 38.125rem;
 }
 .twelve_main_text {
@@ -233,10 +243,10 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 }
 .twenty_five_text1 {
-font-size: 2rem;
+font-size: 1.8rem;
 margin: auto;
 margin-bottom: 2.6rem;
-width: 60%;
+width: 80%;
 }
 .twenty_five_text2 {
 font-size: 1.8rem;
@@ -254,7 +264,7 @@ padding-top: 3rem;
 }
 .twenty_five_text4 {
 margin-bottom: 2.5rem;
-font-size: 3rem;
+font-size: 2rem;
 line-height: 4rem;
 }
 
@@ -328,7 +338,7 @@ font-size: 1.3rem;
 margin-bottom: 1.9rem;
 }
 .main_description {
-font-size: 1.3rem;
+font-size: 1.1rem;
 line-height: 1.4;
 max-width: 19rem;
 margin-top: 1.6rem;
@@ -346,11 +356,11 @@ height: 90%;
 z-index: 2;
 }
 .main_course {
-margin-top: 1.6rem;
+margin-top: 1.4rem;
 padding-left: 0;
 }
 .main_slogan {
-font-size: 1.8rem;
+font-size: 1.7rem;
 line-height: 1.8;
 }
 .second_screen {
@@ -397,7 +407,7 @@ margin-bottom: 4rem;
 width: 90%;
 }
 .five_clients_result {
-font-size: 2rem;
+font-size: 1.8rem;
 margin-bottom: 3rem;
 width: 90%;
 }
@@ -567,7 +577,7 @@ font-size: 1.3rem;
 .write_me {
 margin-right: 1rem;
 margin-left: 1rem;
-font-size: 1.2rem;
+font-size: 1.8rem;
 line-height: 1.3rem;
 }
 .six_couch {
@@ -577,7 +587,7 @@ font-size: 3rem;
 width: 100%;
 }
 .fourteen_img {
-left: -6rem;
+left: 0;
 }
 .fifteen_screen {
     padding-top: 3rem;
@@ -641,6 +651,20 @@ line-height: 2rem;
 margin-bottom: 2.5rem;
 width: 70%;
 }
+.fourteen_main_text.strong_text.fourteen_extra_texts {
+
+    font-size: 1.5rem;
+}
+
+.seventeen_title {
+    font-size: 1.3rem;
+    line-height: 1.3;
+}
+.eight_screen_bg{
+background-size: contain;
+background-position:top 23% center; 
+}
+
 }
 @media screen and (max-width: 1024px) and (orientation: portrait) {
 .sixteen_screen {
@@ -888,6 +912,39 @@ display: block;
 margin-left:0;
 }
 }
+
+
+@media screen and (max-width: 992px) {
+.grey_bg {
+    width: 69%;
+
+}
+
+.fourteen_img {
+    left: 0;
+     max-height: 34.125rem;
+}
+
+.date_block {
+    font-size: 3.5rem;
+    height: 9.8125rem;
+    max-width: 12.3125rem;
+}
+
+
+
+.six_portrait{
+display: block;
+position: absolute;
+left: 4rem;
+opacity: 1;
+}
+.twelve_portrait {
+    max-height: 20.875rem;
+}
+}
+
+
 @media screen and (max-width: 767px) { 
 .sixteen_main_text_bigger {
 font-size: 2rem;
@@ -1030,7 +1087,7 @@ min-height: auto;
 }
 .consult_image{
 display: block;
-max-width: 100vw;
+max-width: 100%;
 }
 .course_icon {
 display: inline-block;
@@ -1466,8 +1523,8 @@ font-size: 2.3rem;
 line-height: 3rem;
 }
 .sixteen_main_text_extra.two_days {
-font-size: 2.3rem;
-line-height: 3rem;
+font-size: 3rem;
+line-height: 3.5rem;
 }
 .seventeen_no {
 font-size: 1.7rem;
