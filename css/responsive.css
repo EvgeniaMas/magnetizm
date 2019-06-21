@@ -42,11 +42,13 @@ padding-left: 0.8rem;
 padding-right: 0.8rem;
 box-sizing: border-box;
 }
-
+.second_main_text.first2 {
+    margin-top: 2rem;
+}
 
 
 .six_portrait{
-
+max-height: 90%;
 left: 9.8rem;
 }
 
@@ -202,7 +204,7 @@ flex-wrap: wrap;
 }
 .second_main_text {
 font-size: 1.2rem;
-margin-bottom: 2rem;
+margin-bottom: 1.5rem;
 
 }
 .col-md-12.programm_block {
@@ -392,9 +394,9 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 }
 .second_main_text_bigger {
-font-size: 2.3rem;
-line-height: 2.5rem;
-margin-bottom: 2.5rem;
+font-size: 1.9rem;
+line-height: 2rem;
+margin-bottom: 2rem;
 }
 .second_portrait_question {
 display: block;
@@ -701,6 +703,10 @@ background-position:top 23% center;
     font-size: 1.3rem;
 
 }
+
+.col-md-7>.second_main_text.bold_text {
+    margin-bottom:2rem;
+}
 }
 
 @media screen and (max-width: 992px) {
@@ -708,7 +714,6 @@ background-position:top 23% center;
     width: 69%;
 
 }
-
 }
 
 
@@ -760,10 +765,10 @@ width: 90%;
 
 
 .second_main_text_bigger {
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
     margin-bottom: 1.9rem;
-    max-width: 70%;
+    max-width: 88%;
 }
 
 .subtitle {
