@@ -1480,7 +1480,7 @@ max-width: 3rem;
 position: relative;
 right: 0;
 
-font-size: 1.3rem;
+font-size: 1.2rem;
 color: #fff;
 line-height: 1.364;
 
@@ -1489,7 +1489,7 @@ margin:auto;
 margin-top: 1.5rem;
 }
 .main_slogan {
-font-size: 1.3rem;
+font-size: 1.1rem;
 line-height: 1.4;
 }
 .second_screen {
@@ -1502,6 +1502,7 @@ margin-bottom: 1.3rem;
 margin-top: 0;
 margin-right: 0;
 line-height: 1.2;
+max-width: 90%;
 }
 .second_portrait {
 display: none;
@@ -1666,7 +1667,7 @@ margin-bottom: 1rem;
 font-size: 3rem;
 }
 .seventeen_speciality {
-font-size: 4rem;
+font-size: 3.7rem;
 }
 .setups_text {
 font-size: 3.5rem;
@@ -1820,7 +1821,7 @@ padding-top: 2rem;
 padding-bottom: 2rem;
 }
 .main_course {
-font-size: 1.4rem;
+font-size: 1rem;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb(254, 254, 254);
 line-height: 1.1;
