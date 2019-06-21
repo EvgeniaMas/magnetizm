@@ -713,6 +713,17 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 }
 
+.sixteen_main_text {
+    width: 80%;
+}
+
+.sixteen_main_text_bigger {
+    padding-left: 1%;
+    width: 80%;
+}
+
+
+
 .five_block.avatar {
     max-width: 3rem;
 }
