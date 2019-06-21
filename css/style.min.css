@@ -10,6 +10,35 @@ font-style:normal;
 font-weight:normal;
 font-display: swap;
 }
+@font-face{font-family:"Open Sans";
+src:url("../fonts/Open_Sans/OpenSans-Regular.eot");
+src:url("../fonts/Open_Sans/PT_Sans-Narrow.eot?#iefix") format("embeddedopentype"),
+url("../fonts/Open_Sans/OpenSans-Regular.woff2") format("woff2"),
+url("../fonts/Open_Sans/OpenSans-Regular.woff") format("woff"),
+url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"),
+url("../fonts/Open_Sans/OpenSans-Regular.otf") format("opentype"),
+url("../fonts/Open_Sans/OpenSans-Regular.svg#svgOpenSans-Regular") format("svg");
+font-style:normal;
+font-weight:normal;
+font-display: swap;
+}
+
+@font-face{font-family:"PT Sans Narrow";
+src:url("../fonts/Narrow/PT_Sans-Narrow.eot");
+src:url("../fonts/Narrow/PT_Sans-Narrow.eot?#iefix") format("embeddedopentype"),
+url("../fonts/Narrow/PT_Sans-Narrow.woff2") format("woff2"),
+url("../fonts/Narrow/PTSans-Narrow.woff") format("woff"),
+url("../fonts/Narrow/PT_Sans-Narrow.ttf") format("truetype"),
+url("../fonts/Narrow/PTSans-Narrow.otf") format("opentype"),
+url("../fonts/Narrow/PTSans-Narrow.svg#svgPTSans-Narrow") format("svg");
+font-style:normal;
+font-weight:normal;
+font-display: swap;
+}
+
+
+
+
 a{
 color: #000;
 cursor:pointer;
@@ -30,12 +59,14 @@ cursor: default;
 padding: 0;
 margin:0;
 min-width: 20rem;
+text-rendering: optimizeLegibility;
 }
 body
 { 
 height: 100%;   
 width: 100%;
 font-family: 'PT Sans Narrow', sans-serif;
+text-rendering: optimizeLegibility;
 font-weight:normal;
 padding: 0;
 margin:0;

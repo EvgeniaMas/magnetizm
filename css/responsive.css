@@ -41,6 +41,7 @@ margin: auto;
 padding-left: 0.8rem;
 padding-right: 0.8rem;
 box-sizing: border-box;
+ -webkit-box-sizing: border-box;
 }
 .second_main_text.first2 {
     margin-top: 2rem;
@@ -1054,13 +1055,19 @@ padding-left: 5%;
 width: 90%;
 }
 
-.container{
-padding-left: 0.6rem;
-padding-right: 0.6rem;
-
+.wrapper{
+/*overflow-x: hidden;*/
 }
 
 
+
+.container{
+padding-left: 0.6rem;
+padding-right: 0.6rem;
+}
+.whites_block {
+    padding-left: 0;    
+}
 .col-md-7>.second_main_text.bold_text {
     margin-bottom: 1.7rem;
 }
@@ -2045,8 +2052,8 @@ z-index: 2;
 
 .main_portrait_mobile{
 display: block;
-max-height: 14rem;
-max-width: 7.875rem;
+max-height: 24rem;
+max-width: 13.4375rem;
 margin: auto;
 margin-top: 1rem;
 position: relative;

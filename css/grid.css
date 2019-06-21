@@ -10,7 +10,7 @@ b,
 strong {
     font-weight: bold
 }
-sub,
+/*sub,
 sup {
     font-size: 75%;
     line-height: 0;
@@ -24,7 +24,7 @@ sup {
 
 sub {
     bottom: -0.25em
-}
+}*/
 
 img {
     border: 0
@@ -34,9 +34,9 @@ svg:not(:root) {
     overflow: hidden
 }
 
-figure {
+/*figure {
     margin: 1em 40px
-}
+}*/
 
 hr {
     -webkit-box-sizing: content-box;
@@ -49,13 +49,13 @@ pre {
     overflow: auto
 }
 
-code,
+/*code,
 kbd,
 pre,
 samp {
     font-family: monospace, monospace;
     font-size: 1em
-}
+}*/
 
 button,
 input,
@@ -110,7 +110,7 @@ hr {
     border-top: 1px solid #eee
 }
 
-.sr-only {
+/*.sr-only {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -133,7 +133,7 @@ hr {
 
 [role="button"] {
     cursor: pointer
-}
+}*/
 
 .container {
     margin-right: auto;
