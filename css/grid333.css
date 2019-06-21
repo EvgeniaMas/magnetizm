@@ -624,7 +624,7 @@ hr {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:992px) {
     .col-md-1,
     .col-md-2,
     .col-md-3,
@@ -793,15 +793,6 @@ hr {
         margin-left: 0
     }
 }
-
-
-/*@media (min-width:600px) and (max-width: 992px) {
-.col-md-6{
-    width: 50%;
-}
-}*/
-
-
 
 @media (min-width:1200px) {
     .col-lg-1,
