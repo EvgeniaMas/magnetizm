@@ -2045,8 +2045,8 @@ z-index: 2;
 
 .main_portrait_mobile{
 display: block;
-max-height: 18rem;
-max-width: 10.125rem;
+max-height: 14rem;
+max-width: 7.875rem;
 margin: auto;
 margin-top: 1rem;
 position: relative;
@@ -2055,7 +2055,7 @@ z-index: 1;
 
 
 .main_portrait{
-display: none;
+display: none!important;
 /*left: -5.2rem;
 height: 65%;
 opacity: 0.8;*/
