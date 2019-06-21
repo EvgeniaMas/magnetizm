@@ -359,13 +359,14 @@ padding: 0.5rem;
 position: absolute;
 display: block;
 
-height: 90%;
+height: 80%;
 -webkit-box-sizing: border-box;
         box-sizing: border-box;
 z-index: 2;
 }
 .main_course {
 margin-top: 1.2rem;
+font-size: 1.15rem;
 padding-left: 0;
 }
 
@@ -713,6 +714,8 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 }
 
+
+
 .sixteen_main_text {
     width: 80%;
 }
@@ -754,24 +757,16 @@ padding-bottom: 3rem;
     font-size: 1.9rem;
 
 }
-
-
-
-
-
 .main_slogan {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    letter-spacing: 0;
     line-height: 1.7;
 }
-
-
-
 
 .col-md-6{
     width: 100%;
     
 }
-
 .col-md-7.second_block2{
 
 padding-bottom: 1.5rem;
@@ -978,9 +973,16 @@ margin-bottom: 2rem;
 }
 .seventeen_title {
 line-height: 1.417;
-font-size: 1.1rem;
+font-size: 1rem;
 text-align: center;
 }
+
+.title_date_container{
+min-height: 4.3rem;
+margin-bottom: 1rem;
+}
+
+
 a.gallery.fifteen_img.img-responsive>img {
 height: 8rem;
 }
