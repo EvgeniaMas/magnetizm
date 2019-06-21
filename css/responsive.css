@@ -37,6 +37,13 @@ margin: auto;
 .setups_because {
     width: 70%;
 }
+.container{
+padding-left: 0.8rem;
+padding-right: 0.8rem;
+box-sizing: border-box;
+}
+
+
 
 .six_portrait{
 
@@ -196,6 +203,7 @@ flex-wrap: wrap;
 .second_main_text {
 font-size: 1.2rem;
 margin-bottom: 2rem;
+
 }
 .col-md-12.programm_block {
 padding: 2.4rem;
@@ -713,11 +721,15 @@ background-position: top center;
 padding-top: 3rem;
 padding-bottom: 3rem;
 }
-
-
-
+.second_main_text {
+width: 90%;
+}
+.twenty_two_screen {
+    padding-top: 2.75rem;
+    padding-bottom: 3.875rem;
+}
 .sixteen_main_text {
-    width: 80%;
+    width: 90%;
 }
 
 .sixteen_main_text_bigger {
@@ -751,6 +763,7 @@ padding-bottom: 3rem;
     font-size: 1.5rem;
     line-height: 1.7rem;
     margin-bottom: 1.9rem;
+    max-width: 70%;
 }
 
 .subtitle {
@@ -1051,6 +1064,14 @@ font-size: 2rem;
 padding-left: 5%;
 width: 90%;
 }
+
+.container{
+padding-left: 0.6rem;
+padding-right: 0.6rem;
+
+}
+
+
 .col-md-7>.second_main_text.bold_text {
     margin-bottom: 1.7rem;
 }
@@ -1768,7 +1789,8 @@ background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: center center;
 margin-top: 2rem;
-width: 100vw;
+width: 95vw;
+box-sizing: border-box;
 padding-top: 2rem;
 padding-bottom: 2rem;
 padding-left: 1rem;
