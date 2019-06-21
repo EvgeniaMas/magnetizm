@@ -1,4 +1,6 @@
-
+.main_portrait_mobile{
+display: none;
+}
 /*main_screen*/
 .main_screen{
 position: relative;	

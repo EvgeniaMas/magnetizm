@@ -45,52 +45,36 @@ box-sizing: border-box;
 .second_main_text.first2 {
     margin-top: 2rem;
 }
-
-
 .six_portrait{
 max-height: 90%;
 left: 9.8rem;
 }
-
-
 .main_screen_button {
     font-size: 1.4rem;
 }
-
-
-
 .bottom.second_main_text {
     font-size: 1.3rem;
     line-height: 2rem;
     margin-bottom: 1.7rem;
 }
-
-
-
 .eight_main_text {
     font-size: 1.4rem;
     line-height: 1.285;
     margin-bottom: 2rem;
 }
-
-
 .seven_main_text, .seven_main_text_bigger {
     font-size: 1.3rem;
      line-height: 1.3;
     margin-bottom: 1.8rem;
 }
-
 .six_main_text, .six_main_text_bigger {
     font-size: 1.3rem;
     line-height: 1.3;
     margin-bottom: 1.8rem;
 }
-
-
 .main_screen_bg {
     padding-left: 0;
 }
-
 .vk_block_review {
 padding-bottom: 0;
 }
@@ -1120,11 +1104,13 @@ padding: 1.6rem 1.5rem 0 1.5rem;
 }
 .twenty_one_img.fas_img {
 max-height: 13rem;
+max-width: 15.25rem;
 height: 100%;
 float: none;
 }
 .twenty_one_img.mesm_img {
 max-height: 15.25rem;
+max-width: 15.25rem;
 float: none;
 }
 .seven_main_text.upper_text {
@@ -1326,6 +1312,7 @@ position: relative;
 margin: auto;
 display: block;
 max-height: 23rem;
+max-width: 12.75rem;
 left: 0;
 }
 .seven_portrait {
@@ -1342,6 +1329,7 @@ left:0;
 position: relative;
 margin: auto;
 max-height: 14rem;
+max-width: 14.3125rem;
 }
 .four_portrait{
 position: relative;
@@ -1351,6 +1339,7 @@ top: 0rem;
 display: block;
 margin: auto;
 max-height: 16rem;
+max-width: 23.125rem;
 }
 .reviews_container{
 width: 100%;
@@ -1371,12 +1360,14 @@ background-color: #000;
 .eight_img {
 display: block;
 max-height: 15rem;
+max-width: 84.875rem;
 width: 80%;
 margin-left: 0;
 margin: auto;
 }
 .twelve_portrait {
 max-height: 19rem;
+max-width: 20.8125rem;
 margin: auto;
 display: block;
 margin-bottom: 1rem;
@@ -1562,7 +1553,7 @@ width: 90%;
 }
 a.gallery.fifteen_img.img-responsive>img{
 width: 90%;
-height: 5rem;
+height: 4rem;
 margin:auto;
 display: block;
 margin-bottom: 1rem;
@@ -1577,6 +1568,7 @@ padding-right: 0;
 .seven_portrait {
 position: relative;
 max-height: 21rem;
+max-width: 12.875rem;
 left: 0;
 display: inline-block;
 margin-left:0;
@@ -1606,23 +1598,20 @@ padding-bottom: 0;
 font-size: 2rem;
 margin-bottom: 1.5rem;
 }
-
 .eleven_main_text {
     font-size: 1.1rem;
     line-height: 1.3;
     margin-bottom: 2rem;
 }
-
 .eleven_main_cursive {
     font-size: 1.1rem;
     line-height: 1.3rem;
     opacity: 1;
 }
-
-
 .eleven_img {
 display: block!important;
 max-height: 16rem;
+max-width: 12.25rem;
 margin:auto;
 margin-top: 2rem;
 float:none;
@@ -1713,12 +1702,10 @@ height: 3.8125rem;
 line-height: 3.8125rem;
 font-size: 1.3rem;
 }
-
 .write_icons{
 display: inline-block;
 max-width: 1.5rem;
 }
-
 .write_me {
 margin-right: 0.7rem;
 margin-left: 0.7rem;
@@ -1749,19 +1736,14 @@ font-size: 2rem;
 line-height: 1.085;
 margin-bottom: 1.2rem;
 }
-
 .four_main_text {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
 }
-
 .review_content_block {
     padding-bottom: 0;
 background-image: none;
 }
-
-
-
 .four_main_text.border {
 padding: 0.6rem;
 font-size: 1.3rem;
@@ -1787,6 +1769,7 @@ right: 0;
 display: block;
 margin:auto;
 max-height: 24rem;
+max-width: 13.1875rem;
 opacity: 1;
 }
 .sixteen_screen_half_bg2{
@@ -1981,6 +1964,26 @@ height: 1.5rem;
 margin-right: 0.5rem;
 margin-left: 2rem;
 }
+
+hr.main_horizontal {
+margin-left: 0rem;
+width: 90%;
+float: none;
+margin:auto;
+margin-top: 1rem;
+margin-bottom: 1.8rem;
+}
+.main_content_block {
+    width: 100%;
+    float: none;
+    margin: auto;
+}
+
+.main_slogan {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-align: center;
+}
 .third_main_text_bigger {
 font-size: 1.8rem;   
 }
@@ -2002,7 +2005,7 @@ font-size: 1rem;
 line-height: 1.2rem;
 }
 .problem_resourse {
-font-size: 2rem;
+font-size: 1.8rem;
 margin-bottom: 2rem;
 }
 .setups_miss {
@@ -2034,13 +2037,28 @@ height: 3rem;
 line-height: 3rem;
 margin:auto;
 margin-bottom: 2rem;
-margin-top: 2rem;
+margin-top: -0.5rem;
 font-size: 1.3rem;
+position: relative;
+z-index: 2;
 }
+
+.main_portrait_mobile{
+display: block;
+max-height: 18rem;
+max-width: 10.125rem;
+margin: auto;
+margin-top: 1rem;
+position: relative;
+z-index: 1;
+}
+
+
 .main_portrait{
-left: -5.2rem;
+display: none;
+/*left: -5.2rem;
 height: 65%;
-opacity: 0.8;
+opacity: 0.8;*/
 }
 .bottom_image_container {
 height: 100%;
@@ -2090,6 +2108,19 @@ display: flex;
 margin-right: 0;
 margin-left: 0;
 }
+
+.seventeen_speciality {
+    font-size: 2.5rem;
+}
+.setups_text {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+}
+.setups_text.red {
+    font-size: 3.5rem;
+}
+
 }
 @media screen and (max-width: 767px) and (orientation: landscape) {
 .setups_text.red {
