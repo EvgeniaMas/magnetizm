@@ -38,6 +38,11 @@ margin: auto;
     width: 70%;
 }
 
+.six_portrait{
+
+left: 9.8rem;
+}
+
 
 .main_screen_button {
     font-size: 1.4rem;
@@ -154,9 +159,13 @@ margin-bottom: 2rem;
 .second_portrait{
 position: absolute;
 bottom: 0;
-/*max-width: 25.8125rem;*/
-max-height: 38.125rem;
+right: 0;
+max-width: 20.9375rem;
+max-height: 29.125rem;
 }
+
+
+
 .twelve_main_text {
 font-size: 1.3rem;
 margin-bottom: 2rem;
@@ -349,18 +358,24 @@ padding: 0.5rem;
 .main_portrait {
 position: absolute;
 display: block;
-padding-top: 3.6875rem;
+
 height: 90%;
 -webkit-box-sizing: border-box;
         box-sizing: border-box;
 z-index: 2;
 }
 .main_course {
-margin-top: 1.4rem;
+margin-top: 1.2rem;
 padding-left: 0;
 }
+
+.course_title {
+    font-size: 1.3rem;
+}
+
+
 .main_slogan {
-font-size: 1.7rem;
+font-size: 1.6rem;
 line-height: 1.8;
 }
 .second_screen {
@@ -422,7 +437,7 @@ margin-bottom: 1rem;
 padding-bottom: 1.8rem;
 }
 .problem_resourse {
-font-size: 3rem;
+font-size: 3.2rem;
 margin-bottom: 3.5rem;
 }
 .nine_text {
@@ -446,7 +461,7 @@ margin-bottom: 2.5rem;
 }
 .eleven_img {
 display: block;
-max-height: 22rem;
+
 padding-top: 3rem;
 }
 .fourteen_main_text {
@@ -676,6 +691,28 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 }
 
+.four_main_text.border {
+
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+
+
+.second_main_text_bigger {
+    font-size: 1.9rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+    font-size: 1.9rem;
+
+}
+
+
+
+
 
 .main_slogan {
     font-size: 1.55rem;
@@ -756,6 +793,7 @@ right: 0;
 display: block;
 margin:auto;
 max-height: 30rem;
+max-width: 16.4375rem;
 opacity: 1;
 }
 .twelve_portrait {
@@ -768,6 +806,7 @@ margin-bottom: 1.5rem;
 .eleven_img {
 display: block;
 max-height: 20rem;
+max-width:15.625rem;
 margin:auto;
 margin-top: 2rem;
 float:none;
@@ -835,11 +874,13 @@ position: relative;
 margin: auto;
 display: block;
 max-height: 25rem;
+max-width: 14.0625rem;
 left: 0;
 }
 .seven_portrait {
 position: relative;
 max-height: 25rem;
+max-width: 21.25rem;
 left: 0;
 display: inline-block;
 margin-left:0;
@@ -850,6 +891,7 @@ right:0;
 position: relative;
 margin: auto;
 max-height: 24.375rem;
+max-width: 25rem;
 width: auto;
 }
 .four_portrait{
@@ -859,6 +901,7 @@ left: 0;
 display: block;
 margin: auto;
 max-height: 24rem;
+max-width: 34.6875rem;
 }
 .main_description {
 font-size: 1.2rem;
@@ -949,20 +992,9 @@ margin-left:0;
 .col-md-8 {
     width: 100%;
 }
-
-.grey_bg {
-    width: 100%;
-}
-
-
-/*.six_portrait{
-display: block;
-position: absolute;
-left: 4rem;
-opacity: 1;
-}*/
 .twelve_portrait {
     max-height: 20.875rem;
+    max-width:22.875rem;
 }
 }
 
