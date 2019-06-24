@@ -135,5 +135,5 @@ function countStart(end, i) {
         if (start == end) {
             clearInterval(interval);
         }
-    }, 50);
+    }, 30);
 }

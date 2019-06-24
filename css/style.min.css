@@ -35,10 +35,6 @@ font-style:normal;
 font-weight:normal;
 font-display: swap;
 }
-
-
-
-
 a{
 color: #000;
 cursor:pointer;
@@ -1385,8 +1381,9 @@ width: 100%;
         box-sizing: border-box;
 }
 .ordinary.block_program{
-margin-right: 3.5625rem;
+
 float: right;
+margin-left: 8rem;
 }
 .ordinary_title{
 padding: 2.625rem 2.4375rem 2.3125rem 2.4375rem ;
@@ -1422,6 +1419,12 @@ font-family: 'PT Sans Narrow', sans-serif;
 text-align: left;
 line-height: 1.917;
 }
+
+.vip.block_program{
+margin-left: 3.5625rem;  
+}
+
+
 .vip_title{
 
 
