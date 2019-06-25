@@ -163,9 +163,6 @@ right: 0;
 max-width: 20.9375rem;
 max-height: 29.125rem;
 }
-
-
-
 .twelve_main_text {
 font-size: 1.3rem;
 margin-bottom: 2rem;
@@ -440,7 +437,7 @@ padding-bottom: 1.8rem;
 }
 .problem_resourse {
 font-size: 3.2rem;
-margin-bottom: 3.5rem;
+margin-bottom: 7rem;
 }
 .nine_text {
 font-size: 2rem;
@@ -517,11 +514,16 @@ margin-left: 0;
 padding-left: 0rem;
 }
 .date_block {
-font-size: 3.8rem;
+
 height: 10.8125rem;
 max-width: 17.3125rem;
 }
-.date_block span {
+
+.date_block p{
+ font-size: 3.8rem;   
+}
+
+.date_block p> span {
 font-size: 2rem;
 }
 .seventeen_screen {
@@ -538,11 +540,11 @@ margin-bottom: 4rem;
 .setups_text {
 font-size: 4.5rem;
 line-height: 1.1;
-margin-bottom: 5rem;
+margin-bottom: 7rem;
 }
 .setups_text.red {
 font-size: 5.5rem;
-margin-bottom: 6rem;
+margin-bottom: 8rem;
 }
 
 .eleven_main_text {
@@ -864,7 +866,7 @@ float:none;
 }
 .problem_resourse {
 font-size: 3rem;
-margin-bottom: 3rem;
+margin-bottom: 6rem;
 }
 .seven_hypnose {
 margin-bottom: 0;
@@ -1039,10 +1041,15 @@ margin-left:0;
 }
 
 .date_block {
-    font-size: 3.5rem;
+
     height: 9.8125rem;
     max-width: 12.3125rem;
 }
+
+.date_block p{
+     font-size: 3.5rem;   
+}
+
 
 .col-md-8 {
     width: 100%;
@@ -1056,18 +1063,10 @@ margin-left:0;
 
 @media screen and (max-width: 767px) { 
 .sixteen_main_text_bigger {
-font-size: 2rem;
+font-size: 2.1rem;
 padding-left: 5%;
 width: 90%;
 }
-
-.hidden_content
-{
-    display: none;
-}
-
-
-
 .container{
 padding-left: 0.6rem;
 padding-right: 0.6rem;
@@ -1196,7 +1195,7 @@ margin-right: 0.4rem;
 font-size: 1.1rem;
 font-family: 'PT Sans Narrow', sans-serif;
 text-align: left;
-line-height: 1.5;
+line-height: 1.3rem;
 }
 .seventeen_title {
 font-size: 1.3rem;
@@ -1457,7 +1456,7 @@ line-height: 1.2;
 margin-top: 0;
 }
 .twenty_three_title {
-font-size: 1.9rem;
+font-size: 2rem;
 line-height: 1.2;
 padding-bottom: 2rem;
 }
@@ -1529,7 +1528,7 @@ margin-bottom: 1rem;
 }
 h2.third_stop {
 text-align: center;
-font-size: 2rem;
+font-size: 2.8rem;
 margin-bottom: 2rem;
 line-height: 1;
 margin-top: 3rem;
@@ -1593,7 +1592,7 @@ background-size: 90%;
 }
 .problem_resourse {
 font-size: 3rem;
-margin-bottom: 3rem;
+margin-bottom: 6rem;
 }
 .nine_text {
 font-size: 1.3rem;
@@ -1663,16 +1662,23 @@ margin-bottom: 2rem;
 }
 .date_block {
 border: 2px solid #bb2b3d;
-font-size: 4rem;
+
 text-align: center;
 height: 12.8125rem;
 width: 90%;
-display: block;
+
 margin:auto;
 margin-bottom: 1rem;
 }
-.date_block span {
-font-size: 3rem;
+
+.date_block p{
+ font-size: 4rem;   
+}
+
+
+
+.date_block p> span {
+font-size: 2.8rem;
 }
 .seventeen_speciality {
 font-size: 3.7rem;
@@ -1680,14 +1686,14 @@ font-size: 3.7rem;
 .setups_text {
 font-size: 3.5rem;
 line-height: 1.1;
-margin-bottom: 5rem;
+margin-bottom: 8rem;
 }
 .setups_text.red {
 font-size: 5rem;
 font-family: 'PT Sans Narrow', sans-serif;
 color: rgb( 207, 64, 64 );
 line-height: 1.1;
-margin-bottom: 4rem;
+margin-bottom: 7rem;
 }
 .setups_gives {
 font-size: 1.45rem;
@@ -1727,7 +1733,7 @@ font-size: 1.1rem;
 line-height: 1.3rem;
 }
 .six_couch {
-font-size: 2rem;
+font-size: 2.8rem;
 line-height: 1.1;
 margin-top: 3rem;
 margin-bottom: 1.9375rem;
@@ -1737,7 +1743,7 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 }
 .seven_hypnose {
-font-size: 2rem;
+font-size: 2.8rem;
 width: 100%;
 padding-top: 0;
 margin-bottom: 0;
@@ -1809,7 +1815,7 @@ font-size: 1.3rem;
 line-height: 1.4rem;
 }
 .twenty_one_title {
-font-size: 2rem;
+font-size: 2.1rem;
 line-height: 1.1;
 margin-top: 0;
 margin-bottom: 2rem;
@@ -1943,7 +1949,7 @@ margin-bottom: 2rem;
     margin-bottom: 2rem;
 }
 .fourteen_main_text_bigger {
-    font-size: 2rem;
+    font-size: 2.1rem;
     
 }
 .fourteen_main_text {
@@ -1956,7 +1962,7 @@ margin-bottom: 2rem;
     line-height: 1.1;
 }
 .fifteen_main_title {
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-bottom: 2rem;
 }
 .fifteen_main_text {
@@ -1970,6 +1976,34 @@ margin-bottom: 2rem;
      margin-right: 1.5rem;
 
 }
+
+.main_screen_button {
+width: 15rem;
+height: 3rem;
+line-height: 3rem;
+margin:auto;
+margin-bottom: 2rem;
+margin-top: -0.5rem;
+font-size: 1.3rem;
+position: relative;
+z-index: 2;
+}
+
+.main_portrait_mobile{
+display: block;
+max-height: 24rem;
+max-width: 13.4375rem;
+margin: auto;
+margin-top: 1rem;
+position: relative;
+z-index: 1;
+}
+
+
+.main_portrait{
+display: none!important;
+}
+
 }
 @media screen and (max-width: 767px) and (orientation: portrait) {
 .course_icon {
@@ -2020,7 +2054,7 @@ line-height: 1.2rem;
 }
 .problem_resourse {
 font-size: 1.8rem;
-margin-bottom: 2rem;
+margin-bottom: 7rem;
 }
 .setups_miss {
 font-size: 1.5rem;
@@ -2035,45 +2069,22 @@ margin-bottom: 1.3rem;
 width: 90%;
 }
 .setups_text.red {
-font-size: 3rem;
+font-size: 6rem;
 }
 .date_block {
-font-size: 4rem;
+ font-size: 4rem;  
 height: 10.8125rem;
 }
+.date_block p{
+ font-size: 4rem;   
+}
+
+
 .vk_message.button_send{
 margin-bottom: 2rem;
 margin-top: 1.5rem;
 }
-.main_screen_button {
-width: 15rem;
-height: 3rem;
-line-height: 3rem;
-margin:auto;
-margin-bottom: 2rem;
-margin-top: -0.5rem;
-font-size: 1.3rem;
-position: relative;
-z-index: 2;
-}
 
-.main_portrait_mobile{
-display: block;
-max-height: 24rem;
-max-width: 13.4375rem;
-margin: auto;
-margin-top: 1rem;
-position: relative;
-z-index: 1;
-}
-
-
-.main_portrait{
-display: none!important;
-/*left: -5.2rem;
-height: 65%;
-opacity: 0.8;*/
-}
 .bottom_image_container {
 height: 100%;
 display: block;
@@ -2129,11 +2140,11 @@ margin-left: 0;
 .setups_text {
     font-size: 2.5rem;
     line-height: 1.1;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 .setups_text.red {
     font-size: 3.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 }
@@ -2142,19 +2153,37 @@ margin-left: 0;
 font-size: 6rem;
 }
 
+.tarif_inside{
+ 
+    margin-top: 0.4rem;
+    display: block;
+}
+
+
+.col-md-6.gallery_image_block {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
 .seven_portrait {
 display: none;
 }
 
 .date_block.last{
 max-height: 8rem;
-
 }
 
-
-
-
-
+.date_block{
+display: table;
+}
+.date_block p{
+display: table-cell;
+vertical-align: middle;
+text-align:center;
+}
 
 .program_text.last,
 .programm_text.last2 {
@@ -2180,19 +2209,18 @@ font-size: 2.5rem;
 line-height: 1.2;
 padding-bottom: 1.5rem;
 }
-.twenty_one_img.fas_img {
-max-height: 15.25rem;
-}
+
 .twenty_one_img.magn_image {
 max-height: 15.25rem;
 }
 .main_content_block {
-width: 70%;
-float: right;
+width: 100%;
+float: none;
 padding-left: 0;
 }
 .main_slogan {
-font-size: 1.5rem;
+font-size: 1.7rem;
+text-align: center;
 line-height: 1.7;
 }
 .second_main_text,
@@ -2231,9 +2259,16 @@ margin-left: 0;
 }
 hr.main_horizontal{
 margin-top: 1.5em;
-width: 66vw;
+width: 90vw;
 margin-right: 0;
+margin-left: 0;
 }
+
+.author{
+margin: auto;
+width: 60%;
+}
+
 .quests_texts{
 padding-left: 1rem;
 }
@@ -2262,12 +2297,13 @@ text-align: center;
 .main_screen_button {
 margin:auto;
 margin-bottom: 2rem;
-margin-top: 2rem;
+margin-top: -0.5rem;
 }
 .main_course {
-width: 80%;
-float:right;
+width: 100%;
+float:none;
 margin-bottom: 0.4rem;
+text-align: center;
 }
 .main_portrait {
 left: -4rem;
