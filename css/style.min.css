@@ -967,24 +967,9 @@ line-height: 1;
 text-align: center;
 }
 .date_block{
-/*display: -webkit-box;     
-  display: -moz-box;        
-  display: -ms-flexbox;     
-  display: -webkit-flex;     
-  display: flex; 
-flex-direction: column;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  justify-content: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: center;
-  -ms-flex-pack: justify;*/
 position: relative;
 font-family:"Montserrat ExtraBold";
 border: 2px solid #cf4040;
-
 height: 16.9375rem;
 -webkit-box-sizing: border-box;
         box-sizing: border-box;
